@@ -1,0 +1,11 @@
+# Compiled translation files (generated from .po — don't track binaries)
+*.mo
+
+# Editor backup files (Poedit, vim, emacs, etc.)
+*~
+*.bak
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
