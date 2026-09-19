@@ -1,0 +1,4219 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: QDirStat\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-09-19 15:17+0100\n"
+"Last-Translator: Ricardo Simões - xmcorporation.com <xmcorporation@gmail.com>\n"
+"Language-Team: Portuguese <translation-team-pt@googlegroups.com>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.9\n"
+
+#: cleanup-config-page.ui:14
+msgctxt "CleanupConfigPage|"
+msgid "Form"
+msgstr "Forma"
+
+#: cleanup-config-page.ui:45
+msgctxt "CleanupConfigPage|"
+msgid "Move the current cleanup action to the top of the list."
+msgstr "Mova a ação de limpeza atual para o topo da lista."
+
+#: cleanup-config-page.ui:48 cleanup-config-page.ui:62 cleanup-config-page.ui:90
+#: cleanup-config-page.ui:104 cleanup-config-page.ui:131 cleanup-config-page.ui:145
+msgctxt "CleanupConfigPage|"
+msgid "..."
+msgstr "..."
+
+#: cleanup-config-page.ui:59
+msgctxt "CleanupConfigPage|"
+msgid "Move the current cleanup action one position up in the list."
+msgstr "Mova a ação de limpeza atual uma posição acima na lista."
+
+#: cleanup-config-page.ui:86
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Create a new cleanup action.\n"
+"You can create as many as you like."
+msgstr ""
+"Crie uma nova ação de limpeza.\n"
+"Pode criar quantas quiser."
+
+#: cleanup-config-page.ui:101
+msgctxt "CleanupConfigPage|"
+msgid "Remove the current cleanup action."
+msgstr "Remova a ação de limpeza atual."
+
+#: cleanup-config-page.ui:128
+msgctxt "CleanupConfigPage|"
+msgid "Move the current cleanup action one position down in the list."
+msgstr "Mova a ação de limpeza atual uma posição para baixo na lista."
+
+#: cleanup-config-page.ui:142
+msgctxt "CleanupConfigPage|"
+msgid "Move the current cleanup action to the bottom of the list."
+msgstr "Mova a ação de limpeza atual para o fundo da lista."
+
+#: cleanup-config-page.ui:165
+msgctxt "CleanupConfigPage|"
+msgid "Uncheck to disable this cleanup action completely."
+msgstr "Desmarque para desativar completamente esta ação de limpeza."
+
+#: cleanup-config-page.ui:168
+msgctxt "CleanupConfigPage|"
+msgid "&Active"
+msgstr "&Ativo"
+
+#: cleanup-config-page.ui:185
+msgctxt "CleanupConfigPage|"
+msgid "&Title:"
+msgstr "&Título:"
+
+#: cleanup-config-page.ui:201
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Check this if a confirmation dialog should be\n"
+"opened before executing the command.\n"
+"There will be only one confirmation dialog,\n"
+"even if multiple items are selected or if\n"
+"the command is executed recursively."
+msgstr ""
+"Marque esta opção se deve ser aberta uma caixa\n"
+"de diálogo de confirmação antes de executar\n"
+"o comando. Existirá apenas uma caixa de diálogo\n"
+"de confirmação, mesmo que sejam selecionados\n"
+"vários itens ou se o comando for executado recursivamente."
+
+#: cleanup-config-page.ui:208
+msgctxt "CleanupConfigPage|"
+msgid "As&k For Confirmation"
+msgstr "Pe&rguntar Por Confirmação"
+
+#: cleanup-config-page.ui:221
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Enter a title for this cleanup action.\n"
+"This will show up in the menus.\n"
+"You can add a hotkey with \"&\"."
+msgstr ""
+"Introduza um título para esta ação de\n"
+"limpeza. Aparecerá nos menus.\n"
+"Pode adicionar uma tecla de atalho com \"&\"."
+
+#: cleanup-config-page.ui:248
+#, qt-format
+msgctxt "CleanupConfigPage|"
+msgid ""
+"These are the macros you can use in the command.\n"
+"Both %p and %n always contain only one item.\n"
+"If multiple items are selected, the command will be\n"
+"executed multiple times."
+msgstr ""
+"Estas são as macros que pode utilizar no comando.\n"
+"Tanto %p como %n contêm sempre apenas um item.\n"
+"Se forem selecionados vários itens, o comando será\n"
+"executado várias vezes."
+
+#: cleanup-config-page.ui:254
+#, qt-format
+msgctxt "CleanupConfigPage|"
+msgid ""
+"%p  Full Path\n"
+"%n  File / Directory Name Without Path\n"
+"%d  Directory Name With Full Path\n"
+msgstr ""
+"%p Caminho completo\n"
+"%n Nome do Ficheiro / Pasta Sem Caminho\n"
+"%d Nome da Pasta Com Caminho Completo\n"
+
+#: cleanup-config-page.ui:288
+msgctxt "CleanupConfigPage|"
+msgid "&Command Line:"
+msgstr "&Linha de Comandos:"
+
+#: cleanup-config-page.ui:298
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Enter the command to be executed here.\n"
+"Each command will be executed with a shell.\n"
+"\n"
+"If multiple items are selected, the command\n"
+"will be executed once for each selected item."
+msgstr ""
+"Introduza o comando a executar aqui.\n"
+"Cada comando será executado num shell.\n"
+"\n"
+"Se forem selecionados vários itens, o comando\n"
+"será executado uma vez para cada item selecionado."
+
+#: cleanup-config-page.ui:315
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Select if the command should be executed recursively\n"
+"for each directory in the selected branch.\n"
+"The command will be called separately for each directory level."
+msgstr ""
+"Selecione se o comando deve ser executado recursivamente\n"
+"para cada pasta do ramo selecionado.\n"
+"O comando será chamado separadamente para cada nível de pasta."
+
+#: cleanup-config-page.ui:320
+msgctxt "CleanupConfigPage|"
+msgid "&Recurse Into Subdirectories"
+msgstr "&Recursar nas Subpastas"
+
+#: cleanup-config-page.ui:333
+msgctxt "CleanupConfigPage|"
+msgid ""
+"This specifies if and how the directory tree should be\n"
+"re-read from disk after the cleanup action is finished."
+msgstr ""
+"Isto especifica se e como a árvore de pastas deve ser\n"
+"relida do disco após a conclusão da ação de limpeza."
+
+#: cleanup-config-page.ui:341
+msgctxt "CleanupConfigPage|"
+msgid "No Refresh"
+msgstr "Sem Reatualização"
+
+#: cleanup-config-page.ui:346
+msgctxt "CleanupConfigPage|"
+msgid "Refresh This Item"
+msgstr "Reatualizar Este Item"
+
+#: cleanup-config-page.ui:351
+msgctxt "CleanupConfigPage|"
+msgid "Refresh This Item's Parent"
+msgstr "Reatualizar o Item Pai Deste Item"
+
+#: cleanup-config-page.ui:356
+msgctxt "CleanupConfigPage|"
+msgid "Assume Item Has Been Deleted"
+msgstr "Assumir Que o Item Foi Apagado"
+
+#: cleanup-config-page.ui:370
+msgctxt "CleanupConfigPage|"
+msgid "R&efresh Policy:"
+msgstr "P&olítica de Reatualização:"
+
+#: cleanup-config-page.ui:416
+msgctxt "CleanupConfigPage|"
+msgid "Works For..."
+msgstr "Funciona Para..."
+
+#: cleanup-config-page.ui:424
+msgctxt "CleanupConfigPage|"
+msgid "Check this if the command can be applied to directories."
+msgstr "Marque isto se o comando pode ser aplicado a pastas."
+
+#: cleanup-config-page.ui:427
+msgctxt "CleanupConfigPage|"
+msgid "&Directories"
+msgstr "&Pastas"
+
+#: cleanup-config-page.ui:434
+msgctxt "CleanupConfigPage|"
+msgid "Check this if the command can be applied to files."
+msgstr "Marque isto se o comando pode ser aplicado a ficheiros."
+
+#: cleanup-config-page.ui:437
+msgctxt "CleanupConfigPage|"
+msgid "&Files"
+msgstr "&Ficheiros"
+
+#: cleanup-config-page.ui:444
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Check this if the command can be applied to the <Files> entries in the tree.\n"
+"Note that they don't really have a counterpart on the disk."
+msgstr ""
+"Marque isto se o comando pode ser aplicado às <Files> entradas na árvore.\n"
+"Note que não têm realmente uma contraparte no disco."
+
+#: cleanup-config-page.ui:448
+msgctxt "CleanupConfigPage|"
+msgid "<Files> Pse&udo Entries"
+msgstr "<Files>Pse&udo Entradas"
+
+#: cleanup-config-page.ui:479
+msgctxt "CleanupConfigPage|"
+msgid "Output Window"
+msgstr "Janela de Saída"
+
+#: cleanup-config-page.ui:493
+msgctxt "CleanupConfigPage|"
+msgid "&Policy:"
+msgstr "&Política:"
+
+#: cleanup-config-page.ui:509
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Select if and when to open a window for the output of the command.\n"
+"If there is an error, the output window is always opened unless\n"
+"\"Never Show\" is selected here.\n"
+"\"Show After Timeout\" is a useful setting for most cases."
+msgstr ""
+"Selecione se e quando abre uma janela para visualizar a saída do comando.\n"
+"Se ocorrer um erro, a janela de saída será sempre aberta, a menos que\n"
+"a opção \"Nunca Mostrar\" esteja selecionada aqui.\n"
+"A opção \"Mostrar Após Tempo Limite\" é útil na maioria dos casos."
+
+#: cleanup-config-page.ui:519
+msgctxt "CleanupConfigPage|"
+msgid "Show Always"
+msgstr "Mostrar Sempre"
+
+#: cleanup-config-page.ui:524
+msgctxt "CleanupConfigPage|"
+msgid "Show If Error Output"
+msgstr "Mostrar Se Existir Erro"
+
+#: cleanup-config-page.ui:529
+msgctxt "CleanupConfigPage|"
+msgid "Show After Timeout"
+msgstr "Mostrar Após Tempo Limite"
+
+#: cleanup-config-page.ui:534
+msgctxt "CleanupConfigPage|"
+msgid "Never Show"
+msgstr "Nunca Mostrar"
+
+#: cleanup-config-page.ui:548
+msgctxt "CleanupConfigPage|"
+msgid "Ti&meout:"
+msgstr "Te&mpo Limite:"
+
+#: cleanup-config-page.ui:564
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Set the timeout for the \"Show After Timeout\" setting.\n"
+"Don't underestimate your computer: It can get more\n"
+"done in half a second than you might think.\n"
+"On the other hand, waiting for half a second feels\n"
+"longer than you might think."
+msgstr ""
+"Defina o tempo limite para a definição \"Mostrar Após Tempo Limite\". \n"
+"Não subestime o seu computador: Ele consegue fazer mais em meio\n"
+"segundo do que imagina.\n"
+"Por outro lado, esperar meio segundo pode parecer\n"
+"mais do que pensa."
+
+#: cleanup-config-page.ui:571
+msgctxt "CleanupConfigPage|"
+msgid " sec"
+msgstr " seg"
+
+#: cleanup-config-page.ui:587
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Check this to automatically close the\n"
+"output window if there was no error.\n"
+"If you are interested in the output of your\n"
+"command, uncheck this."
+msgstr ""
+"Marque isto para fechar automaticamente\n"
+"a janela de saída caso não ocorra qualquer erro.\n"
+"Se estiver interessado na saída do seu\n"
+"comando, desmarque isto."
+
+#: cleanup-config-page.ui:593
+msgctxt "CleanupConfigPage|"
+msgid "Auto C&lose If No Error"
+msgstr "Fechar A&utomaticamente Se Não Houver Erro"
+
+#: cleanup-config-page.ui:630
+msgctxt "CleanupConfigPage|"
+msgid "Shell"
+msgstr "Shell"
+
+#: cleanup-config-page.ui:644
+msgctxt "CleanupConfigPage|"
+msgid "&Shell:"
+msgstr "&Shell:"
+
+#: cleanup-config-page.ui:660
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Select a shell here or enter your favourite one.\n"
+"\n"
+"Each command is executed with a shell and the \"-c\" option.\n"
+"Shells may behave differently for wildcards and special characters.\n"
+"\n"
+"If you are setting this up for other users, better stay on the safe side\n"
+"and select a shell with a well-known behaviour like /bin/bash."
+msgstr ""
+"Selecione aqui um shell ou digite o seu preferido.\n"
+"\n"
+"Cada comando é executado com um shell e a opção \"-c\".\n"
+"Os shells podem comportar-se de forma diferente com asteriscos e caracteres "
+"especiais.\n"
+"\n"
+"Se estiver a configurar isto para outros utilizadores, é melhor jogar pelo "
+"seguro\n"
+"e selecionar um shell com um comportamento bem conhecido, como o /bin/bash."
+
+#: cleanup-config-page.ui:673
+msgctxt "CleanupConfigPage|"
+msgid "$SHELL (Login Shell)"
+msgstr "$SHELL (Shell de Início de Sessão)"
+
+#: cleanup-config-page.ui:678
+msgctxt "CleanupConfigPage|"
+msgid "/bin/bash"
+msgstr "/bin/bash"
+
+#: cleanup-config-page.ui:683
+msgctxt "CleanupConfigPage|"
+msgid "/bin/sh"
+msgstr "/bin/sh"
+
+#: cleanup-config-page.ui:693
+msgctxt "CleanupConfigPage|"
+msgid ""
+"Each command is executed with a shell\n"
+"and the '-c' option."
+msgstr ""
+"Cada comando é executado com um shell\n"
+"e a opção '-c'."
+
+#: config-dialog.ui:14
+msgctxt "ConfigDialog|"
+msgid "QDirStat Configuration"
+msgstr "Configuração do QDirStat"
+
+#: config-dialog.ui:48
+msgctxt "ConfigDialog|"
+msgid "OK"
+msgstr "OK"
+
+#: config-dialog.ui:55
+msgctxt "ConfigDialog|"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: config-dialog.ui:62
+msgctxt "ConfigDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: exclude-rules-config-page.ui:14
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Form"
+msgstr "Forma"
+
+#: exclude-rules-config-page.ui:45
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Move the current exclude rule to the top of the list."
+msgstr "Mova a regra de exclusão atual para o topo da lista."
+
+#: exclude-rules-config-page.ui:48 exclude-rules-config-page.ui:62
+#: exclude-rules-config-page.ui:90 exclude-rules-config-page.ui:104
+#: exclude-rules-config-page.ui:131 exclude-rules-config-page.ui:145
+msgctxt "ExcludeRulesConfigPage|"
+msgid "..."
+msgstr "..."
+
+#: exclude-rules-config-page.ui:59
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Move the current exclude rule one position up in the list."
+msgstr "Mova a regra de exclusão atual uma posição para cima na lista."
+
+#: exclude-rules-config-page.ui:86
+msgctxt "ExcludeRulesConfigPage|"
+msgid ""
+"Create a new exclude rule.\n"
+"You can create as many as you like."
+msgstr ""
+"Crie uma nova regra de exclusão.\n"
+"Pode criar quantas quiser."
+
+#: exclude-rules-config-page.ui:101
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Remove the current exclude rule."
+msgstr "Remova a regra de exclusão atual."
+
+#: exclude-rules-config-page.ui:128
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Move the current exclude rule one position down in the list."
+msgstr "Mova a regra de exclusão atual uma posição para baixo na lista."
+
+#: exclude-rules-config-page.ui:142
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Move the current exclude rule to the bottom of the list."
+msgstr "Mova a regra de exclusão atual para o fundo da lista."
+
+#: exclude-rules-config-page.ui:162
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Exclude Directories With &Pattern"
+msgstr "Excluir Pastas Com &Padrão"
+
+#: exclude-rules-config-page.ui:188
+msgctxt "ExcludeRulesConfigPage|"
+msgid "P&attern Syntax"
+msgstr "Sintaxe P&adrão"
+
+#: exclude-rules-config-page.ui:194
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Fixed &String"
+msgstr "&String Fixa"
+
+#: exclude-rules-config-page.ui:201
+msgctxt "ExcludeRulesConfigPage|"
+msgid "&Wildcards"
+msgstr "&Asteriscos"
+
+#: exclude-rules-config-page.ui:208
+msgctxt "ExcludeRulesConfigPage|"
+msgid "&Regular Expression"
+msgstr "&Expressão Regular"
+
+#: exclude-rules-config-page.ui:231
+msgctxt "ExcludeRulesConfigPage|"
+msgid "&Match Against"
+msgstr "&Corresponder Contra"
+
+#: exclude-rules-config-page.ui:237
+msgctxt "ExcludeRulesConfigPage|"
+msgid "&Directory Name Without Path"
+msgstr "&Nome da Pasta Sem Caminho"
+
+#: exclude-rules-config-page.ui:244
+msgctxt "ExcludeRulesConfigPage|"
+msgid "F&ull Path"
+msgstr "C&aminho Completo"
+
+#: exclude-rules-config-page.ui:251
+msgctxt "ExcludeRulesConfigPage|"
+msgid "Any &File in that Directory"
+msgstr "Qualquer &Ficheiro nessa Pasta"
+
+#: file-age-stats-window.ui:14 file-age-stats-window.ui:32
+msgctxt "FileAgeStatsWindow|"
+msgid "File Age"
+msgstr "Idade do Ficheiro"
+
+#: file-age-stats-window.ui:29
+msgctxt "FileAgeStatsWindow|"
+msgid ""
+"<html><head/><body><p>Year of the modification time of the file</p></body></"
+"html><"
+msgstr ""
+"<html><head/><body><p>Ano da data de modificação do ficheiro</p></body></html><"
+
+#: file-age-stats-window.ui:62
+msgctxt "FileAgeStatsWindow|"
+msgid "&Refresh"
+msgstr "&Reatualizar"
+
+#: file-age-stats-window.ui:72
+msgctxt "FileAgeStatsWindow|"
+msgid ""
+"<html><head/><body><p>Locate the files from that year</p><p>(only if no more "
+"than 1000)</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Localizar os ficheiros desse ano</p><p> (apenas se não "
+"forem mais de 1000)</p></body></html>"
+
+#: file-age-stats-window.ui:75
+msgctxt "FileAgeStatsWindow|"
+msgid "&Locate"
+msgstr "&Localizar"
+
+#: file-age-stats-window.ui:98
+msgctxt "FileAgeStatsWindow|"
+msgid ""
+"<html><head/><body><p>If checked: If a different directory is selected in the "
+"main window, automatically update the content of this window with data from that "
+"other directory of the main window.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Se estiver selecionado: Se for selecionada uma pasta "
+"diferente na janela principal, o conteúdo desta janela será atualizado "
+"automaticamente com os dados dessa outra pasta da janela principal.</p></body></"
+"html>"
+
+#: file-age-stats-window.ui:101
+msgctxt "FileAgeStatsWindow|"
+msgid "&Sync with Main Window"
+msgstr "&Sincronizar com a Janela Principal"
+
+#: file-age-stats-window.ui:130
+msgctxt "FileAgeStatsWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: file-details-view.ui:14
+msgctxt "FileDetailsView|"
+msgid "Details"
+msgstr "Detalhes"
+
+#: file-details-view.ui:50
+msgctxt "FileDetailsView|"
+msgid "myfile.txt"
+msgstr "meuficheiro.txt"
+
+#: file-details-view.ui:85 file-details-view.ui:628 file-details-view.ui:802
+msgctxt "FileDetailsView|"
+msgid "Type:"
+msgstr "Tipo:"
+
+#: file-details-view.ui:92
+msgctxt "FileDetailsView|"
+msgid "File"
+msgstr "Ficheiro"
+
+#: file-details-view.ui:104
+msgctxt "FileDetailsView|"
+msgid "MIME Category:"
+msgstr "Categoria MIME:"
+
+#: file-details-view.ui:111
+msgctxt "FileDetailsView|"
+msgid "Documents"
+msgstr "Documentos"
+
+#: file-details-view.ui:123
+msgctxt "FileDetailsView|"
+msgid "Size:"
+msgstr "Tamanho:"
+
+#: file-details-view.ui:130 file-details-view.ui:275
+msgctxt "FileDetailsView|"
+msgid "42.0 kB"
+msgstr "42.0 kB"
+
+#: file-details-view.ui:151
+msgctxt "FileDetailsView|"
+msgid "System File"
+msgstr "Ficheiro de Sistema"
+
+#: file-details-view.ui:163
+msgctxt "FileDetailsView|"
+msgid "Package:"
+msgstr "Pacote:"
+
+#: file-details-view.ui:170
+msgctxt "FileDetailsView|"
+msgid "none"
+msgstr "nenhum"
+
+#: file-details-view.ui:192 file-details-view.ui:616
+msgctxt "FileDetailsView|"
+msgid "User:"
+msgstr "Utilizador:"
+
+#: file-details-view.ui:199 file-details-view.ui:520
+msgctxt "FileDetailsView|"
+msgid "kilroy"
+msgstr "kilroy"
+
+#: file-details-view.ui:211 file-details-view.ui:532
+msgctxt "FileDetailsView|"
+msgid "Group:"
+msgstr "Grupo:"
+
+#: file-details-view.ui:218 file-details-view.ui:539
+msgctxt "FileDetailsView|"
+msgid "users"
+msgstr "utilizadores"
+
+#: file-details-view.ui:230 file-details-view.ui:551
+msgctxt "FileDetailsView|"
+msgid "Permissions:"
+msgstr "Permissões:"
+
+#: file-details-view.ui:237
+msgctxt "FileDetailsView|"
+msgid "rw-r--r--  0644"
+msgstr "rw-r--r-- 0644"
+
+#: file-details-view.ui:249 file-details-view.ui:499 file-details-view.ui:570
+#: file-details-view.ui:950 file-details-view.ui:1166
+msgctxt "FileDetailsView|"
+msgid "Last Modified:"
+msgstr "Última Modificação:"
+
+#: file-details-view.ui:256 file-details-view.ui:506 file-details-view.ui:577
+msgctxt "FileDetailsView|"
+msgid "31.06.2018 09:18"
+msgstr "31.06.2018 09:18"
+
+#: file-details-view.ui:268 file-details-view.ui:693 file-details-view.ui:969
+#: file-details-view.ui:1185 file-details-view.ui:1385
+msgctxt "FileDetailsView|"
+msgid "Allocated:"
+msgstr "Alocado:"
+
+#: file-details-view.ui:282
+msgctxt "FileDetailsView|"
+msgid "..."
+msgstr "..."
+
+#: file-details-view.ui:294
+msgctxt "FileDetailsView|"
+msgid "Link Target:"
+msgstr "Link de Destino:"
+
+#: file-details-view.ui:308
+msgctxt "FileDetailsView|"
+msgid "Broken Symlink! "
+msgstr "Link Simbólico Interrompido! "
+
+#: file-details-view.ui:394
+msgctxt "FileDetailsView|"
+msgid "doc/"
+msgstr "doc/"
+
+#: file-details-view.ui:435 file-details-view.ui:874 file-details-view.ui:1090
+#: file-details-view.ui:1373
+msgctxt "FileDetailsView|"
+msgid "Total Size:"
+msgstr "Tamanho Total:"
+
+#: file-details-view.ui:442
+msgctxt "FileDetailsView|"
+msgid "4.0 kiB"
+msgstr "4.0 kiB"
+
+#: file-details-view.ui:449
+msgctxt "FileDetailsView|"
+msgid "17"
+msgstr "17"
+
+#: file-details-view.ui:461 file-details-view.ui:912 file-details-view.ui:1128
+#: file-details-view.ui:1309
+msgctxt "FileDetailsView|"
+msgid "Files:"
+msgstr "Ficheiros:"
+
+#: file-details-view.ui:468
+msgctxt "FileDetailsView|"
+msgid "15"
+msgstr "15"
+
+#: file-details-view.ui:480 file-details-view.ui:931 file-details-view.ui:1147
+msgctxt "FileDetailsView|"
+msgid "Subdirs:"
+msgstr "Subpastas:"
+
+#: file-details-view.ui:487 file-details-view.ui:1323
+msgctxt "FileDetailsView|"
+msgid "2"
+msgstr "2"
+
+#: file-details-view.ui:513
+msgctxt "FileDetailsView|"
+msgid "Directory"
+msgstr "Pasta"
+
+#: file-details-view.ui:558
+msgctxt "FileDetailsView|"
+msgid "rwxr-xr-x  0755"
+msgstr "rwxr-xr-x  0755"
+
+#: file-details-view.ui:591
+msgctxt "FileDetailsView|"
+msgid ""
+"\n"
+"Directory"
+msgstr ""
+"\n"
+"Pasta"
+
+#: file-details-view.ui:604
+msgctxt "FileDetailsView|"
+msgid "Own Size:"
+msgstr "Tamanho Próprio:"
+
+#: file-details-view.ui:642
+msgctxt "FileDetailsView|"
+msgid ""
+"\n"
+"Subtree"
+msgstr ""
+"\n"
+"Subárvore"
+
+#: file-details-view.ui:650 file-details-view.ui:700
+msgctxt "FileDetailsView|"
+msgid "512.0 MiB"
+msgstr "512.0 MiB"
+
+#: file-details-view.ui:662 file-details-view.ui:893 file-details-view.ui:1109
+msgctxt "FileDetailsView|"
+msgid "Items:"
+msgstr "Itens:"
+
+#: file-details-view.ui:767
+msgctxt "FileDetailsView|"
+msgid "superfoomatic"
+msgstr "superfoomatic"
+
+#: file-details-view.ui:809
+msgctxt "FileDetailsView|"
+msgid "Package"
+msgstr "Pacote"
+
+#: file-details-view.ui:821
+msgctxt "FileDetailsView|"
+msgid "Version:"
+msgstr "Versão:"
+
+#: file-details-view.ui:828
+msgctxt "FileDetailsView|"
+msgid "42.0"
+msgstr "42.0"
+
+#: file-details-view.ui:840
+msgctxt "FileDetailsView|"
+msgid "Architecture:"
+msgstr "Arquitetura:"
+
+#: file-details-view.ui:847
+msgctxt "FileDetailsView|"
+msgid "super128"
+msgstr "super128"
+
+#: file-details-view.ui:861 file-details-view.ui:1077
+msgctxt "FileDetailsView|"
+msgid ""
+"\n"
+"Installed Files"
+msgstr ""
+"\n"
+"Ficheiros instalados"
+
+#: file-details-view.ui:881 file-details-view.ui:976 file-details-view.ui:1097
+#: file-details-view.ui:1192
+msgctxt "FileDetailsView|"
+msgid "240.0 MB"
+msgstr "240.0 MB"
+
+#: file-details-view.ui:900 file-details-view.ui:1116
+msgctxt "FileDetailsView|"
+msgid "317"
+msgstr "317"
+
+#: file-details-view.ui:919 file-details-view.ui:1135
+msgctxt "FileDetailsView|"
+msgid "280"
+msgstr "280"
+
+#: file-details-view.ui:938 file-details-view.ui:1154
+msgctxt "FileDetailsView|"
+msgid "37"
+msgstr "37"
+
+#: file-details-view.ui:957 file-details-view.ui:1173
+msgctxt "FileDetailsView|"
+msgid "2019-04-28 16:02"
+msgstr "2019-04-28 16:02"
+
+#: file-details-view.ui:1026
+msgctxt "FileDetailsView|"
+msgid "Packages Summary"
+msgstr "Resumo dos Pacotes"
+
+#: file-details-view.ui:1056
+msgctxt "FileDetailsView|"
+msgid "Packages:"
+msgstr "Pacotes:"
+
+#: file-details-view.ui:1063
+msgctxt "FileDetailsView|"
+msgid "42"
+msgstr "42"
+
+#: file-details-view.ui:1244
+msgctxt "FileDetailsView|"
+msgid "9"
+msgstr "9"
+
+#: file-details-view.ui:1258
+msgctxt "FileDetailsView|"
+msgid "Selected Items"
+msgstr "Itens Selecionados"
+
+#: file-details-view.ui:1316
+msgctxt "FileDetailsView|"
+msgid "7"
+msgstr "7"
+
+#: file-details-view.ui:1330 file-details-view.ui:1392
+msgctxt "FileDetailsView|"
+msgid "512.0 MB"
+msgstr "512.0 MB"
+
+#: file-details-view.ui:1342
+msgctxt "FileDetailsView|"
+msgid "Directories:"
+msgstr "Pastas:"
+
+#: file-details-view.ui:1354
+msgctxt "FileDetailsView|"
+msgid "Files in Subtrees:"
+msgstr "Ficheiros em Subárvores:"
+
+#: file-details-view.ui:1361
+msgctxt "FileDetailsView|"
+msgid "84"
+msgstr "84"
+
+#: file-size-stats-window.ui:14
+msgctxt "FileSizeStatsWindow|"
+msgid "File Size Statistics"
+msgstr "Estatísticas de Tamanho de Ficheiro"
+
+#: file-size-stats-window.ui:23
+msgctxt "FileSizeStatsWindow|"
+msgid "File size statistics"
+msgstr "Estatísticas de tamanho de ficheiro"
+
+#: file-size-stats-window.ui:37
+msgctxt "FileSizeStatsWindow|"
+msgid "&Histogram"
+msgstr "&Histograma"
+
+#: file-size-stats-window.ui:48
+msgctxt "FileSizeStatsWindow|"
+msgid "&Options >>"
+msgstr "&Opções >>"
+
+#: file-size-stats-window.ui:112
+msgctxt "FileSizeStatsWindow|"
+msgid "A&uto"
+msgstr "A&uto"
+
+#: file-size-stats-window.ui:141 file-size-stats-window.ui:180
+msgctxt "FileSizeStatsWindow|"
+msgid "P"
+msgstr "P"
+
+#: file-size-stats-window.ui:151
+msgctxt "FileSizeStatsWindow|"
+msgid "&Start Percentile"
+msgstr "&Percentil Inicial"
+
+#: file-size-stats-window.ui:161
+msgctxt "FileSizeStatsWindow|"
+msgid "&End Percentile"
+msgstr "&Fim do Percentil"
+
+#: file-size-stats-window.ui:202
+msgctxt "FileSizeStatsWindow|"
+msgid "&Percentiles"
+msgstr "&Percentis"
+
+#: file-size-stats-window.ui:227
+msgctxt "FileSizeStatsWindow|"
+msgid "Interesting only"
+msgstr "Apenas interessante"
+
+#: file-size-stats-window.ui:232
+msgctxt "FileSizeStatsWindow|"
+msgid "Show all"
+msgstr "Mostrar tudo"
+
+#: file-size-stats-window.ui:359
+msgctxt "FileSizeStatsWindow|"
+msgid "&Buckets"
+msgstr "&Baldes"
+
+#: file-size-stats-window.ui:369
+msgctxt "FileSizeStatsWindow|"
+msgid "H&elp"
+msgstr "A&juda"
+
+#: file-size-stats-window.ui:805
+msgctxt "FileSizeStatsWindow|"
+msgid "<h3>Statistics Basics</h3>"
+msgstr "<h3>Estatística Básicas</h3>"
+
+#: file-size-stats-window.ui:812
+msgctxt "FileSizeStatsWindow|"
+msgid "Median, Quartiles and Percentiles"
+msgstr "Mediana, Quartis e Percentis"
+
+#: file-size-stats-window.ui:815
+msgctxt "FileSizeStatsWindow|"
+msgid "Basic statistics terms explained in a way that everybody can understand."
+msgstr ""
+"Termos básicos de estatística explicados de uma forma que todos possam "
+"compreender."
+
+#: file-size-stats-window.ui:822
+msgctxt "FileSizeStatsWindow|"
+msgid "Histograms in General"
+msgstr "Histogramas em Geral"
+
+#: file-size-stats-window.ui:825
+msgctxt "FileSizeStatsWindow|"
+msgid "What is a histogram? What is it good for?"
+msgstr "O que é um histograma? Para que serve?"
+
+#: file-size-stats-window.ui:848
+msgctxt "FileSizeStatsWindow|"
+msgid "<h3>QDirStat File Size Statistics</h3>"
+msgstr "<h3>Estatísticas de Tamanho de Ficheiro do QDirStat</h3>"
+
+#: file-size-stats-window.ui:855
+msgctxt "FileSizeStatsWindow|"
+msgid "The File Size Histogram"
+msgstr "Histograma de Tamanho de Ficheiro"
+
+#: file-size-stats-window.ui:858
+msgctxt "FileSizeStatsWindow|"
+msgid ""
+"QDirStat's \"File Size\" histogram in particular: What is it? What does it tell "
+"you?"
+msgstr ""
+"O histograma \"Tamanho de Ficheiro\" do QDirStat em particular: O que é? O que "
+"indica?"
+
+#: file-size-stats-window.ui:865
+msgctxt "FileSizeStatsWindow|"
+msgid "The Overflow Area"
+msgstr "A Área de Transbordo"
+
+#: file-size-stats-window.ui:868
+msgctxt "FileSizeStatsWindow|"
+msgid ""
+"Explaining the \"Cut off\" panel with the pie charts at the right side of the "
+"histogram."
+msgstr ""
+"Explicação do painel \"Cortar\" com os gráficos de pizza no lado direito do "
+"histograma."
+
+#: file-size-stats-window.ui:875
+msgctxt "FileSizeStatsWindow|"
+msgid "Histogram Options"
+msgstr "Opções do Histograma"
+
+#: file-size-stats-window.ui:878
+msgctxt "FileSizeStatsWindow|"
+msgid ""
+"Explanation of the sliders, input fields and buttons in the panel that opens "
+"when you click the \"Options\" button below the histogram."
+msgstr ""
+"Explicação dos controlos deslizantes, campos de entrada e botões no painel que "
+"se abre ao clicar no botão \"Opções\" abaixo do histograma."
+
+#: file-size-stats-window.ui:901
+msgctxt "FileSizeStatsWindow|"
+msgid "The Percentiles Table"
+msgstr "A Tabela de Percentis"
+
+#: file-size-stats-window.ui:904
+msgctxt "FileSizeStatsWindow|"
+msgid "Explanation of the table on the \"Percentiles\" page in this dialog."
+msgstr "Explicação da tabela na página \"Percentis\" neste diálogo."
+
+#: file-size-stats-window.ui:911
+msgctxt "FileSizeStatsWindow|"
+msgid "The Buckets Table"
+msgstr "A Mesa dos Baldes"
+
+#: file-size-stats-window.ui:914
+msgctxt "FileSizeStatsWindow|"
+msgid "Explanation of the table on the \"Buckets\" table in this dialog."
+msgstr "Explicação da tabela \"Baldes\" nesta diálogo."
+
+#: file-size-stats-window.ui:937
+msgctxt "FileSizeStatsWindow|"
+msgid "<i>All links are opened in an external browser.</i>"
+msgstr "<i>Todos os links são abertos num navegador externo.</i>"
+
+#: file-size-stats-window.ui:992
+msgctxt "FileSizeStatsWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: file-type-stats-window.ui:14
+msgctxt "FileTypeStatsWindow|"
+msgid "File Type Statistics"
+msgstr "Estatísticas de Tipo de Ficheiro"
+
+#: file-type-stats-window.ui:23
+msgctxt "FileTypeStatsWindow|"
+msgid "File type statistics"
+msgstr "Estatísticas de tipo de ficheiro"
+
+#: file-type-stats-window.ui:50
+msgctxt "FileTypeStatsWindow|"
+msgid "&Refresh"
+msgstr "&Reatualizar"
+
+#: file-type-stats-window.ui:57
+msgctxt "FileTypeStatsWindow|"
+msgid "File &Type"
+msgstr "Tipo de &Ficheiro"
+
+#: file-type-stats-window.ui:83
+msgctxt "FileTypeStatsWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: file-type-stats-window.ui:92
+msgctxt "FileTypeStatsWindow|"
+msgid "&Locate"
+msgstr "&Localizar"
+
+#: file-type-stats-window.ui:97
+msgctxt "FileTypeStatsWindow|"
+msgid "Si&ze Statistics"
+msgstr "Estatísticas de Ta&manho"
+
+#: file-type-stats-window.ui:100
+msgctxt "FileTypeStatsWindow|"
+msgid "F2"
+msgstr "F2"
+
+#: filesystems-window.ui:14
+msgctxt "FilesystemsWindow|"
+msgid "Filesystems"
+msgstr "Sistemas de ficheiros"
+
+#: filesystems-window.ui:32
+msgctxt "FilesystemsWindow|"
+msgid "&Mounted Filesystems"
+msgstr "&Sistemas de Ficheiros Montados"
+
+#: filesystems-window.ui:78
+msgctxt "FilesystemsWindow|"
+msgid "Re&fresh"
+msgstr "Reat&ualizar"
+
+#: filesystems-window.ui:85
+msgctxt "FilesystemsWindow|"
+msgid "&Read"
+msgstr "&Ler"
+
+#: filesystems-window.ui:111
+msgctxt "FilesystemsWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: find-files-dialog.ui:14
+msgctxt "FindFilesDialog|"
+msgid "Find"
+msgstr "Procurar"
+
+#: find-files-dialog.ui:51
+msgctxt "FindFilesDialog|"
+msgid "Find in the Scanned Tree"
+msgstr "Procurar na Árvore Analisada"
+
+#: find-files-dialog.ui:91
+msgctxt "FindFilesDialog|"
+msgid "&Name:"
+msgstr "&Nome:"
+
+#: find-files-dialog.ui:116
+msgctxt "FindFilesDialog|"
+msgid "search text or pattern"
+msgstr "texto ou padrão de pesquisa"
+
+#: find-files-dialog.ui:129
+msgctxt "FindFilesDialog|"
+msgid "Match &Mode:"
+msgstr "Modo de &Correspondência:"
+
+#: find-files-dialog.ui:158
+msgctxt "FindFilesDialog|"
+msgid "Auto"
+msgstr "Auto"
+
+#: find-files-dialog.ui:163
+msgctxt "FindFilesDialog|"
+msgid "Contains"
+msgstr "Contém"
+
+#: find-files-dialog.ui:168
+msgctxt "FindFilesDialog|"
+msgid "Starts with"
+msgstr "Começa com"
+
+#: find-files-dialog.ui:173
+msgctxt "FindFilesDialog|"
+msgid "Exact match"
+msgstr "Correspondência exata"
+
+#: find-files-dialog.ui:178
+msgctxt "FindFilesDialog|"
+msgid "Wildcard"
+msgstr "Asterisco"
+
+#: find-files-dialog.ui:183
+msgctxt "FindFilesDialog|"
+msgid "Regular Expression"
+msgstr "Expressão Regular"
+
+#: find-files-dialog.ui:204
+msgctxt "FindFilesDialog|"
+msgid "Case Sensiti&ve"
+msgstr "Sensível a Maiúscul&as e Minúsculas"
+
+#: find-files-dialog.ui:241
+msgctxt "FindFilesDialog|"
+msgid "Find &Files"
+msgstr "Procurar &Ficheiros"
+
+#: find-files-dialog.ui:251
+msgctxt "FindFilesDialog|"
+msgid "Find &Directories"
+msgstr "Procurar &Pastas"
+
+#: find-files-dialog.ui:261
+msgctxt "FindFilesDialog|"
+msgid "Find &Both, Files and Directories"
+msgstr "Procurar &Ambos, Ficheiros e Pastas"
+
+#: find-files-dialog.ui:281
+msgctxt "FindFilesDialog|"
+msgid "Find Symbolic &Links"
+msgstr "Procurar &Links Simbólicos"
+
+#: find-files-dialog.ui:319
+msgctxt "FindFilesDialog|"
+msgid "In the &Whole Tree"
+msgstr "Na Árvore &Inteira"
+
+#: find-files-dialog.ui:326
+msgctxt "FindFilesDialog|"
+msgid "In the Current S&ubtree"
+msgstr "Na S&ubárvore Atual"
+
+#: find-files-dialog.ui:378
+msgctxt "FindFilesDialog|"
+msgid "/home/kilroy/tmp"
+msgstr "/home/kilroy/tmp"
+
+#: general-config-page.ui:14
+msgctxt "GeneralConfigPage|"
+msgid "Form"
+msgstr "Forma"
+
+#: general-config-page.ui:50
+msgctxt "GeneralConfigPage|"
+msgid "Show &URL in window title"
+msgstr "Mostrar &URL no título da janela"
+
+#: general-config-page.ui:57
+msgctxt "GeneralConfigPage|"
+msgid "Use ho&ver effect in treemap"
+msgstr "Usar efeito pa&irar no mapa de árvore"
+
+#: general-config-page.ui:64
+msgctxt "GeneralConfigPage|"
+msgid "&Cross filesystem boundaries while reading"
+msgstr "&Atravessar limites do sistema de ficheiros ao ler"
+
+#: general-config-page.ui:71
+msgctxt "GeneralConfigPage|"
+msgid "Use &bold font for dominant tree items"
+msgstr "Usar &fonte em negrito para os itens dominantes da árvore"
+
+#: general-config-page.ui:78
+msgctxt "GeneralConfigPage|"
+msgid "Use &ISO date and time format (\"2024-12-28  17:38\")"
+msgstr "Usar formato &ISO para data hora (\"2024-12-28  17:38\")"
+
+#: general-config-page.ui:102
+msgctxt "GeneralConfigPage|"
+msgid "Tree icon &theme:"
+msgstr "Tema de ícones da &árvore:"
+
+#: general-config-page.ui:116
+msgctxt "GeneralConfigPage|"
+msgid "Medium"
+msgstr "Médio"
+
+#: general-config-page.ui:121
+msgctxt "GeneralConfigPage|"
+msgid "Small"
+msgstr "Pequeno"
+
+#: general-config-page.ui:142
+msgctxt "GeneralConfigPage|"
+msgid "Tree update &interval while reading:"
+msgstr "Intervalo de &atualização da árvore ao ler:"
+
+#: general-config-page.ui:152
+msgctxt "GeneralConfigPage|"
+msgid " millisec"
+msgstr " miliseg"
+
+#: general-config-page.ui:181
+msgctxt "GeneralConfigPage|"
+msgid "Timeout for status bar &messages:"
+msgstr "Tempo limite para &mensagens da barra de estado:"
+
+#: general-config-page.ui:191
+msgctxt "GeneralConfigPage|"
+msgid " sec"
+msgstr " seg"
+
+#: general-config-page.ui:243
+msgctxt "GeneralConfigPage|"
+msgid "Most options on this page take effect only after restarting the program."
+msgstr ""
+"A maioria das opções desta página só entra em vigor após reiniciar o programa."
+
+#: locate-file-type-window.ui:14
+msgctxt "LocateFileTypeWindow|"
+msgid "Locate Files by Type"
+msgstr "Localizar Ficheiros por Tipo"
+
+#: locate-file-type-window.ui:29
+msgctxt "LocateFileTypeWindow|"
+msgid "Directories with File Type"
+msgstr "Pastas com Tipo de Ficheiro"
+
+#: locate-file-type-window.ui:59
+msgctxt "LocateFileTypeWindow|"
+msgid "&Refresh"
+msgstr "&Reatualizar"
+
+#: locate-file-type-window.ui:85
+msgctxt "LocateFileTypeWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: locate-files-window.ui:14 locate-files-window.ui:29
+msgctxt "LocateFilesWindow|"
+msgid "Locate Files"
+msgstr "Localizar Ficheiros"
+
+#: locate-files-window.ui:59
+msgctxt "LocateFilesWindow|"
+msgid "&Refresh"
+msgstr "&Reatualizar"
+
+#: locate-files-window.ui:82
+msgctxt "LocateFilesWindow|"
+msgid "42 Results"
+msgstr "42 Resultados"
+
+#: locate-files-window.ui:108
+msgctxt "LocateFilesWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: main-window.ui:15
+msgctxt "MainWindow|"
+msgid "QDirStat"
+msgstr "QDirStat"
+
+#: main-window.ui:72
+msgctxt "MainWindow|"
+msgid "Bookmark / Un-Bookmark"
+msgstr "Adicionar aos Favoritos / Remover dos Favoritos"
+
+#: main-window.ui:86
+msgctxt "MainWindow|"
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: main-window.ui:99
+msgctxt "MainWindow|"
+msgid ""
+"<html><head/><body><p>/work/src/<a href=\"/work/src/qdirstat\">qdirstat</a>/<a "
+"href=\"/work/src/qdirstat/src\">src</a>/</p></body></html>"
+msgstr ""
+"<html><head/><body><p>/work/src/ <a href=\"/work/src/qdirstat\">qdirstat</a> / "
+"<a href=\"/work/src/qdirstat/src\">src</a> /</p></body></html>"
+
+#: main-window.ui:184
+msgctxt "MainWindow|"
+msgid "&File"
+msgstr "&Ficheiro"
+
+#: main-window.ui:204
+msgctxt "MainWindow|"
+msgid "&View"
+msgstr "&Ver"
+
+#: main-window.ui:208
+msgctxt "MainWindow|"
+msgid "E&xpand Tree to Level"
+msgstr "E&xpandir Árvore para o Nível"
+
+#: main-window.ui:219
+msgctxt "MainWindow|"
+msgid "Tree&map"
+msgstr "Árvore&mapa"
+
+#: main-window.ui:244
+msgctxt "MainWindow|"
+msgid "&Edit"
+msgstr "&Editar"
+
+#: main-window.ui:254
+msgctxt "MainWindow|"
+msgid "&Go"
+msgstr "&Ir"
+
+#: main-window.ui:261
+msgctxt "MainWindow|"
+msgid "To &Bookmark"
+msgstr "Para &Favorito"
+
+#: main-window.ui:277
+msgctxt "MainWindow|"
+msgid "&Help"
+msgstr "&Ajuda"
+
+#: main-window.ui:281
+msgctxt "MainWindow|"
+msgid "Problems and &Solutions"
+msgstr "Problemas e &Soluções"
+
+#: main-window.ui:306
+msgctxt "MainWindow|"
+msgid "&Clean Up"
+msgstr "&Limpar"
+
+#: main-window.ui:313
+msgctxt "MainWindow|"
+msgid "&Discover"
+msgstr "&Descobrir"
+
+#: main-window.ui:333
+msgctxt "MainWindow|"
+msgid "Main Toolbar"
+msgstr "Barra de Ferramentas Principal"
+
+#: main-window.ui:363
+msgctxt "MainWindow|"
+msgid "&Quit"
+msgstr "&Sair"
+
+#: main-window.ui:366
+msgctxt "MainWindow|"
+msgid "Exit application"
+msgstr "Sair da aplicação"
+
+#: main-window.ui:369
+msgctxt "MainWindow|"
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: main-window.ui:381
+msgctxt "MainWindow|"
+msgid "&Open Directory..."
+msgstr "&Abrir Pasta..."
+
+#: main-window.ui:384
+msgctxt "MainWindow|"
+msgid "Open a directory to scan."
+msgstr "Abrir uma pasta para analisar."
+
+#: main-window.ui:387
+msgctxt "MainWindow|"
+msgid "Ctrl+O"
+msgstr "Ctrl+O"
+
+#: main-window.ui:392
+msgctxt "MainWindow|"
+msgid "New &Instance"
+msgstr "Nova &Instância"
+
+#: main-window.ui:395
+msgctxt "MainWindow|"
+msgid "Open another QDirStat window (as a separate process)"
+msgstr "Abra outra janela do QDirStat (como um processo separado)"
+
+#: main-window.ui:398
+msgctxt "MainWindow|"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: main-window.ui:403
+msgctxt "MainWindow|"
+msgid "&Close All Tree Levels"
+msgstr "&Fechar Todos os Níveis da Árvore"
+
+#: main-window.ui:406
+msgctxt "MainWindow|"
+msgid "Close all branches of the directory tree."
+msgstr "Fechar todos os ramos da árvore de pastas."
+
+#: main-window.ui:411
+msgctxt "MainWindow|"
+msgid "Level &0"
+msgstr "Nível &0"
+
+#: main-window.ui:414
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 0."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 0."
+
+#: main-window.ui:419
+msgctxt "MainWindow|"
+msgid "Level &1"
+msgstr "Nível &1"
+
+#: main-window.ui:422
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 1."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 1."
+
+#: main-window.ui:425
+msgctxt "MainWindow|"
+msgid "Ctrl+1"
+msgstr "Ctrl+1"
+
+#: main-window.ui:430
+msgctxt "MainWindow|"
+msgid "Level &2"
+msgstr "Nível &2"
+
+#: main-window.ui:433
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 2."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 2."
+
+#: main-window.ui:436
+msgctxt "MainWindow|"
+msgid "Ctrl+2"
+msgstr "Ctrl+2"
+
+#: main-window.ui:441
+msgctxt "MainWindow|"
+msgid "Level &3"
+msgstr "Nível &3"
+
+#: main-window.ui:444
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 3."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 3."
+
+#: main-window.ui:447
+msgctxt "MainWindow|"
+msgid "Ctrl+3"
+msgstr "Ctrl+3"
+
+#: main-window.ui:452
+msgctxt "MainWindow|"
+msgid "Level &4"
+msgstr "Nível &4"
+
+#: main-window.ui:455
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 4."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 4."
+
+#: main-window.ui:458
+msgctxt "MainWindow|"
+msgid "Ctrl+4"
+msgstr "Ctrl+4"
+
+#: main-window.ui:463
+msgctxt "MainWindow|"
+msgid "Level &5"
+msgstr "Nível &5"
+
+#: main-window.ui:466
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 5."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 5."
+
+#: main-window.ui:469
+msgctxt "MainWindow|"
+msgid "Ctrl+5"
+msgstr "Ctrl+5"
+
+#: main-window.ui:474
+msgctxt "MainWindow|"
+msgid "Level &6"
+msgstr "Nível &6"
+
+#: main-window.ui:477
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 6."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 6."
+
+#: main-window.ui:480
+msgctxt "MainWindow|"
+msgid "Ctrl+6"
+msgstr "Ctrl+6"
+
+#: main-window.ui:485
+msgctxt "MainWindow|"
+msgid "Level &7"
+msgstr "Nível &7"
+
+#: main-window.ui:488
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 7."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 7."
+
+#: main-window.ui:491
+msgctxt "MainWindow|"
+msgid "Ctrl+7"
+msgstr "Ctrl+7"
+
+#: main-window.ui:496
+msgctxt "MainWindow|"
+msgid "Level &8"
+msgstr "Nível &8"
+
+#: main-window.ui:499
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 8."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 8."
+
+#: main-window.ui:502
+msgctxt "MainWindow|"
+msgid "Ctrl+8"
+msgstr "Ctrl+8"
+
+#: main-window.ui:507
+msgctxt "MainWindow|"
+msgid "Level &9"
+msgstr "Nível &9"
+
+#: main-window.ui:510
+msgctxt "MainWindow|"
+msgid "Expand (open) the directory tree to level 9."
+msgstr "Expandir (abrir) a árvore de pastas até ao nível 9."
+
+#: main-window.ui:513
+msgctxt "MainWindow|"
+msgid "Ctrl+9"
+msgstr "Ctrl+9"
+
+#: main-window.ui:522
+msgctxt "MainWindow|"
+msgid "&Stop Reading"
+msgstr "&Parar Leitura"
+
+#: main-window.ui:525
+msgctxt "MainWindow|"
+msgid "Stop reading directories."
+msgstr "Parar leitura de pastas."
+
+#: main-window.ui:528
+msgctxt "MainWindow|"
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: main-window.ui:537
+msgctxt "MainWindow|"
+msgid "&Write To Cache File..."
+msgstr "&Escrever para o Ficheiro de Cache..."
+
+#: main-window.ui:540
+msgctxt "MainWindow|"
+msgid "Write the current directory tree to a cache file."
+msgstr "Escreve a árvore de pastas atual num ficheiro de cache."
+
+#: main-window.ui:549
+msgctxt "MainWindow|"
+msgid "&Read Cache File..."
+msgstr "&Ler Fcheiro de Cache..."
+
+#: main-window.ui:552
+msgctxt "MainWindow|"
+msgid "Read a directory tree from a cache file."
+msgstr "Lê uma árvore de pastas a partir de um ficheiro de cache."
+
+#: main-window.ui:561
+msgctxt "MainWindow|"
+msgid "Refresh &All"
+msgstr "Reatualizar &Tudo"
+
+#: main-window.ui:564
+msgctxt "MainWindow|"
+msgid "Re-read the entire directory tree from disk."
+msgstr "Relê toda a árvore de pastas do disco."
+
+#: main-window.ui:567
+msgctxt "MainWindow|"
+msgid "F5"
+msgstr "F5"
+
+#: main-window.ui:576
+msgctxt "MainWindow|"
+msgid "&Copy Path"
+msgstr "&Copiar Caminho"
+
+#: main-window.ui:579
+msgctxt "MainWindow|"
+msgid ""
+"Copy the full path of the current item to the system clipboard for use in other "
+"applications."
+msgstr ""
+"Copia o caminho completo do item atual para a área de transferência do sistema "
+"para utilização noutras aplicações."
+
+#: main-window.ui:582
+msgctxt "MainWindow|"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: main-window.ui:591
+msgctxt "MainWindow|"
+msgid "Zoom &In"
+msgstr "Ampliar &Vista"
+
+#: main-window.ui:594
+msgctxt "MainWindow|"
+msgid "Zoom the treemap in (enlarge) one level."
+msgstr "Amplia (aumenta) o mapa de árvore em um nível."
+
+#: main-window.ui:597
+msgctxt "MainWindow|"
+msgid "Ctrl++"
+msgstr "Ctrl++"
+
+#: main-window.ui:606
+msgctxt "MainWindow|"
+msgid "Zoom &Out"
+msgstr "Diminuir &Vista"
+
+#: main-window.ui:609
+msgctxt "MainWindow|"
+msgid "Zoom the treemap out one level."
+msgstr "Reduza a vista do mapa de árvore em um nível."
+
+#: main-window.ui:612
+msgctxt "MainWindow|"
+msgid "Ctrl+-"
+msgstr "Ctrl+-"
+
+#: main-window.ui:621
+msgctxt "MainWindow|"
+msgid "&Reset Zoom"
+msgstr "&Repor Zoom"
+
+#: main-window.ui:624
+msgctxt "MainWindow|"
+msgid "Reset the treemap zoom factor to normal."
+msgstr "Repõe o fator de zoom do mapa de árvore para normal."
+
+#: main-window.ui:627
+msgctxt "MainWindow|"
+msgid "Ctrl+0"
+msgstr "Ctrl+0"
+
+#: main-window.ui:632
+msgctxt "MainWindow|"
+msgid "Re&build"
+msgstr "Re&construir"
+
+#: main-window.ui:635
+msgctxt "MainWindow|"
+msgid "Rebuild the treemap."
+msgstr "Reconstrói o mapa de árvore."
+
+#: main-window.ui:646
+msgctxt "MainWindow|"
+msgid "&Show Treemap"
+msgstr "&Mostrar Mapa de Árvore"
+
+#: main-window.ui:649
+msgctxt "MainWindow|"
+msgid "Enable or disable showing the treemap view."
+msgstr "Ative ou desative a visualização do mapa de árvore."
+
+#: main-window.ui:652
+msgctxt "MainWindow|"
+msgid "F9"
+msgstr "F9"
+
+#: main-window.ui:661
+msgctxt "MainWindow|"
+msgid "&Up One Level"
+msgstr "&Subir Um Nível"
+
+#: main-window.ui:664
+msgctxt "MainWindow|"
+msgid "Up One Level"
+msgstr "Subir Um Nível"
+
+#: main-window.ui:667
+msgctxt "MainWindow|"
+msgid "Alt+Up"
+msgstr "Alt+S"
+
+#: main-window.ui:676
+msgctxt "MainWindow|"
+msgid "To Tople&vel"
+msgstr "Para o Nível-de-T&opo"
+
+#: main-window.ui:679
+msgctxt "MainWindow|"
+msgid "Navigate to the toplevel directory of this tree."
+msgstr "Navegar até à pasta raiz desta árvore."
+
+#: main-window.ui:682
+msgctxt "MainWindow|"
+msgid "Alt+Home"
+msgstr "Alt+Home"
+
+#: main-window.ui:691
+msgctxt "MainWindow|"
+msgid "A&bout QDirStat..."
+msgstr "S&obre o QDirStat..."
+
+#: main-window.ui:694 MainWindowHelp.cpp:47
+msgctxt "MainWindow|"
+msgid "About QDirStat"
+msgstr "Sobre o QDirStat"
+
+#: main-window.ui:702
+msgctxt "MainWindow|"
+msgid "About &Qt..."
+msgstr "Sobre o &Qt..."
+
+#: main-window.ui:705
+msgctxt "MainWindow|"
+msgid "About Qt..."
+msgstr "Sobre o Qt..."
+
+#: main-window.ui:708
+msgctxt "MainWindow|"
+msgid "About Qt"
+msgstr "Sobre o Qt"
+
+#: main-window.ui:716
+msgctxt "MainWindow|"
+msgid "Re&fresh Selected"
+msgstr "Re&atualizar Selecionado"
+
+#: main-window.ui:719
+msgctxt "MainWindow|"
+msgid "Reread the selected branch from disk."
+msgstr "Reler o ramo selecionado do disco."
+
+#: main-window.ui:722
+msgctxt "MainWindow|"
+msgid "F6"
+msgstr "F6"
+
+#: main-window.ui:727
+msgctxt "MainWindow|"
+msgid "Read &Excluded Directory"
+msgstr "Ler Pasta &Excluída"
+
+#: main-window.ui:730
+msgctxt "MainWindow|"
+msgid "Read a directory that was excluded by an exclude rule."
+msgstr "Lê uma pasta que foi eliminada por uma regra de exclusão."
+
+#: main-window.ui:739
+msgctxt "MainWindow|"
+msgid "Continue Reading at &Mount Point"
+msgstr "Continuar a Leitura no Ponto de &Montagem"
+
+#: main-window.ui:742
+msgctxt "MainWindow|"
+msgid "Continue Reading at Mount Point"
+msgstr "Continuar a Leitura no Ponto de Montagem"
+
+#: main-window.ui:751
+msgctxt "MainWindow|"
+msgid "C&onfigure QDirStat"
+msgstr "C&configurar o QDirStat"
+
+#: main-window.ui:754
+msgctxt "MainWindow|"
+msgid "Configure QDirStat"
+msgstr "Configurar o QDirStat"
+
+#: main-window.ui:762
+msgctxt "MainWindow|"
+msgid "Verbose Selection"
+msgstr "Seleção Detalhada"
+
+#: main-window.ui:765
+msgctxt "MainWindow|"
+msgid "Switch verbose logging of selecting and unselecting items on or off."
+msgstr "Ative ou desative o histórico detalhado da seleção e desmarcação de itens."
+
+#: main-window.ui:768
+msgctxt "MainWindow|"
+msgid "Shift+F7"
+msgstr "Shift+F7"
+
+#: main-window.ui:777
+msgctxt "MainWindow|"
+msgid "Move to T&rash"
+msgstr "Mover para o L&ixo"
+
+#: main-window.ui:780
+msgctxt "MainWindow|"
+msgid "Move the selected items to the trash bin."
+msgstr "Move os itens selecionados para o caixote do lixo."
+
+#: main-window.ui:783
+msgctxt "MainWindow|"
+msgid "Del"
+msgstr "Del"
+
+#: main-window.ui:788
+msgctxt "MainWindow|"
+msgid "Dump Selection to Log"
+msgstr "Despejar Seleção para Histórico"
+
+#: main-window.ui:791
+msgctxt "MainWindow|"
+msgid "F7"
+msgstr "F7"
+
+#: main-window.ui:796
+msgctxt "MainWindow|"
+msgid "File &Type Statistics"
+msgstr "Estatísticas de &Tipo de Ficheiro"
+
+#: main-window.ui:799
+msgctxt "MainWindow|"
+msgid "File Type Statistics"
+msgstr "Estatísticas de Tipo de Ficheiro"
+
+#: main-window.ui:802
+msgctxt "MainWindow|"
+msgid "F3"
+msgstr "F3"
+
+#: main-window.ui:807
+msgctxt "MainWindow|"
+msgid "QDirStat &Help"
+msgstr "&Ajuda do QDirStat"
+
+#: main-window.ui:810 main-window.ui:813
+msgctxt "MainWindow|"
+msgid "QDirStat Help"
+msgstr "Ajuda do QDirStat"
+
+#: main-window.ui:816
+msgctxt "MainWindow|"
+msgid "https://github.com/shundhammer/qdirstat/blob/master/README.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/README.md"
+
+#: main-window.ui:819
+msgctxt "MainWindow|"
+msgid "F1"
+msgstr "F1"
+
+#: main-window.ui:824
+msgctxt "MainWindow|"
+msgid "File &Size Statistics"
+msgstr "Estatísticas de &Tamanho de Ficheiros"
+
+#: main-window.ui:827
+msgctxt "MainWindow|"
+msgid "F2"
+msgstr "F2"
+
+#: main-window.ui:838 main-window.ui:841
+msgctxt "MainWindow|"
+msgid "Show &Details Panel"
+msgstr "Mostrar Painel de &Detalhes"
+
+#: main-window.ui:849
+msgctxt "MainWindow|"
+msgid "Layout &1 (Short)"
+msgstr "Esquema &1 (Curto)"
+
+#: main-window.ui:852
+msgctxt "MainWindow|"
+msgid "L1"
+msgstr "L1"
+
+#: main-window.ui:855
+msgctxt "MainWindow|"
+msgid "Alt+1"
+msgstr "Alt+1"
+
+#: main-window.ui:866
+msgctxt "MainWindow|"
+msgid "Layout &2 (Classic)"
+msgstr "Esquema &2 (Clássico)"
+
+#: main-window.ui:869
+msgctxt "MainWindow|"
+msgid "L2"
+msgstr "L2"
+
+#: main-window.ui:872
+msgctxt "MainWindow|"
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#: main-window.ui:880
+msgctxt "MainWindow|"
+msgid "Layout &3 (Full)"
+msgstr "Esquema &3 (Completo)"
+
+#: main-window.ui:883
+msgctxt "MainWindow|"
+msgid "L3"
+msgstr "L3"
+
+#: main-window.ui:886
+msgctxt "MainWindow|"
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#: main-window.ui:891
+msgctxt "MainWindow|"
+msgid "&Donate..."
+msgstr "&Doar..."
+
+#: main-window.ui:897
+msgctxt "MainWindow|"
+msgid "Make a donation to support the QDirStat project"
+msgstr "Faça uma doação para apoiar o projeto QDirStat"
+
+#: main-window.ui:902
+msgctxt "MainWindow|"
+msgid "What's &New in this Release..."
+msgstr "O que há de &Novo nesta Versão..."
+
+#: main-window.ui:905
+msgctxt "MainWindow|"
+msgid "Show release notes in external web browser"
+msgstr "Mostrar notas da versão num navegador web externo"
+
+#: main-window.ui:915
+msgctxt "MainWindow|"
+msgid "Show Installed &Packages..."
+msgstr "Mostrar &Pacotes Instalados..."
+
+#: main-window.ui:918
+msgctxt "MainWindow|"
+msgid "Show Installed Packages"
+msgstr "Mostrar Pacotes Instalados"
+
+#: main-window.ui:921
+msgctxt "MainWindow|"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: main-window.ui:926
+msgctxt "MainWindow|"
+msgid "The &Packages View..."
+msgstr "A Vista de &Pacotes..."
+
+#: main-window.ui:929
+msgctxt "MainWindow|"
+msgid "The Packages View..."
+msgstr "A Vista de Pacotes..."
+
+#: main-window.ui:932
+msgctxt "MainWindow|"
+msgid "The Packages View"
+msgstr "A Vista dos Pacotes"
+
+#: main-window.ui:935
+msgctxt "MainWindow|"
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Pkg-View.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Pkg-View.md"
+
+#: main-window.ui:940
+msgctxt "MainWindow|"
+msgid "Show &Unpackaged Files..."
+msgstr "Mostrar Ficheiros &Descompactados..."
+
+#: main-window.ui:943
+msgctxt "MainWindow|"
+msgid "Show only files that do NOT belong to an installed software package"
+msgstr ""
+"Mostrar apenas os ficheiros que NÃO pertencem a um pacote de software instalado"
+
+#: main-window.ui:946
+msgctxt "MainWindow|"
+msgid "Ctrl+U"
+msgstr "Ctrl+U"
+
+#: main-window.ui:951
+msgctxt "MainWindow|"
+msgid "The &Unpackaged Files View..."
+msgstr "A Vista de Ficheiros &Não Compactados..."
+
+#: main-window.ui:954
+msgctxt "MainWindow|"
+msgid "The Unpackaged Files View..."
+msgstr "A Vista de Ficheiros Não Compactados..."
+
+#: main-window.ui:957
+msgctxt "MainWindow|"
+msgid "The Unpackaged Files View"
+msgstr "A Vista de Ficheiros Não Compactados"
+
+#: main-window.ui:960
+msgctxt "MainWindow|"
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Unpkg-View.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Unpkg-View.md"
+
+#: main-window.ui:965
+msgctxt "MainWindow|"
+msgid "Show Mounted &Filesystems"
+msgstr "Mostrar Sistemas de &Ficheiros Montados"
+
+#: main-window.ui:968
+msgctxt "MainWindow|"
+msgid "Ctrl+M"
+msgstr "Ctrl+M"
+
+#: main-window.ui:973
+msgctxt "MainWindow|"
+msgid "&Largest Files"
+msgstr "&Maiores Ficheiros"
+
+#: main-window.ui:976
+msgctxt "MainWindow|"
+msgid "Largest Files"
+msgstr "Maiores Ficheiros"
+
+#: main-window.ui:981
+msgctxt "MainWindow|"
+msgid "&Newest Files"
+msgstr "&Ficheiros Mais Recentes"
+
+#: main-window.ui:984
+msgctxt "MainWindow|"
+msgid "Newest Files"
+msgstr "Ficheiros Mais Recentes"
+
+#: main-window.ui:989
+msgctxt "MainWindow|"
+msgid "&Oldest Files"
+msgstr "&Ficheiros Mais Antigos"
+
+#: main-window.ui:992
+msgctxt "MainWindow|"
+msgid "Oldest Files"
+msgstr "Ficheiros Mais Antigos"
+
+#: main-window.ui:997
+msgctxt "MainWindow|"
+msgid "Files with Multiple &Hard Links"
+msgstr "Ficheiros com Múltiplos &Hard Links"
+
+#: main-window.ui:1000
+msgctxt "MainWindow|"
+msgid "Files with Multiple Hard Links"
+msgstr "Ficheiros com Múltiplos Hard Links"
+
+#: main-window.ui:1005
+msgctxt "MainWindow|"
+msgid "&Broken Symbolic LInks"
+msgstr "&Links Simbólicos Quebrados"
+
+#: main-window.ui:1008
+msgctxt "MainWindow|"
+msgid "Broken Symbolic LInks"
+msgstr "Links Simbólicos Quebrados"
+
+#: main-window.ui:1013
+msgctxt "MainWindow|"
+msgid "&Sparse Files"
+msgstr "&Ficheiros Esparsos"
+
+#: main-window.ui:1016
+msgctxt "MainWindow|"
+msgid "Sparse Files"
+msgstr "Ficheiros Esparsos"
+
+#: main-window.ui:1021
+msgctxt "MainWindow|"
+msgid "&Btrfs Size Reporting..."
+msgstr "Relatório de Tamanho do &Btrfs..."
+
+#: main-window.ui:1024
+msgctxt "MainWindow|"
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Btrfs-Free-Size.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Btrfs-Free-Size.md"
+
+#: main-window.ui:1029
+msgctxt "MainWindow|"
+msgid "Files Shadowed by a &Mount..."
+msgstr "Ficheiros Sombreados por um &Mount..."
+
+#: main-window.ui:1032
+msgctxt "MainWindow|"
+msgid "Files Shadowed by a Mount..."
+msgstr "Ficheiros Sombreados por um Mount..."
+
+#: main-window.ui:1035
+msgctxt "MainWindow|"
+msgid "Files Shadowed by a Mount"
+msgstr "Ficheiros Sombreados por um Mount"
+
+#: main-window.ui:1038
+msgctxt "MainWindow|"
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Shadowed-by-Mount.md"
+msgstr ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Shadowed-by-Mount.md"
+
+#: main-window.ui:1043
+msgctxt "MainWindow|"
+msgid "QDirStat for &Headless Servers..."
+msgstr "QDirStat para &Servidores Sem Interface Gráfico..."
+
+#: main-window.ui:1046
+msgctxt "MainWindow|"
+msgid "QDirStat for Headless Servers..."
+msgstr "QDirStat para Servidores Sem Interface Gráfico..."
+
+#: main-window.ui:1049
+msgctxt "MainWindow|"
+msgid "QDirStat for Headless Servers"
+msgstr "QDirStat para Servidores Sem Interface Gráfico"
+
+#: main-window.ui:1052
+msgctxt "MainWindow|"
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/QDirStat-for-Servers.md"
+msgstr ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/QDirStat-for-Servers.md"
+
+#: main-window.ui:1057
+msgctxt "MainWindow|"
+msgid "Can't Move a Directory to &Trash..."
+msgstr "Não é Possível Mover uma Pasta para o &Lixo..."
+
+#: main-window.ui:1060
+msgctxt "MainWindow|"
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Troubleshooting.md#cant-"
+"move-a-directory-to-trash"
+msgstr ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Troubleshooting.md#cant-"
+"move-a-directory-to-trash"
+
+#: main-window.ui:1065
+msgctxt "MainWindow|"
+msgid "File &Age Statistics"
+msgstr "Estatísticas de &Idade dos Ficheiros"
+
+#: main-window.ui:1068
+msgctxt "MainWindow|"
+msgid "F4"
+msgstr "F4"
+
+#: main-window.ui:1073
+msgctxt "MainWindow|"
+msgid "Files from &Year"
+msgstr "Ficheiros do &Ano"
+
+#: main-window.ui:1082
+msgctxt "MainWindow|"
+msgid "&Back"
+msgstr "&Retroceder"
+
+#: main-window.ui:1085
+msgctxt "MainWindow|"
+msgid "Go back to the previous directory"
+msgstr "Voltar à pasta anterior"
+
+#: main-window.ui:1088
+msgctxt "MainWindow|"
+msgid "Alt+Left"
+msgstr "Alt+Esquerda"
+
+#: main-window.ui:1097
+msgctxt "MainWindow|"
+msgid "&Forward"
+msgstr "&Avançar"
+
+#: main-window.ui:1100
+msgctxt "MainWindow|"
+msgid ""
+"<html><head/><body><p>Go forward again to the next directory (after going back)."
+"</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Avançar novamente para a pasta seguinte (após retroceder)."
+"</p></body></html>"
+
+#: main-window.ui:1103
+msgctxt "MainWindow|"
+msgid "Alt+Right"
+msgstr "Alt+Direita"
+
+#: main-window.ui:1108
+msgctxt "MainWindow|"
+msgid "The File &Age Statistics..."
+msgstr "As Estatísticas de &Idade dos Ficheiros..."
+
+#: main-window.ui:1111
+msgctxt "MainWindow|"
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/File-Age-Stats.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/File-Age-Stats.md"
+
+#: main-window.ui:1116
+msgctxt "MainWindow|"
+msgid "&Find..."
+msgstr "&Procurar..."
+
+#: main-window.ui:1119
+msgctxt "MainWindow|"
+msgid "Find Files or Directories in the Scanned Tree"
+msgstr "Procurar Ficheiros ou Pastas na Árvore Analisada"
+
+#: main-window.ui:1122
+msgctxt "MainWindow|"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: main-window.ui:1127
+msgctxt "MainWindow|"
+msgid "Select &All"
+msgstr "Selecionar &Tudo"
+
+#: main-window.ui:1130
+msgctxt "MainWindow|"
+msgid "Select all Bookmarks in the Tree"
+msgstr "Selecionar todos os Favoritos na Árvore"
+
+#: main-window.ui:1135
+msgctxt "MainWindow|"
+msgid "The &Treemap Graphics..."
+msgstr "Os Gráficos do &Mapa de Árvore..."
+
+#: main-window.ui:1138
+msgctxt "MainWindow|"
+msgid "The colored graphics in the main window explained"
+msgstr "Explicação dos gráficos coloridos na janela principal"
+
+#: main-window.ui:1141
+msgctxt "MainWindow|"
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Treemap.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Treemap.md"
+
+#: MainWindow.cpp:550
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Finished. Elapsed time: %1"
+msgstr "Concluído. Tempo decorrido: %1"
+
+#: MainWindow.cpp:569
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Aborted. Elapsed time: %1"
+msgstr "Abortado. Tempo decorrido: %1"
+
+#: MainWindow.cpp:621 MainWindow.cpp:839 MainWindow.cpp:874 MainWindow.cpp:977
+msgctxt "MainWindow|"
+msgid "Error"
+msgstr "Erro"
+
+#: MainWindow.cpp:622
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Could not open directory %1"
+msgstr "Não foi possível abrir a pasta %1"
+
+#: MainWindow.cpp:649
+msgctxt "MainWindow|"
+msgid "Following symbolic link"
+msgstr "A seguir link simbólico"
+
+#: MainWindow.cpp:650
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 is a symbolic link to %2"
+msgstr "%1 é um link simbólico para %2"
+
+#: MainWindow.cpp:663
+msgctxt "MainWindow|"
+msgid "Broken symbolic link"
+msgstr "Link simbólico quebrado"
+
+#: MainWindow.cpp:664
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 is a broken symbolic link to %2"
+msgstr "%1 é um link simbólico inválido para %2"
+
+#: MainWindow.cpp:694
+msgctxt "MainWindow|"
+msgid "Select directory to scan"
+msgstr "Selecionar pasta para analisar"
+
+#: MainWindow.cpp:741
+msgctxt "MainWindow|"
+msgid "Reading package database..."
+msgstr "A ler base de dados de pacotes..."
+
+#: MainWindow.cpp:822
+msgctxt "MainWindow|"
+msgid "Reading aborted."
+msgstr "Leitura abortada."
+
+#: MainWindow.cpp:840
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Can't read cache file \"%1\""
+msgstr "Não é possível ler o ficheiro de cache \"%1\""
+
+#: MainWindow.cpp:849
+msgctxt "MainWindow|"
+msgid "Select QDirStat cache file"
+msgstr "Selecionar ficheiro de cache QDirStat"
+
+#: MainWindow.cpp:861
+msgctxt "MainWindow|"
+msgid "Enter name for QDirStat cache file"
+msgstr "Insira nome para ficheiro cache QDirStat"
+
+#: MainWindow.cpp:869
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Directory tree written to file %1"
+msgstr "Árvore de pastas escrita para o ficheiro %1"
+
+#: MainWindow.cpp:875
+#, qt-format
+msgctxt "MainWindow|"
+msgid "ERROR writing cache file \"%1\""
+msgstr "ERRO ao escrever ficheiro cache \"%1\""
+
+#: MainWindow.cpp:886
+msgctxt "MainWindow|"
+msgid " [root]"
+msgstr " [root]"
+
+#: MainWindow.cpp:903
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Reading... %1"
+msgstr "A ler... %1"
+
+#: MainWindow.cpp:918
+msgctxt "MainWindow|"
+msgid "  [Permission Denied]"
+msgstr "  [Permissão Negada]"
+
+#: MainWindow.cpp:920
+msgctxt "MainWindow|"
+msgid "  [Read Error]"
+msgstr "  [Erro de Leitura]"
+
+#: MainWindow.cpp:942
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 items selected (%2 total)"
+msgstr "%1 itens selecionados (%2 total)"
+
+#: MainWindow.cpp:957
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Starting cleanup action %1"
+msgstr "A iniciar ação de limpeza %1"
+
+#: MainWindow.cpp:969
+msgctxt "MainWindow|"
+msgid "Cleanup action finished successfully."
+msgstr "Ação de limpeza terminada com sucesso."
+
+#: MainWindow.cpp:971
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Cleanup action finished with %1 errors."
+msgstr "Ação de limpeza terminada com %1 erros."
+
+#: MainWindow.cpp:977
+msgctxt "MainWindow|"
+msgid "Not implemented!"
+msgstr "Não implementado!"
+
+#: MainWindow.cpp:990
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Copied to system clipboard: %1"
+msgstr "Copiado para a área de transferência: %1"
+
+#: MainWindow.cpp:994
+msgctxt "MainWindow|"
+msgid "No current item"
+msgstr "Nenhum item atual"
+
+#: MainWindow.cpp:1127
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Bookmarked %1"
+msgstr "Adicionado aos favoritos %1"
+
+#: MainWindow.cpp:1133
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Un-bookmarked %1"
+msgstr "Desmarcado %1"
+
+#: MainWindow.cpp:1176
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Moved to trash: %1"
+msgstr "Movido para o lixo: %1"
+
+#: MainWindow.cpp:1178
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Move to trash failed for %1"
+msgstr "Falha ao mover %1 para a lixeira para"
+
+#: MainWindow.cpp:1275
+msgctxt "MainWindow|"
+msgid "Some directories could not be read."
+msgstr "Algumas pastas não puderam ser lidas."
+
+#: MainWindow.cpp:1276
+msgctxt "MainWindow|"
+msgid "You might not have sufficient permissions."
+msgstr "Pode não ter permissões suficientes."
+
+#: MainWindowHelp.cpp:27
+msgctxt "MainWindow|"
+msgid ""
+"Qt-based directory statistics -- showing where all your disk space has gone  and "
+"trying to help you to clean it up."
+msgstr ""
+"Estatísticas de pastas baseadas em Qt -- mostram para onde foi todo o seu espaço "
+"em disco  e tentam ajudá-lo a limpá-lo."
+
+#: MainWindowHelp.cpp:32
+msgctxt "MainWindow|"
+msgid "Contact: "
+msgstr "Contacto: "
+
+#: MainWindowHelp.cpp:35
+msgctxt "MainWindow|"
+msgid "License: GPL V2 (GNU General Public License Version 2)"
+msgstr "Licença: GPL V2 (GNU General Public License Version 2)"
+
+#: MainWindowHelp.cpp:37
+msgctxt "MainWindow|"
+msgid ""
+"This is free Open Source software, provided to you hoping that it might be "
+"useful for you. It does not cost you anything, but on the other hand there is no "
+"warranty or promise of anything."
+msgstr ""
+"Este é um software de código aberto gratuito, disponibilizado na esperança de "
+"que lhe possa ser útil. Não lhe custa nada, mas por outro lado não há qualquer "
+"garantia nem promessa de nada."
+
+#: MainWindowHelp.cpp:41
+msgctxt "MainWindow|"
+msgid ""
+"This software was made with the best intentions and greatest care, but still "
+"there is the off chance that something might go wrong which might damage data on "
+"your computer. Under no circumstances will the authors of this program be held "
+"responsible for anything like that. Use this program at your own risk."
+msgstr ""
+"Este software foi desenvolvido com as melhores intenções e o maior cuidado, mas "
+"mesmo assim existe a remota possibilidade de algo correr mal e danificar os "
+"dados no seu computador. Em nenhuma circunstância os autores deste programa "
+"serão responsabilizados por qualquer situação desse tipo. Utilize este programa "
+"por sua conta e risco."
+
+#: MainWindowHelp.cpp:57
+msgctxt "MainWindow|"
+msgid "QDirStat is Free Open Source Software."
+msgstr "O QDirStat é um Software Livre de Código Aberto."
+
+#: MainWindowHelp.cpp:59
+msgctxt "MainWindow|"
+msgid "If you find it useful, please consider donating.\n"
+msgstr "Se o achar útil, por favor considere fazer uma doação.\n"
+
+#: MainWindowHelp.cpp:60
+msgctxt "MainWindow|"
+msgid "You can donate any amount of your choice:"
+msgstr "Pode doar qualquer valor à sua escolha:"
+
+#: MainWindowHelp.cpp:67
+msgctxt "MainWindow|"
+msgid "(external browser window)"
+msgstr "(janela externa do navegador)"
+
+#: MainWindowHelp.cpp:71
+msgctxt "MainWindow|"
+msgid "Donate"
+msgstr "Doar"
+
+#: MainWindowUnpkg.cpp:64
+msgctxt "MainWindow|"
+msgid "Reading file lists..."
+msgstr "A ler listas de ficheiros..."
+
+#: message-panel.ui:20
+msgctxt "MessagePanel|"
+msgid "Form"
+msgstr "Forma"
+
+#: message-panel.ui:38
+msgctxt "MessagePanel|"
+msgid "Dummy Placeholder"
+msgstr "Espaço Reservado Fictício"
+
+#: mime-category-config-page.ui:14
+msgctxt "MimeCategoryConfigPage|"
+msgid "Form"
+msgstr "Forma"
+
+#: mime-category-config-page.ui:43
+msgctxt "MimeCategoryConfigPage|"
+msgid "MIME C&ategory"
+msgstr "C&ategoria MIME"
+
+#: mime-category-config-page.ui:72
+msgctxt "MimeCategoryConfigPage|"
+msgid "Edit the name of the current category."
+msgstr "Editar nome da categoria atual."
+
+#: mime-category-config-page.ui:84
+msgctxt "MimeCategoryConfigPage|"
+msgid "Create a new category."
+msgstr "Criar uma nova categoria."
+
+#: mime-category-config-page.ui:87 mime-category-config-page.ui:101
+msgctxt "MimeCategoryConfigPage|"
+msgid "..."
+msgstr "..."
+
+#: mime-category-config-page.ui:98
+msgctxt "MimeCategoryConfigPage|"
+msgid "Remove the current category."
+msgstr "Remover a categoria atual."
+
+#: mime-category-config-page.ui:131
+msgctxt "MimeCategoryConfigPage|"
+msgid "Select a color for the current category."
+msgstr "Selecione uma cor para a categoria atual."
+
+#: mime-category-config-page.ui:134
+msgctxt "MimeCategoryConfigPage|"
+msgid "C&olor"
+msgstr "C&or"
+
+#: mime-category-config-page.ui:147
+msgctxt "MimeCategoryConfigPage|"
+msgid "Enter color RGB code directly."
+msgstr "Introduza diretamente o código RGB da cor."
+
+#: mime-category-config-page.ui:150
+msgctxt "MimeCategoryConfigPage|"
+msgid "#RRGGBB"
+msgstr "#RRGGBB"
+
+#: mime-category-config-page.ui:172
+msgctxt "MimeCategoryConfigPage|"
+msgid "Preview Treemap"
+msgstr "Pré-visualizar Mapa de Árvore"
+
+#: mime-category-config-page.ui:197
+msgctxt "MimeCategoryConfigPage|"
+msgid "&Patterns (Case Insensitive)"
+msgstr "&Padrões (Sem Distinção entre Maiúsculas e Minúsculas)"
+
+#: mime-category-config-page.ui:213 mime-category-config-page.ui:242
+msgctxt "MimeCategoryConfigPage|"
+msgid ""
+"Add filename patterns here,\n"
+"each one on a separate line.\n"
+"Use * or ? as wildcards."
+msgstr ""
+"Adicione aqui os padrões de nomes de ficheiros,\n"
+"cada um numa linha separada.\n"
+"Use * ou ? como partes comuns."
+
+#: mime-category-config-page.ui:226
+msgctxt "MimeCategoryConfigPage|"
+msgid "Patterns (Case &Sensitive)"
+msgstr "Padrões (Com &Diferenciação Maiúsculas/Minúsculas)"
+
+#: open-dir-dialog.ui:14
+msgctxt "OpenDirDialog|"
+msgid "Select Directory"
+msgstr "Selecionar Pasta"
+
+#: open-dir-dialog.ui:35
+msgctxt "OpenDirDialog|"
+msgid "Open Directory to Read"
+msgstr "Abrir Pasta a Ler"
+
+#: open-dir-dialog.ui:80
+msgctxt "OpenDirDialog|"
+msgid ""
+"Places and\n"
+"&Mounted Filesystems"
+msgstr ""
+"Locais e\n"
+"&Sistemas de Ficheiros Montados"
+
+#: open-dir-dialog.ui:106
+msgctxt "OpenDirDialog|"
+msgid ""
+"\n"
+"&Path"
+msgstr ""
+"\n"
+"&Caminho"
+
+#: open-dir-dialog.ui:130
+msgctxt "OpenDirDialog|"
+msgid "Up"
+msgstr "Cima"
+
+#: open-dir-dialog.ui:189
+msgctxt "OpenDirDialog|"
+msgid ""
+"Normal mounts only,\n"
+"no bind mounts,\n"
+"no multiple mounts,\n"
+"no network mounts\n"
+"(NFS, Samba)\n"
+"\n"
+"This is temporary\n"
+"just for this program run."
+msgstr ""
+"Apenas montagens normais,\n"
+"sem montagens ligadas,\n"
+"sem montagens múltiplas,\n"
+"sem montagens de rede\n"
+"(NFS, Samba).\n"
+"\n"
+"Isto é temporário\n"
+"apenas para a execução deste programa."
+
+#: open-dir-dialog.ui:199
+msgctxt "OpenDirDialog|"
+msgid "Cross &Filesystems"
+msgstr "Sistemas de &Ficheiros Cruzados"
+
+#: open-pkg-dialog.ui:14
+msgctxt "OpenPkgDialog|"
+msgid "Select Packages"
+msgstr "Selecione Pacotes"
+
+#: open-pkg-dialog.ui:44
+msgctxt "OpenPkgDialog|"
+msgid "Open Installed Packages"
+msgstr "Abrir Pacotes Instalados"
+
+#: open-pkg-dialog.ui:67
+msgctxt "OpenPkgDialog|"
+msgid "Show Packages Mat&ching..."
+msgstr "Mostrar Pacotes Cor&respondentes..."
+
+#: open-pkg-dialog.ui:118
+msgctxt "OpenPkgDialog|"
+msgid "&Pkg:/"
+msgstr "&Pkg:/"
+
+#: open-pkg-dialog.ui:128
+msgctxt "OpenPkgDialog|"
+msgid "pkgname"
+msgstr "pkgname"
+
+#: open-pkg-dialog.ui:145
+msgctxt "OpenPkgDialog|"
+msgid "Match &Mode:"
+msgstr "Modo de &Correspondência:"
+
+#: open-pkg-dialog.ui:165
+msgctxt "OpenPkgDialog|"
+msgid "Auto"
+msgstr "Auto"
+
+#: open-pkg-dialog.ui:170
+msgctxt "OpenPkgDialog|"
+msgid "Contains"
+msgstr "Contém"
+
+#: open-pkg-dialog.ui:175
+msgctxt "OpenPkgDialog|"
+msgid "Starts with"
+msgstr "Começa com"
+
+#: open-pkg-dialog.ui:180
+msgctxt "OpenPkgDialog|"
+msgid "Exact match"
+msgstr "Correspondência exata"
+
+#: open-pkg-dialog.ui:185
+msgctxt "OpenPkgDialog|"
+msgid "Wildcard"
+msgstr "Asterisco"
+
+#: open-pkg-dialog.ui:190
+msgctxt "OpenPkgDialog|"
+msgid "Regular Expression"
+msgstr "Expressão Regular"
+
+#: open-pkg-dialog.ui:221
+msgctxt "OpenPkgDialog|"
+msgid "&All Installed Packages"
+msgstr "&Todos os Pacotes Instalados"
+
+#: output-window.ui:14
+msgctxt "OutputWindow|"
+msgid "Cleanup Output"
+msgstr "Resultado da Limpeza"
+
+#: output-window.ui:107
+msgctxt "OutputWindow|"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-"
+"html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans Mono'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is where output of the "
+"cleanup action will appear.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;"
+"\">cd /some/where/on/the/disk</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;"
+"\">cleanup --force junkfile</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600; color:#aa0000;\">This is an error message.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is normal program output."
+"</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">12345678901234567890123456789012345678901234567890123456789012345678901234567890</"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">         10        20        "
+"30        40        50        60        70       80</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-"
+"html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans Mono'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">O resultado da limpeza irá "
+"aparecer aqui.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;"
+"\">cd /aqui/algures/no/disco</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;"
+"\">cleanup --force junkfile</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600; color:#aa0000;\">Esta é uma mensagem de erro.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Este é um resultado normal do "
+"programa.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">12345678901234567890123456789012345678901234567890123456789012345678901234567890</"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">         10        20        "
+"30        40        50        60        70       80</p></body></html>"
+
+#: output-window.ui:134 output-window.ui:145 output-window.ui:156
+msgctxt "OutputWindow|"
+msgid "..."
+msgstr "..."
+
+#: output-window.ui:180
+msgctxt "OutputWindow|"
+msgid "&Kill Process"
+msgstr "&Matar Processo"
+
+#: output-window.ui:200
+msgctxt "OutputWindow|"
+msgid "&Auto Close"
+msgstr "&Fechar Automaticamente"
+
+#: output-window.ui:210
+msgctxt "OutputWindow|"
+msgid "&Close"
+msgstr "&Fechar"
+
+#: output-window.ui:223
+msgctxt "OutputWindow|"
+msgid "Zoom In"
+msgstr "Ampliar"
+
+#: output-window.ui:226
+msgctxt "OutputWindow|"
+msgid "Make the font of the output window larger."
+msgstr "Torna o tamanho da letra maior na janela de resultado."
+
+#: output-window.ui:229
+msgctxt "OutputWindow|"
+msgid "Ctrl++"
+msgstr "Ctrl++"
+
+#: output-window.ui:238
+msgctxt "OutputWindow|"
+msgid "Zoom Out"
+msgstr "Diminuir Zoom"
+
+#: output-window.ui:241
+msgctxt "OutputWindow|"
+msgid "Make the font of the output window smaller."
+msgstr "Torna o tamanho da letra menor na janela de resultado."
+
+#: output-window.ui:244
+msgctxt "OutputWindow|"
+msgid "Ctrl+-"
+msgstr "Ctrl+-"
+
+#: output-window.ui:253
+msgctxt "OutputWindow|"
+msgid "Reset Zoom"
+msgstr "Repor Zoom"
+
+#: output-window.ui:256
+msgctxt "OutputWindow|"
+msgid "Use standard font size for the output window."
+msgstr "Usar tamanho de letra padrão para a janela de resultado."
+
+#: output-window.ui:259
+msgctxt "OutputWindow|"
+msgid "Ctrl+0"
+msgstr "Ctrl+0"
+
+#: output-window.ui:268
+msgctxt "OutputWindow|"
+msgid "Kill Process"
+msgstr "Matar Processo"
+
+#: output-window.ui:271
+msgctxt "OutputWindow|"
+msgid "Forcefully kill the cleanup process."
+msgstr "Matar forçadamente o processo de limpeza."
+
+#: OutputWindow.cpp:201
+msgctxt "OutputWindow|"
+msgid "Process finished."
+msgstr "Processo concluído."
+
+#: OutputWindow.cpp:214
+msgctxt "OutputWindow|"
+msgid "Process crashed."
+msgstr "Processo crashou."
+
+#: OutputWindow.cpp:219
+#, qt-format
+msgctxt "OutputWindow|"
+msgid "Process crashed. Exit code: %1"
+msgstr "Processo crashou. Código de saída: %1"
+
+#: OutputWindow.cpp:251
+msgctxt "OutputWindow|"
+msgid "Error: Process failed to start."
+msgstr "Erro: Processou falhou iniciação."
+
+#: OutputWindow.cpp:258
+msgctxt "OutputWindow|"
+msgid "Error: Process timed out."
+msgstr "Erro: Processo expirou o tempo."
+
+#: OutputWindow.cpp:262
+msgctxt "OutputWindow|"
+msgid "Error reading output from the process."
+msgstr "Erro ao ler output do processo."
+
+#: OutputWindow.cpp:266
+msgctxt "OutputWindow|"
+msgid "Error writing data to the process."
+msgstr "Erro ao escrever dados no processo."
+
+#: OutputWindow.cpp:270
+msgctxt "OutputWindow|"
+msgid "Unknown error."
+msgstr "Erro desconhecido."
+
+#: OutputWindow.cpp:385
+msgctxt "OutputWindow|"
+msgid "Process killed."
+msgstr "Processo matado."
+
+#: OutputWindow.cpp:386
+#, qt-format
+msgctxt "OutputWindow|"
+msgid "Killed %1 processes."
+msgstr "Mortos %1 processos."
+
+#: panel-message.ui:14
+msgctxt "PanelMessage|"
+msgid "Message"
+msgstr "Mensagem"
+
+#: panel-message.ui:116
+msgctxt "PanelMessage|"
+msgid "Some directories could not be read."
+msgstr "Algumas pastas não puderam ser lidas."
+
+#: panel-message.ui:132
+msgctxt "PanelMessage|"
+msgid "You might not have sufficient permissions."
+msgstr "Pode não ter permissões suficientes."
+
+#: panel-message.ui:148
+msgctxt "PanelMessage|"
+msgid ""
+"<html><head/><body><p><a href=\"details\"><span style=\" text-decoration: "
+"underline; color:#1d96b9;\">Details...</span></a></p></body></html>"
+msgstr ""
+"<html><head/><body><p><a href=\"details\"><span style=\" text-decoration: "
+"underline; color:#1d96b9;\">Detalhes...</span></a></p></body></html>"
+
+#: BookmarksManager.cpp:115
+msgctxt "QDirStat::BookmarksManager|"
+msgid "No Bookmarks"
+msgstr "Sem Favoritos"
+
+#: BucketsTableModel.cpp:107
+msgctxt "QDirStat::BucketsTableModel|"
+msgid "Start"
+msgstr "Iniciar"
+
+#: BucketsTableModel.cpp:108
+msgctxt "QDirStat::BucketsTableModel|"
+msgid "End"
+msgstr "Fim"
+
+#: BucketsTableModel.cpp:109
+msgctxt "QDirStat::BucketsTableModel|"
+msgid "Files"
+msgstr "Ficheiros"
+
+#: Cleanup.cpp:242
+#, qt-format
+msgctxt "QDirStat::Cleanup|"
+msgid "ERROR: Shell %1 is not executable"
+msgstr "ERRO: Shell %1 não é executável"
+
+#: Cleanup.cpp:246
+#, qt-format
+msgctxt "QDirStat::Cleanup|"
+msgid "Using fallback %1"
+msgstr "A usar %1 de recurso"
+
+#: Cleanup.cpp:275
+msgctxt "QDirStat::Cleanup|"
+msgid "No usable shell - aborting cleanup action"
+msgstr "Nenhuma shell utilizável - a abortar ação de limpeza"
+
+#: CleanupCollection.cpp:345
+#, qt-format
+msgctxt "QDirStat::CleanupCollection|"
+msgid "<h3>%1</h3>for <b>directory</b> %2"
+msgstr "<h3>%1</h3>para <b>pasta</b> %2"
+
+#: CleanupCollection.cpp:347
+#, qt-format
+msgctxt "QDirStat::CleanupCollection|"
+msgid "<h3>%1</h3>for file %2"
+msgstr "<h3>%1</h3>para ficheiro %2"
+
+#: CleanupCollection.cpp:379
+#, qt-format
+msgctxt "QDirStat::CleanupCollection|"
+msgid "<i>(%1 items total)</i>"
+msgstr "<i>(%1 itens no total)</i>"
+
+#: CleanupCollection.cpp:382
+#, qt-format
+msgctxt "QDirStat::CleanupCollection|"
+msgid ""
+"<h3>%1</h3> for:<br>\n"
+"%2<br>"
+msgstr ""
+"<h3>%1</h3> para:<br>\n"
+"%2<br>"
+
+#: CleanupCollection.cpp:386
+msgctxt "QDirStat::CleanupCollection|"
+msgid "Please Confirm"
+msgstr "Por favor Confirme"
+
+#: CleanupCollection.cpp:410
+#, qt-format
+msgctxt "QDirStat::CleanupCollection|"
+msgid "<b>Directory <font color=blue>%1</font></b>"
+msgstr "<b>Pasta <font color=blue>%1</font></b>"
+
+#: CleanupCollection.cpp:412
+#, qt-format
+msgctxt "QDirStat::CleanupCollection|"
+msgid "<b>Directory</b> %1"
+msgstr "<b>Pasta</b> %1"
+
+#: CleanupConfigPage.cpp:135
+msgctxt "QDirStat::CleanupConfigPage|"
+msgid "Error"
+msgstr "Erro"
+
+#: CleanupConfigPage.cpp:136
+msgctxt "QDirStat::CleanupConfigPage|"
+msgid ""
+"Recursive operation cannot be used with\n"
+"refresh policy \"Assume Deleted\"."
+msgstr ""
+"A operação recursiva não pode ser usada com\n"
+"a política de reatualização \"Assumir Apagado\"."
+
+#: CleanupConfigPage.cpp:253
+#, qt-format
+msgctxt "QDirStat::CleanupConfigPage|"
+msgid "Really delete cleanup \"%1\"?"
+msgstr "Apagar mesmo a limpeza \"%1\"?"
+
+#: ConfigDialog.cpp:42
+msgctxt "QDirStat::ConfigDialog|"
+msgid "Cleanup Actions"
+msgstr "Ações de Limpeza"
+
+#: ConfigDialog.cpp:46
+msgctxt "QDirStat::ConfigDialog|"
+msgid "MIME Categories"
+msgstr "Categorias MIME"
+
+#: ConfigDialog.cpp:50
+msgctxt "QDirStat::ConfigDialog|"
+msgid "Exclude Rules"
+msgstr "Regras de Exclusão"
+
+#: ConfigDialog.cpp:54
+msgctxt "QDirStat::ConfigDialog|"
+msgid "General"
+msgstr "Geral"
+
+#: DirTreeModel.cpp:485
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Name"
+msgstr "Nome"
+
+#: DirTreeModel.cpp:486
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Subtree Percentage"
+msgstr "Percentagem de Sub-árvore"
+
+#: DirTreeModel.cpp:487
+msgctxt "QDirStat::DirTreeModel|"
+msgid "%"
+msgstr "%"
+
+#: DirTreeModel.cpp:488
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Size"
+msgstr "Tamanho"
+
+#: DirTreeModel.cpp:489
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Items"
+msgstr "Itens"
+
+#: DirTreeModel.cpp:490
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Files"
+msgstr "Ficheiros"
+
+#: DirTreeModel.cpp:491
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Subdirs"
+msgstr "Subpastas"
+
+#: DirTreeModel.cpp:492
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Last Modified"
+msgstr "Última Modificação"
+
+#: DirTreeModel.cpp:493
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Oldest File"
+msgstr "Ficheiro Mais Antigo"
+
+#: DirTreeModel.cpp:494
+msgctxt "QDirStat::DirTreeModel|"
+msgid "User"
+msgstr "Utilizador"
+
+#: DirTreeModel.cpp:495
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Group"
+msgstr "Grupo"
+
+#: DirTreeModel.cpp:496
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Permissions"
+msgstr "Permissões"
+
+#: DirTreeModel.cpp:497
+msgctxt "QDirStat::DirTreeModel|"
+msgid "Perm."
+msgstr "Perm."
+
+#: DirTreeModel.cpp:675
+#, qt-format
+msgctxt "QDirStat::DirTreeModel|"
+msgid "[%1 Read Jobs]"
+msgstr "[%1 Tarefas de Leitura]"
+
+#: DirTreeModel.cpp:693
+msgctxt "QDirStat::DirTreeModel|"
+msgid "[Excluded]"
+msgstr "[Excluído]"
+
+#: DirTreeModel.cpp:880
+#, qt-format
+msgctxt "QDirStat::DirTreeModel|"
+msgid "%1 / %2 Links (allocated: %3)"
+msgstr "%1 / %2 Links (alocado: %3)"
+
+#: DirTreeModel.cpp:887
+#, qt-format
+msgctxt "QDirStat::DirTreeModel|"
+msgid "%1 / %2 Links"
+msgstr "%1 / %2 Links"
+
+#: DirTreeModel.cpp:896
+#, qt-format
+msgctxt "QDirStat::DirTreeModel|"
+msgid "%1 (allocated: %2)"
+msgstr "%1 (alocado: %2)"
+
+#: DirTreeView.cpp:139
+msgctxt "QDirStat::DirTreeView|"
+msgid "View in"
+msgstr "Ver em"
+
+#: DirTreeView.cpp:167
+#, qt-format
+msgctxt "QDirStat::DirTreeView|"
+msgid " (allocated: %1)"
+msgstr " (alocado: %1)"
+
+#: DiscoverActions.cpp:41
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Largest Files in %1"
+msgstr "Maiores Ficheiros em %1"
+
+#: DiscoverActions.cpp:49
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Newest Files in %1"
+msgstr "Ficheiros Mais Recentes em %1"
+
+#: DiscoverActions.cpp:57
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Oldest Files in %1"
+msgstr "Ficheiros Mais Antigos em %1"
+
+#: DiscoverActions.cpp:65
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Files with Multiple Hard Links in %1"
+msgstr "Ficheiros com Múltiplos Hard Links em %1"
+
+#: DiscoverActions.cpp:72
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Checking symlinks..."
+msgstr "A verificar symlinks..."
+
+#: DiscoverActions.cpp:74
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Broken Symbolic Links in %1"
+msgstr "Links Simbólicos Quebrados em %1"
+
+#: DiscoverActions.cpp:82
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Sparse Files in %1"
+msgstr "Ficheiros Esparsos em %1"
+
+#: DiscoverActions.cpp:89
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Files from %1 in %2"
+msgstr "Ficheiros de %1 em %2"
+
+#: DiscoverActions.cpp:98
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Files from %1/%2 in %3"
+msgstr "Ficheiros de %1/%2 em %3"
+
+#: DiscoverActions.cpp:162
+#, qt-format
+msgctxt "QDirStat::DiscoverActions|"
+msgid "Search Results for \"%1\""
+msgstr "Resultados da Pesquisa para \"%1\""
+
+#: ExcludeRulesConfigPage.cpp:218
+#, qt-format
+msgctxt "QDirStat::ExcludeRulesConfigPage|"
+msgid "Really delete exclude rule \"%1\"?"
+msgstr "Apagar mesmo a regra de exclusão \"%1\"?"
+
+#: FileAgeStatsWindow.cpp:80
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "Year"
+msgstr "Ano"
+
+#: FileAgeStatsWindow.cpp:81
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "Files"
+msgstr "Ficheiros"
+
+#: FileAgeStatsWindow.cpp:82
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "Files %"
+msgstr "Ficheiros %"
+
+#: FileAgeStatsWindow.cpp:83 FileAgeStatsWindow.cpp:86
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "%"
+msgstr "%"
+
+#: FileAgeStatsWindow.cpp:84
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "Size"
+msgstr "Tamanho"
+
+#: FileAgeStatsWindow.cpp:85
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "Size %"
+msgstr "Tamanho %"
+
+#: FileAgeStatsWindow.cpp:154
+#, qt-format
+msgctxt "QDirStat::FileAgeStatsWindow|"
+msgid "File Age Statistics for %1"
+msgstr "Estatísticas de Idade dos Ficheiros para %1"
+
+#: FileDetailsView.cpp:233 FileDetailsView.cpp:239 FileDetailsView.cpp:258
+#: FileDetailsView.cpp:262
+#, qt-format
+msgctxt "QDirStat::FileDetailsView|"
+msgid "%1 / %2 Links"
+msgstr "%1 / %2 Links"
+
+#: FileDetailsView.cpp:340
+msgctxt "QDirStat::FileDetailsView|"
+msgid "Pseudo Directory"
+msgstr "Pseudo Pasta"
+
+#: FileDetailsView.cpp:340
+msgctxt "QDirStat::FileDetailsView|"
+msgid "Directory"
+msgstr "Pasta"
+
+#: FileDetailsView.cpp:343
+msgctxt "QDirStat::FileDetailsView|"
+msgid "Mount Point"
+msgstr "Ponto de Montagem"
+
+#: FileDetailsView.cpp:368 FileDetailsView.cpp:491 FileDetailsView.cpp:571
+msgctxt "QDirStat::FileDetailsView|"
+msgid "[Reading]"
+msgstr "[A ler]"
+
+#: FileDetailsView.cpp:370
+msgctxt "QDirStat::FileDetailsView|"
+msgid "[Not Read]"
+msgstr "[Não Lido]"
+
+#: FileDetailsView.cpp:371 FileDetailsView.cpp:493
+msgctxt "QDirStat::FileDetailsView|"
+msgid "[Permission Denied]"
+msgstr "[Permissão Negada]"
+
+#: FileDetailsView.cpp:372 FileDetailsView.cpp:494 FileDetailsView.cpp:576
+msgctxt "QDirStat::FileDetailsView|"
+msgid "[Read Error]"
+msgstr "[Erro de Leitura]"
+
+#: FileDetailsView.cpp:495
+msgctxt "QDirStat::FileDetailsView|"
+msgid "[Aborted]"
+msgstr "[Abortado]"
+
+#: FileSizeStatsWindow.cpp:166
+#, qt-format
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "File Size Statistics for %1"
+msgstr "Estatísticas de Tamanho de Ficheiros para %1"
+
+#: FileSizeStatsWindow.cpp:168
+#, qt-format
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "File Size Statistics for %1 in %2"
+msgstr "Estatísticas de Tamanho de Ficheiros para %1 em %2"
+
+#: FileSizeStatsWindow.cpp:230
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Percentile"
+msgstr "Percentil"
+
+#: FileSizeStatsWindow.cpp:231
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Decile"
+msgstr "Decil"
+
+#: FileSizeStatsWindow.cpp:232
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Quartile"
+msgstr "Quartil"
+
+#: FileSizeStatsWindow.cpp:233
+#, qt-format
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "%1-Quantile"
+msgstr "%1-Quantil"
+
+#: FileSizeStatsWindow.cpp:236
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Value"
+msgstr "Valor"
+
+#: FileSizeStatsWindow.cpp:236
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Name"
+msgstr "Nome"
+
+#: FileSizeStatsWindow.cpp:240
+#, qt-format
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Sum %1(n-1)..%2(n)"
+msgstr "Soma %1(n-1)..%2(n)"
+
+#: FileSizeStatsWindow.cpp:241
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Cumulative Sum"
+msgstr "Soma Cumulativa"
+
+#: FileSizeStatsWindow.cpp:284
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Min"
+msgstr "Mín"
+
+#: FileSizeStatsWindow.cpp:285
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Max"
+msgstr "Máx"
+
+#: FileSizeStatsWindow.cpp:286
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "Median"
+msgstr "Mediana"
+
+#: FileSizeStatsWindow.cpp:287
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "1. Quartile"
+msgstr "1. Quartil"
+
+#: FileSizeStatsWindow.cpp:288
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "3. Quartile"
+msgstr "3. Quartil"
+
+#: FileSizeStatsWindow.cpp:432
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "&Options >>"
+msgstr "&Opções >>"
+
+#: FileSizeStatsWindow.cpp:437
+msgctxt "QDirStat::FileSizeStatsWindow|"
+msgid "<< &Options"
+msgstr "<< &Opções"
+
+#: FileTypeStats.cpp:28
+msgctxt "QDirStat::FileTypeStats|"
+msgid "Other"
+msgstr "Outro"
+
+#: FileTypeStatsWindow.cpp:93
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "Name"
+msgstr "Nome"
+
+#: FileTypeStatsWindow.cpp:94
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "Number"
+msgstr "Número"
+
+#: FileTypeStatsWindow.cpp:95
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "Total Size"
+msgstr "Tamanho Total"
+
+#: FileTypeStatsWindow.cpp:96
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "Percentage"
+msgstr "Percentagem"
+
+#: FileTypeStatsWindow.cpp:145
+#, qt-format
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "File Type Statistics for %1"
+msgstr "Estatísticas de Tipo de Ficheiro para %1"
+
+#: FileTypeStatsWindow.cpp:249
+#, qt-format
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "Other (Top %1)"
+msgstr "Outro (Top %1)"
+
+#: FileTypeStatsWindow.cpp:249
+msgctxt "QDirStat::FileTypeStatsWindow|"
+msgid "Other"
+msgstr "Outro"
+
+#: FilesystemsWindow.cpp:73
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Btrfs free and used size information are misleading!"
+msgstr "As informações sobre o espaço livre e ocupado no Btrfs são enganadoras!"
+
+#: FilesystemsWindow.cpp:74
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Snapshots and copy-on-write may consume additional disk space."
+msgstr "As snapshots e a copia-em-escrita podem ocupar espaço adicional no disco."
+
+#: FilesystemsWindow.cpp:103
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Device"
+msgstr "Dispositivo"
+
+#: FilesystemsWindow.cpp:104
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Mount Point"
+msgstr "Ponto de Montagem"
+
+#: FilesystemsWindow.cpp:105
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Type"
+msgstr "Tipo"
+
+#: FilesystemsWindow.cpp:106
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Size"
+msgstr "Tamanho"
+
+#: FilesystemsWindow.cpp:107
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Used"
+msgstr "Usado"
+
+#: FilesystemsWindow.cpp:108
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Reserved"
+msgstr "Reservado"
+
+#: FilesystemsWindow.cpp:109
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Free"
+msgstr "Livre"
+
+#: FilesystemsWindow.cpp:110
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Free %"
+msgstr "Livre %"
+
+#: FilesystemsWindow.cpp:122
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Reserved for root"
+msgstr "Reservado para root"
+
+#: FilesystemsWindow.cpp:123
+msgctxt "QDirStat::FilesystemsWindow|"
+msgid "Free for unprivileged users"
+msgstr "Livre para utilizadores sem privilégios"
+
+#: HeaderTweaker.cpp:118
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "&Hide"
+msgstr "&Ocultar"
+
+#: HeaderTweaker.cpp:121
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "Show &All Hidden Columns"
+msgstr "Mostrar &Todas as Colunas Ocultas"
+
+#: HeaderTweaker.cpp:124
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "A&uto Size"
+msgstr "Tamanho A&utomático"
+
+#: HeaderTweaker.cpp:130
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "&Auto Size"
+msgstr "Tamanho &Automático"
+
+#: HeaderTweaker.cpp:133
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "&Interactive Size"
+msgstr "&Tamanho Interativo"
+
+#: HeaderTweaker.cpp:136
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "&Reset to Defaults"
+msgstr "&Repor Predefinições"
+
+#: HeaderTweaker.cpp:159
+#, qt-format
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "Column \"%1\""
+msgstr "Coluna \"%1\""
+
+#: HeaderTweaker.cpp:166
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "&All Columns"
+msgstr "&Todas as Colunas"
+
+#: HeaderTweaker.cpp:179
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "Hi&dden Columns"
+msgstr "Co&lunas Ocultas"
+
+#: HeaderTweaker.cpp:186
+#, qt-format
+msgctxt "QDirStat::HeaderTweaker|"
+msgid "Show Column \"%1\""
+msgstr "Mostrar Coluna \"%1\""
+
+#: HistogramDraw.cpp:94
+msgctxt "QDirStat::HistogramView|"
+msgid "File Size"
+msgstr "Tamanho do Ficheiro"
+
+#: HistogramDraw.cpp:115
+msgctxt "QDirStat::HistogramView|"
+msgid "Min"
+msgstr "Mín"
+
+#: HistogramDraw.cpp:123
+msgctxt "QDirStat::HistogramView|"
+msgid "Max"
+msgstr "Máx"
+
+#: HistogramDraw.cpp:158
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "Q1: %1"
+msgstr "Q1: %1"
+
+#: HistogramDraw.cpp:159
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "Q3: %1"
+msgstr "Q3: %1"
+
+#: HistogramDraw.cpp:160
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "Median: %1"
+msgstr "Mediana: %1"
+
+#: HistogramDraw.cpp:197
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "Files (n): %1"
+msgstr "Ficheiros em (n): %1"
+
+#: HistogramDraw.cpp:304
+msgctxt "QDirStat::HistogramView|"
+msgid "Q1 (1st Quartile)"
+msgstr "Q1 (1º Quartil)"
+
+#: HistogramDraw.cpp:308
+msgctxt "QDirStat::HistogramView|"
+msgid "Q3 (3rd Quartile)"
+msgstr "Q3 (3º Quartil)"
+
+#: HistogramDraw.cpp:314
+msgctxt "QDirStat::HistogramView|"
+msgid "Median"
+msgstr "Mediana"
+
+#: HistogramOverflowPanel.cpp:42
+msgctxt "QDirStat::HistogramView|"
+msgid "Cut off"
+msgstr "Cortar"
+
+#: HistogramOverflowPanel.cpp:56
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "Min (P0) .. P%1"
+msgstr "Mín (P0) .. P%1"
+
+#: HistogramOverflowPanel.cpp:57 HistogramOverflowPanel.cpp:66
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "%1 .. %2"
+msgstr "%1 .. %2"
+
+#: HistogramOverflowPanel.cpp:65
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "P%1 .. Max (P100)"
+msgstr "P%1 .. Máx (P100)"
+
+#: HistogramOverflowPanel.cpp:87
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "%1% of all files"
+msgstr "%1% de todo os ficheiros"
+
+#: HistogramOverflowPanel.cpp:89
+msgctxt "QDirStat::HistogramView|"
+msgid "1 file total"
+msgstr "1 ficheiro no total"
+
+#: HistogramOverflowPanel.cpp:90
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "%1 files total"
+msgstr "%1 ficheiros no total"
+
+#: HistogramOverflowPanel.cpp:125
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "%1% of disk space"
+msgstr "%1% de espaço em disco"
+
+#: HistogramOverflowPanel.cpp:126
+#, qt-format
+msgctxt "QDirStat::HistogramView|"
+msgid "%1 total"
+msgstr "%1 total"
+
+#: ListEditor.cpp:210
+msgctxt "QDirStat::ListEditor|"
+msgid "Please Confirm"
+msgstr "Por favor Confirme"
+
+#: LocateFileTypeWindow.cpp:73
+msgctxt "QDirStat::LocateFileTypeWindow|"
+msgid "Number"
+msgstr "Número"
+
+#: LocateFileTypeWindow.cpp:74
+msgctxt "QDirStat::LocateFileTypeWindow|"
+msgid "Total Size"
+msgstr "Tamanho Total"
+
+#: LocateFileTypeWindow.cpp:75
+msgctxt "QDirStat::LocateFileTypeWindow|"
+msgid "Directory"
+msgstr "Pasta"
+
+#: LocateFileTypeWindow.cpp:106
+#, qt-format
+msgctxt "QDirStat::LocateFileTypeWindow|"
+msgid "Directories with %1 Files below %2"
+msgstr "Pastas com %1 Ficheiros abaixo %2"
+
+#: LocateFilesWindow.cpp:99
+msgctxt "QDirStat::LocateFilesWindow|"
+msgid "Size"
+msgstr "Tamanho"
+
+#: LocateFilesWindow.cpp:100
+msgctxt "QDirStat::LocateFilesWindow|"
+msgid "Last Modified"
+msgstr "Última Modificação"
+
+#: LocateFilesWindow.cpp:101
+msgctxt "QDirStat::LocateFilesWindow|"
+msgid "Path"
+msgstr "Caminho"
+
+#: LocateFilesWindow.cpp:170
+#, qt-format
+msgctxt "QDirStat::LocateFilesWindow|"
+msgid "Limited to %1 Results"
+msgstr "Limitado a %1 Resultados"
+
+#: LocateFilesWindow.cpp:174
+#, qt-format
+msgctxt "QDirStat::LocateFilesWindow|"
+msgid "%1 Results"
+msgstr "%1 Resultados"
+
+#: MimeCategorizer.cpp:338
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Junk"
+msgstr "Lixo"
+
+#: MimeCategorizer.cpp:347
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Compressed Archives"
+msgstr "Ficheiros Compactados"
+
+#: MimeCategorizer.cpp:379
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Uncompressed Archives"
+msgstr "Ficheiros Descompactados"
+
+#: MimeCategorizer.cpp:387
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Compressed Files"
+msgstr "Ficheiros Compactados"
+
+#: MimeCategorizer.cpp:401
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Images"
+msgstr "Imagens"
+
+#: MimeCategorizer.cpp:422
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Uncompressed Images"
+msgstr "Imagens Descompactadas"
+
+#: MimeCategorizer.cpp:436
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Videos"
+msgstr "Vídeos"
+
+#: MimeCategorizer.cpp:469
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Music"
+msgstr "Música"
+
+#: MimeCategorizer.cpp:501
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Documents"
+msgstr "Documentos"
+
+#: MimeCategorizer.cpp:552
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Source Files"
+msgstr "Ficheiros Fonte"
+
+#: MimeCategorizer.cpp:562
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Object or Generated Files"
+msgstr "Ficheiros Gerados ou Objeto"
+
+#: MimeCategorizer.cpp:575
+msgctxt "QDirStat::MimeCategorizer|"
+msgid "Libraries"
+msgstr "Bibliotecas"
+
+#: MimeCategoryConfigPage.cpp:156
+msgctxt "QDirStat::MimeCategoryConfigPage|"
+msgid "Category Color"
+msgstr "Cor da Categoria"
+
+#: MimeCategoryConfigPage.cpp:253
+#, qt-format
+msgctxt "QDirStat::MimeCategoryConfigPage|"
+msgid "Really delete category \"%1\"?"
+msgstr "Apagar mesmo a categoria \"%1\"?"
+
+#: PanelMessage.cpp:45
+msgctxt "QDirStat::PanelMessage|"
+msgid "Details..."
+msgstr "Detalhes..."
+
+#: PathSelector.cpp:64
+msgctxt "QDirStat::PathSelector|"
+msgid "Your home directory"
+msgstr "A sua pasta home"
+
+#: ShowUnpkgFilesDialog.cpp:110
+msgctxt "QDirStat::ShowUnpkgFilesDialog|"
+msgid "Really reset all values to default?"
+msgstr "Repor mesmo todos os valores para predefinições?"
+
+#: ShowUnpkgFilesDialog.cpp:112
+msgctxt "QDirStat::ShowUnpkgFilesDialog|"
+msgid "Please Confirm"
+msgstr "Por favor Confirme"
+
+#: UnreadableDirsWindow.cpp:76
+msgctxt "QDirStat::UnreadableDirsWindow|"
+msgid "Directory"
+msgstr "Pasta"
+
+#: UnreadableDirsWindow.cpp:77
+msgctxt "QDirStat::UnreadableDirsWindow|"
+msgid "User"
+msgstr "Utilizador"
+
+#: UnreadableDirsWindow.cpp:78
+msgctxt "QDirStat::UnreadableDirsWindow|"
+msgid "Group"
+msgstr "Grupo"
+
+#: UnreadableDirsWindow.cpp:79
+msgctxt "QDirStat::UnreadableDirsWindow|"
+msgid "Permissions"
+msgstr "Permissões"
+
+#: UnreadableDirsWindow.cpp:80
+msgctxt "QDirStat::UnreadableDirsWindow|"
+msgid "Perm."
+msgstr "Perm."
+
+#: Exception.cpp:39
+#, qt-format
+msgctxt "QObject|"
+msgid "%1( \"%2\" ) failed: %3"
+msgstr "%1( \"%2\" ) falhou: %3"
+
+#: Exception.cpp:46
+#, qt-format
+msgctxt "QObject|"
+msgid "%1( \"%2\" ) failed"
+msgstr "%1( \"%2\" ) falhou"
+
+#: FileAgeStatsWindow.cpp:348
+msgctxt "QObject|"
+msgid "Jan."
+msgstr "Jan."
+
+#: FileAgeStatsWindow.cpp:349
+msgctxt "QObject|"
+msgid "Feb."
+msgstr "Fev."
+
+#: FileAgeStatsWindow.cpp:350
+msgctxt "QObject|"
+msgid "Mar."
+msgstr "Mar."
+
+#: FileAgeStatsWindow.cpp:351
+msgctxt "QObject|"
+msgid "Apr."
+msgstr "Abr."
+
+#: FileAgeStatsWindow.cpp:352
+msgctxt "QObject|"
+msgid "May"
+msgstr "Maio"
+
+#: FileAgeStatsWindow.cpp:353
+msgctxt "QObject|"
+msgid "Jun."
+msgstr "Jun."
+
+#: FileAgeStatsWindow.cpp:354
+msgctxt "QObject|"
+msgid "Jul."
+msgstr "Jul."
+
+#: FileAgeStatsWindow.cpp:355
+msgctxt "QObject|"
+msgid "Aug."
+msgstr "Ago."
+
+#: FileAgeStatsWindow.cpp:356
+msgctxt "QObject|"
+msgid "Sep."
+msgstr "Set."
+
+#: FileAgeStatsWindow.cpp:357
+msgctxt "QObject|"
+msgid "Oct."
+msgstr "Out."
+
+#: FileAgeStatsWindow.cpp:358
+msgctxt "QObject|"
+msgid "Nov."
+msgstr "Nov."
+
+#: FileAgeStatsWindow.cpp:359
+msgctxt "QObject|"
+msgid "Dec."
+msgstr "Dez."
+
+#: FileInfo.cpp:518
+msgctxt "QObject|"
+msgid "<Files>"
+msgstr "<Files>"
+
+#: FileInfo.cpp:524
+msgctxt "QObject|"
+msgid "<Ignored>"
+msgstr "<Ignorado>"
+
+#: FilesystemsWindow.cpp:223
+msgctxt "QObject|"
+msgid "read-only"
+msgstr "apenas-leitura"
+
+#: FileTypeStatsWindow.cpp:470
+msgctxt "QObject|"
+msgid "<No Extension>"
+msgstr "<Sem Extensão>"
+
+#: FileTypeStatsWindow.cpp:472
+msgctxt "QObject|"
+msgid "<Other>"
+msgstr "<Outro>"
+
+#: FormatUtil.cpp:71
+msgctxt "QObject|"
+msgid "Bytes"
+msgstr "Bytes"
+
+#: FormatUtil.cpp:72
+msgctxt "QObject|"
+msgid "kB"
+msgstr "kB"
+
+#: FormatUtil.cpp:73
+msgctxt "QObject|"
+msgid "MB"
+msgstr "MB"
+
+#: FormatUtil.cpp:74
+msgctxt "QObject|"
+msgid "GB"
+msgstr "GB"
+
+#: FormatUtil.cpp:75
+msgctxt "QObject|"
+msgid "TB"
+msgstr "TB"
+
+#: FormatUtil.cpp:76
+msgctxt "QObject|"
+msgid "PB"
+msgstr "PB"
+
+#: FormatUtil.cpp:77
+msgctxt "QObject|"
+msgid "EB"
+msgstr "EB"
+
+#: FormatUtil.cpp:78
+msgctxt "QObject|"
+msgid "ZB"
+msgstr "ZB"
+
+#: FormatUtil.cpp:79
+msgctxt "QObject|"
+msgid "YB"
+msgstr "YB"
+
+#: FormatUtil.cpp:124
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 Bytes"
+msgstr "%1 Bytes"
+
+#: FormatUtil.cpp:180
+msgctxt "QObject|"
+msgid "Directory"
+msgstr "Pasta"
+
+#: FormatUtil.cpp:181
+msgctxt "QObject|"
+msgid "Character Device"
+msgstr "Dispositivo de Caracteres"
+
+#: FormatUtil.cpp:182
+msgctxt "QObject|"
+msgid "Block Device"
+msgstr "Dispositivo de Bloco"
+
+#: FormatUtil.cpp:183
+msgctxt "QObject|"
+msgid "Named Pipe"
+msgstr "Pipe Nomeado"
+
+#: FormatUtil.cpp:184
+msgctxt "QObject|"
+msgid "Symbolic Link"
+msgstr "Links Simbólicos"
+
+#: FormatUtil.cpp:185
+msgctxt "QObject|"
+msgid "Socket"
+msgstr "Socket"
+
+#: FormatUtil.cpp:186
+msgctxt "QObject|"
+msgid "File"
+msgstr "Ficheiro"
+
+#: FormatUtil.cpp:272
+msgctxt "QObject|"
+msgid "sec"
+msgstr "seg"
+
+#: HistogramItems.cpp:50
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Bucket #%1:\n"
+"%2 Files\n"
+"%3 .. %4"
+msgstr ""
+"Balde #%1:\n"
+"%2 Ficheiros\n"
+"%3 .. %4"
+
+#: HistogramItems.cpp:108
+#, qt-format
+msgctxt "QObject|"
+msgid "Percentile P%1"
+msgstr "Percentil P%1"
+
+#: PathSelector.cpp:190
+#, qt-format
+msgctxt "QObject|"
+msgid "Used: %1"
+msgstr "Usado: %1"
+
+#: PathSelector.cpp:193
+#, qt-format
+msgctxt "QObject|"
+msgid "Free for users: %1"
+msgstr "Livre para utilizadores: %1"
+
+#: PathSelector.cpp:196
+#, qt-format
+msgctxt "QObject|"
+msgid "Free for root: %1"
+msgstr "Livre para root: %1"
+
+#: RpmPkgManager.cpp:267
+msgctxt "QObject|"
+msgid "RPM is very slow."
+msgstr "RPM está muito lenta."
+
+#: RpmPkgManager.cpp:268
+#, qt-format
+msgctxt "QObject|"
+msgid "Open a shell window and run:<br>%1"
+msgstr "Abra uma janela de shell e execute::<br>%1"
+
+#: StdCleanup.cpp:48
+msgctxt "QObject|"
+msgid "Open File &Manager Here"
+msgstr "Abrir Gestor de &Ficheiros Aqui"
+
+#: StdCleanup.cpp:66
+msgctxt "QObject|"
+msgid "Open &Terminal Here"
+msgstr "Abrir &Terminal Aqui"
+
+#: StdCleanup.cpp:84
+msgctxt "QObject|"
+msgid "Check File T&ype"
+msgstr "Verificar T&ipo de Ficheiro"
+
+#: StdCleanup.cpp:101
+msgctxt "QObject|"
+msgid "&Compress"
+msgstr "&Compactar"
+
+#: StdCleanup.cpp:116
+msgctxt "QObject|"
+msgid "make cl&ean"
+msgstr "fazer li&mpeza"
+
+#: StdCleanup.cpp:131
+msgctxt "QObject|"
+msgid "git cle&an"
+msgstr "lim&par git"
+
+#: StdCleanup.cpp:148
+msgctxt "QObject|"
+msgid "Delete J&unk Files"
+msgstr "Apagar F&icheiros Lixo"
+
+#: StdCleanup.cpp:165
+msgctxt "QObject|"
+msgid "&Delete (no way to undelete!)"
+msgstr "&Apagar (sem forma de recuperar!)"
+
+#: StdCleanup.cpp:183
+msgctxt "QObject|"
+msgid "Clear Directory C&ontents"
+msgstr "Limpar C&onteúdos da Pasta"
+
+#: StdCleanup.cpp:201
+msgctxt "QObject|"
+msgid "echoargs"
+msgstr "echoargs"
+
+#: StdCleanup.cpp:217
+msgctxt "QObject|"
+msgid "Output on stdout and stderr"
+msgstr "Saída em stdout e stderr"
+
+#: StdCleanup.cpp:233
+msgctxt "QObject|"
+msgid "Segfaulter"
+msgstr "Segfaulter"
+
+#: StdCleanup.cpp:248
+msgctxt "QObject|"
+msgid "Nonexistent command"
+msgstr "Comando não existente"
+
+#: StdCleanup.cpp:263
+msgctxt "QObject|"
+msgid "Sleepy echoargs"
+msgstr "Sleepy echoargs"
+
+#: show-unpkg-files-dialog.ui:14 show-unpkg-files-dialog.ui:29
+msgctxt "ShowUnpkgFilesDialog|"
+msgid "Show Unpackaged Files"
+msgstr "Mostrar Ficheiros Descompactados"
+
+#: show-unpkg-files-dialog.ui:54
+msgctxt "ShowUnpkgFilesDialog|"
+msgid "Starting &Directory:"
+msgstr "Pasta &Inicial:"
+
+#: show-unpkg-files-dialog.ui:109
+msgctxt "ShowUnpkgFilesDialog|"
+msgid "E&xclude Directories:"
+msgstr "E&xcluir Pastas:"
+
+#: show-unpkg-files-dialog.ui:147
+msgctxt "ShowUnpkgFilesDialog|"
+msgid "I&gnore Patterns:"
+msgstr "I&gnorar Padrões:"
+
+#: unreadable-dirs-window.ui:14
+msgctxt "UnreadableDirsWindow|"
+msgid "Unreadable Directories"
+msgstr "Pastas Ilegíveis"
+
+#: unreadable-dirs-window.ui:50
+msgctxt "UnreadableDirsWindow|"
+msgid "Directories that could not be Read"
+msgstr "Pastas que não puderam ser Lidas"
+
+#: unreadable-dirs-window.ui:91
+msgctxt "UnreadableDirsWindow|"
+msgid "Total: 0"
+msgstr "Total: 0"
+
+#: unreadable-dirs-window.ui:117
+msgctxt "UnreadableDirsWindow|"
+msgid "&Close"
+msgstr "&Fechar"
