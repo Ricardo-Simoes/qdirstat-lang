@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QDirStat\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-09-23 22:35+0100\n"
+"PO-Revision-Date: 2026-09-25 17:50+0100\n"
 "Last-Translator: Ricardo Simões - xmcorporation.com "
 "<xmcorporation@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@googlegroups.com>\n"
@@ -1797,6 +1797,10 @@ msgstr ""
 "programa serão responsabilizados por qualquer situação desse tipo. Utilize "
 "este programa por sua conta e risco."
 
+#: MainWindowHelp.cpp:55 MainWindowHelp.cpp:71
+msgid "Donate"
+msgstr "Doar"
+
 #: MainWindowHelp.cpp:57
 msgid "QDirStat is Free Open Source Software."
 msgstr "O QDirStat é um Software Livre de Código Aberto."
@@ -1812,10 +1816,6 @@ msgstr "Pode doar qualquer valor à sua escolha:"
 #: MainWindowHelp.cpp:67
 msgid "(external browser window)"
 msgstr "(janela externa do navegador)"
-
-#: MainWindowHelp.cpp:71
-msgid "Donate"
-msgstr "Doar"
 
 #: MainWindowUnpkg.cpp:64
 msgid "Reading file lists..."
