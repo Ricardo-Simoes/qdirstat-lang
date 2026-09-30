@@ -370,11 +370,11 @@ msgstr "將目前的排除規則移至清單底端。"
 
 #: exclude-rules-config-page.ui:162
 msgid "Exclude Directories With &Pattern"
-msgstr "排除符合Pattern的目錄(&P)"
+msgstr "排除符合模式的目錄(&P)"
 
 #: exclude-rules-config-page.ui:188
 msgid "P&attern Syntax"
-msgstr "Pattern語法(&A)"
+msgstr "模式語法(&A)"
 
 #: exclude-rules-config-page.ui:194
 msgid "Fixed &String"
@@ -761,7 +761,7 @@ msgstr "名稱(&N)："
 
 #: find-files-dialog.ui:116
 msgid "search text or pattern"
-msgstr "搜尋文字或Pattern"
+msgstr "搜尋文字或模式"
 
 #: find-files-dialog.ui:129 open-pkg-dialog.ui:145
 msgid "Match &Mode:"
@@ -829,7 +829,7 @@ msgstr "在視窗標題中顯示 URL(&U)"
 
 #: general-config-page.ui:57
 msgid "Use ho&ver effect in treemap"
-msgstr "啟用矩形式樹狀圖的滑鼠停留效果(&V)"
+msgstr "啟用矩形樹狀圖的滑鼠懸停效果(&V)"
 
 #: general-config-page.ui:64
 msgid "&Cross filesystem boundaries while reading"
@@ -919,7 +919,7 @@ msgstr "展開目錄樹至指定層級(&X)"
 
 #: main-window.ui:219
 msgid "Tree&map"
-msgstr "矩形式樹狀圖(&M)"
+msgstr "矩形樹狀圖(&M)"
 
 #: main-window.ui:244
 msgid "&Edit"
@@ -1133,7 +1133,7 @@ msgstr "放大(&I)"
 
 #: main-window.ui:594
 msgid "Zoom the treemap in (enlarge) one level."
-msgstr "將矩形式樹狀圖放大一個層級。"
+msgstr "將矩形樹狀圖放大一個層級。"
 
 #: main-window.ui:597 output-window.ui:231
 msgid "Ctrl++"
@@ -1145,7 +1145,7 @@ msgstr "縮小(&O)"
 
 #: main-window.ui:609
 msgid "Zoom the treemap out one level."
-msgstr "將矩形式樹狀圖縮小一個層級。"
+msgstr "將矩形樹狀圖縮小一個層級。"
 
 #: main-window.ui:612 output-window.ui:246
 msgid "Ctrl+-"
@@ -1157,7 +1157,7 @@ msgstr "重設縮放比例(&R)"
 
 #: main-window.ui:624
 msgid "Reset the treemap zoom factor to normal."
-msgstr "將矩形式樹狀圖的縮放比例恢復為原始大小。"
+msgstr "將矩形樹狀圖的縮放比例恢復為原始大小。"
 
 #: main-window.ui:627 output-window.ui:261
 msgid "Ctrl+0"
@@ -1169,15 +1169,15 @@ msgstr "重新繪製(&B)"
 
 #: main-window.ui:635
 msgid "Rebuild the treemap."
-msgstr "重新繪製矩形式樹狀圖。"
+msgstr "重新繪製矩形樹狀圖。"
 
 #: main-window.ui:646
 msgid "&Show Treemap"
-msgstr "顯示矩形式樹狀圖(&S)"
+msgstr "顯示矩形樹狀圖(&S)"
 
 #: main-window.ui:649
 msgid "Enable or disable showing the treemap view."
-msgstr "顯示或隱藏矩形式樹狀圖檢視。"
+msgstr "顯示或隱藏矩形樹狀圖檢視。"
 
 #: main-window.ui:661
 msgid "&Up One Level"
@@ -1568,7 +1568,7 @@ msgstr "選取目錄樹中所有已加入書籤的項目"
 
 #: main-window.ui:1135
 msgid "The &Treemap Graphics..."
-msgstr "矩形式樹狀圖(&T)…"
+msgstr "矩形樹狀圖(&T)…"
 
 #: main-window.ui:1138
 msgid "The colored graphics in the main window explained"
@@ -1816,11 +1816,11 @@ msgstr "直接輸入 RGB 色碼。"
 
 #: mime-category-config-page.ui:172
 msgid "Preview Treemap"
-msgstr "預覽矩形式樹狀圖"
+msgstr "預覽矩形樹狀圖"
 
 #: mime-category-config-page.ui:197
 msgid "&Patterns (Case Insensitive)"
-msgstr "Pattern（不區分大小寫）(&P)"
+msgstr "模式（不區分大小寫）(&P)"
 
 #: mime-category-config-page.ui:213 mime-category-config-page.ui:242
 msgid ""
@@ -1828,13 +1828,13 @@ msgid ""
 "each one on a separate line.\n"
 "Use * or ? as wildcards."
 msgstr ""
-"在此新增檔名Pattern，\n"
+"在此新增檔名模式，\n"
 "每行輸入一個。\n"
 "可使用 * 或 ? 作為萬用字元。"
 
 #: mime-category-config-page.ui:226
 msgid "Patterns (Case &Sensitive)"
-msgstr "Pattern（區分大小寫）(&S)"
+msgstr "模式（區分大小寫）(&S)"
 
 #: open-dir-dialog.ui:14
 msgid "Select Directory"
@@ -1886,7 +1886,7 @@ msgstr ""
 
 #: open-dir-dialog.ui:199
 msgid "Cross &Filesystems"
-msgstr "跨越檔案系統(&F)"
+msgstr "跨越檔案系統邊界(&F)"
 
 #: open-pkg-dialog.ui:14
 msgid "Select Packages"
@@ -2465,7 +2465,7 @@ msgstr "Btrfs 回報的可用與已用空間資訊可能造成誤解！"
 
 #: FilesystemsWindow.cpp:74
 msgid "Snapshots and copy-on-write may consume additional disk space."
-msgstr "快照與寫入時複製可能會占用額外的磁碟空間。"
+msgstr "快照與寫入時複製（CoW）可能會額外占用磁碟空間。"
 
 #: FilesystemsWindow.cpp:103
 msgid "Device"
@@ -2957,7 +2957,7 @@ msgstr "排除目錄(&X)："
 
 #: show-unpkg-files-dialog.ui:147
 msgid "I&gnore Patterns:"
-msgstr "忽略的Pattern(&G)："
+msgstr "忽略的模式(&G)："
 
 #: unreadable-dirs-window.ui:14
 msgid "Unreadable Directories"
