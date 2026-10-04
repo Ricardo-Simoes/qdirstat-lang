@@ -1,0 +1,2972 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: QDirStat\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-04 20:27+0800\n"
+"Last-Translator: san-ren <86779955+san-ren@users.noreply.github.com>\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Qt-Contexts: true\n"
+
+#: cleanup-config-page.ui:14 exclude-rules-config-page.ui:14
+#: general-config-page.ui:14 message-panel.ui:20
+#: mime-category-config-page.ui:14
+msgid "Form"
+msgstr "表单"
+
+#: cleanup-config-page.ui:45
+msgid "Move the current cleanup action to the top of the list."
+msgstr "将当前的清理动作移至列表顶部。"
+
+#: cleanup-config-page.ui:59
+msgid "Move the current cleanup action one position up in the list."
+msgstr "将当前的清理动作在列表中上移一个位置。"
+
+#: cleanup-config-page.ui:86
+msgid ""
+"Create a new cleanup action.\n"
+"You can create as many as you like."
+msgstr ""
+"创建新的清理动作。\n"
+"可依需要创建任意数量的清理动作。"
+
+#: cleanup-config-page.ui:101
+msgid "Remove the current cleanup action."
+msgstr "移除当前的清理动作。"
+
+#: cleanup-config-page.ui:128
+msgid "Move the current cleanup action one position down in the list."
+msgstr "将当前的清理动作在列表中下移一个位置。"
+
+#: cleanup-config-page.ui:142
+msgid "Move the current cleanup action to the bottom of the list."
+msgstr "将当前的清理动作移至列表底部。"
+
+#: cleanup-config-page.ui:165
+msgid "Uncheck to disable this cleanup action completely."
+msgstr "取消勾选可完全禁用此清理动作。"
+
+#: cleanup-config-page.ui:168
+msgid "&Active"
+msgstr "激活(&A)"
+
+#: cleanup-config-page.ui:185
+msgid "&Title:"
+msgstr "标题(&T)："
+
+#: cleanup-config-page.ui:201
+msgid ""
+"Check this if a confirmation dialog should be\n"
+"opened before executing the command.\n"
+"There will be only one confirmation dialog,\n"
+"even if multiple items are selected or if\n"
+"the command is executed recursively."
+msgstr ""
+"勾选此选项，可在运行命令前\n"
+"打开确认对话框。\n"
+"即使选择多个项目，\n"
+"或以递归方式运行命令，\n"
+"也只会显示一次确认对话框。"
+
+#: cleanup-config-page.ui:208
+msgid "As&k For Confirmation"
+msgstr "运行前确认(&K)"
+
+#: cleanup-config-page.ui:221
+msgid ""
+"Enter a title for this cleanup action.\n"
+"This will show up in the menus.\n"
+"You can add a hotkey with \"&\"."
+msgstr ""
+"输入此清理动作的标题。\n"
+"此标题会显示在菜单中。\n"
+"可使用“&”设置快捷键。"
+
+#: cleanup-config-page.ui:248
+#, qt-format
+msgid ""
+"These are the macros you can use in the command.\n"
+"Both %p and %n always contain only one item.\n"
+"If multiple items are selected, the command will be\n"
+"executed multiple times."
+msgstr ""
+"这些是可在命令中使用的宏。\n"
+"%p 和 %n 一律只包含一个项目。\n"
+"若选择多个项目，\n"
+"命令就会运行多次。"
+
+#: cleanup-config-page.ui:254
+#, qt-format
+msgid ""
+"%p  Full Path\n"
+"%n  File / Directory Name Without Path\n"
+"%d  Directory Name With Full Path\n"
+msgstr ""
+"%p  完整路径\n"
+"%n  文件或目录名称（不含路径）\n"
+"%d  目录名称（含完整路径）\n"
+
+#: cleanup-config-page.ui:288
+msgid "&Command Line:"
+msgstr "命令行(&C)："
+
+#: cleanup-config-page.ui:298
+msgid ""
+"Enter the command to be executed here.\n"
+"Each command will be executed with a shell.\n"
+"\n"
+"If multiple items are selected, the command\n"
+"will be executed once for each selected item."
+msgstr ""
+"在此输入要运行的命令。\n"
+"每个命令都会通过shell运行。\n"
+"\n"
+"若选择多个项目，\n"
+"命令会针对每个选择项目各运行一次。"
+
+#: cleanup-config-page.ui:315
+msgid ""
+"Select if the command should be executed recursively\n"
+"for each directory in the selected branch.\n"
+"The command will be called separately for each directory level."
+msgstr ""
+"选择是否针对所选分支中的每个目录\n"
+"以递归方式运行命令。\n"
+"每一层目录都会分别运行此命令。"
+
+#: cleanup-config-page.ui:320
+msgid "&Recurse Into Subdirectories"
+msgstr "递归处理子目录(&R)"
+
+#: cleanup-config-page.ui:333
+msgid ""
+"This specifies if and how the directory tree should be\n"
+"re-read from disk after the cleanup action is finished."
+msgstr ""
+"指定清理动作完成后，是否重新从磁盘\n"
+"读取目录树，以及重新读取的方式。"
+
+#: cleanup-config-page.ui:341
+msgid "No Refresh"
+msgstr "不刷新"
+
+#: cleanup-config-page.ui:346
+msgid "Refresh This Item"
+msgstr "刷新此项目"
+
+#: cleanup-config-page.ui:351
+msgid "Refresh This Item's Parent"
+msgstr "刷新此项目的上层目录"
+
+#: cleanup-config-page.ui:356
+msgid "Assume Item Has Been Deleted"
+msgstr "视为已删除此项目"
+
+#: cleanup-config-page.ui:370
+msgid "R&efresh Policy:"
+msgstr "刷新方式(&E)："
+
+#: cleanup-config-page.ui:416
+msgid "Works For..."
+msgstr "适用项目…"
+
+#: cleanup-config-page.ui:424
+msgid "Check this if the command can be applied to directories."
+msgstr "若命令可用于目录，请勾选此选项。"
+
+#: cleanup-config-page.ui:427
+msgid "&Directories"
+msgstr "目录(&D)"
+
+#: cleanup-config-page.ui:434
+msgid "Check this if the command can be applied to files."
+msgstr "若命令可用于文件，请勾选此选项。"
+
+#: cleanup-config-page.ui:437
+msgid "&Files"
+msgstr "文件(&F)"
+
+#: cleanup-config-page.ui:444
+msgid ""
+"Check this if the command can be applied to the <Files> entries in the "
+"tree.\n"
+"Note that they don't really have a counterpart on the disk."
+msgstr ""
+"若命令可用于目录树中的<文件>项目，请勾选此选项。\n"
+"请注意，磁盘上并没有与这些项目对应的实际目录。"
+
+#: cleanup-config-page.ui:448
+msgid "<Files> Pse&udo Entries"
+msgstr "<文件>虚拟项目(&U)"
+
+#: cleanup-config-page.ui:479
+msgid "Output Window"
+msgstr "输出窗口"
+
+#: cleanup-config-page.ui:493
+msgid "&Policy:"
+msgstr "显示方式(&P)："
+
+#: cleanup-config-page.ui:509
+msgid ""
+"Select if and when to open a window for the output of the command.\n"
+"If there is an error, the output window is always opened unless\n"
+"\"Never Show\" is selected here.\n"
+"\"Show After Timeout\" is a useful setting for most cases."
+msgstr ""
+"选择是否打开命令输出窗口，以及打开的时机。\n"
+"除非在此选择“永不显示”，否则发生错误时\n"
+"一律会打开输出窗口。\n"
+"大多数情况下，建议使用“逾时后显示”。"
+
+#: cleanup-config-page.ui:519
+msgid "Show Always"
+msgstr "一律显示"
+
+#: cleanup-config-page.ui:524
+msgid "Show If Error Output"
+msgstr "有错误输出时显示"
+
+#: cleanup-config-page.ui:529
+msgid "Show After Timeout"
+msgstr "逾时后显示"
+
+#: cleanup-config-page.ui:534
+msgid "Never Show"
+msgstr "永不显示"
+
+#: cleanup-config-page.ui:548
+msgid "Ti&meout:"
+msgstr "逾时时间(&M)："
+
+#: cleanup-config-page.ui:564
+msgid ""
+"Set the timeout for the \"Show After Timeout\" setting.\n"
+"Don't underestimate your computer: It can get more\n"
+"done in half a second than you might think.\n"
+"On the other hand, waiting for half a second feels\n"
+"longer than you might think."
+msgstr ""
+"设置“逾时后显示”的等待时间。\n"
+"别低估电脑的速度：它在半秒内\n"
+"能完成的工作可能比您想像的更多。\n"
+"但另一方面，等待半秒的感受\n"
+"也可能比您想像的更久。"
+
+#: cleanup-config-page.ui:571 general-config-page.ui:191
+msgid " sec"
+msgstr " 秒"
+
+#: cleanup-config-page.ui:587
+msgid ""
+"Check this to automatically close the\n"
+"output window if there was no error.\n"
+"If you are interested in the output of your\n"
+"command, uncheck this."
+msgstr ""
+"勾选此选项，可在未发生错误时\n"
+"自动关闭输出窗口。\n"
+"若需要查看命令的输出内容，\n"
+"请取消勾选。"
+
+#: cleanup-config-page.ui:593
+msgid "Auto C&lose If No Error"
+msgstr "无错误时自动关闭(&L)"
+
+#: cleanup-config-page.ui:630
+msgid "Shell"
+msgstr "Shell"
+
+#: cleanup-config-page.ui:644
+msgid "&Shell:"
+msgstr "Shell(&S)："
+
+#: cleanup-config-page.ui:660
+msgid ""
+"Select a shell here or enter your favourite one.\n"
+"\n"
+"Each command is executed with a shell and the \"-c\" option.\n"
+"Shells may behave differently for wildcards and special characters.\n"
+"\n"
+"If you are setting this up for other users, better stay on the safe side\n"
+"and select a shell with a well-known behaviour like /bin/bash."
+msgstr ""
+"在此选择shell，或输入您常用的shell。\n"
+"\n"
+"每个命令都会通过shell配合“-c”选项运行。\n"
+"不同shell处理通配符与特殊字符的方式可能不同。\n"
+"\n"
+"若您正在替其他用户设置，建议选择行为明确的shell，\n"
+"例如 /bin/bash，以减少兼容性问题。"
+
+#: cleanup-config-page.ui:673
+msgid "$SHELL (Login Shell)"
+msgstr "$SHELL（登录 Shell）"
+
+#: cleanup-config-page.ui:678
+msgid "/bin/bash"
+msgstr "/bin/bash"
+
+#: cleanup-config-page.ui:683
+msgid "/bin/sh"
+msgstr "/bin/sh"
+
+#: cleanup-config-page.ui:693
+msgid ""
+"Each command is executed with a shell\n"
+"and the '-c' option."
+msgstr ""
+"每个命令都会通过shell\n"
+"配合“-c”选项运行。"
+
+#: config-dialog.ui:14
+msgid "QDirStat Configuration"
+msgstr "QDirStat 设置"
+
+#: config-dialog.ui:48
+msgid "OK"
+msgstr "确定"
+
+#: config-dialog.ui:55
+msgid "Apply"
+msgstr "应用"
+
+#: config-dialog.ui:62
+msgid "Cancel"
+msgstr "取消"
+
+#: exclude-rules-config-page.ui:45
+msgid "Move the current exclude rule to the top of the list."
+msgstr "将当前的排除规则移至列表顶部。"
+
+#: exclude-rules-config-page.ui:59
+msgid "Move the current exclude rule one position up in the list."
+msgstr "将当前的排除规则在列表中上移一个位置。"
+
+#: exclude-rules-config-page.ui:86
+msgid ""
+"Create a new exclude rule.\n"
+"You can create as many as you like."
+msgstr ""
+"创建新的排除规则。\n"
+"可依需要创建任意数量的排除规则。"
+
+#: exclude-rules-config-page.ui:101
+msgid "Remove the current exclude rule."
+msgstr "移除当前的排除规则。"
+
+#: exclude-rules-config-page.ui:128
+msgid "Move the current exclude rule one position down in the list."
+msgstr "将当前的排除规则在列表中下移一个位置。"
+
+#: exclude-rules-config-page.ui:142
+msgid "Move the current exclude rule to the bottom of the list."
+msgstr "将当前的排除规则移至列表底部。"
+
+#: exclude-rules-config-page.ui:162
+msgid "Exclude Directories With &Pattern"
+msgstr "排除符合模式的目录(&P)"
+
+#: exclude-rules-config-page.ui:188
+msgid "P&attern Syntax"
+msgstr "模式语法(&A)"
+
+#: exclude-rules-config-page.ui:194
+msgid "Fixed &String"
+msgstr "固定字符串(&S)"
+
+#: exclude-rules-config-page.ui:201
+msgid "&Wildcards"
+msgstr "通配符(&W)"
+
+#: exclude-rules-config-page.ui:208
+msgid "&Regular Expression"
+msgstr "正则表达式(&R)"
+
+#: exclude-rules-config-page.ui:231
+msgid "&Match Against"
+msgstr "比对对象(&M)"
+
+#: exclude-rules-config-page.ui:237
+msgid "&Directory Name Without Path"
+msgstr "目录名称（不含路径）(&D)"
+
+#: exclude-rules-config-page.ui:244
+msgid "F&ull Path"
+msgstr "完整路径(&U)"
+
+#: exclude-rules-config-page.ui:251
+msgid "Any &File in that Directory"
+msgstr "该目录中的任一文件(&F)"
+
+#: file-age-stats-window.ui:14 file-age-stats-window.ui:32
+msgid "File Age"
+msgstr "文件年龄"
+
+#: file-age-stats-window.ui:29
+msgid ""
+"<html><head/><body><p>Year of the modification time of the file</p></body></"
+"html><"
+msgstr "<html><head/><body><p>文件最后修改时间的年份</p></body></html>"
+
+#: file-age-stats-window.ui:62 file-type-stats-window.ui:50
+#: locate-file-type-window.ui:59 locate-files-window.ui:58
+msgid "&Refresh"
+msgstr "刷新(&R)"
+
+#: file-age-stats-window.ui:72
+msgid ""
+"<html><head/><body><p>Locate the files from that year</p><p>(only if no more "
+"than 1000)</p></body></html>"
+msgstr "<html><head/><body><p>寻找该年份的文件</p><p>（仅限文件数不超过 1000 个时）</p></body></html>"
+
+#: file-age-stats-window.ui:75 file-type-stats-window.ui:92
+msgid "&Locate"
+msgstr "寻找位置(&L)"
+
+#: file-age-stats-window.ui:98
+msgid ""
+"<html><head/><body><p>If checked: If a different directory is selected in "
+"the main window, automatically update the content of this window with data "
+"from that other directory of the main window.</p></body></html>"
+msgstr "<html><head/><body><p>勾选后，若在主窗口选择其他目录，此窗口会自动更新，显示该目录的数据。</p></body></html>"
+
+#: file-age-stats-window.ui:101
+msgid "&Sync with Main Window"
+msgstr "与主窗口同步(&S)"
+
+#: file-age-stats-window.ui:130 file-size-stats-window.ui:992
+#: file-type-stats-window.ui:83 filesystems-window.ui:111
+#: locate-file-type-window.ui:85 locate-files-window.ui:107
+#: output-window.ui:212 unreadable-dirs-window.ui:117
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: file-details-view.ui:14
+msgid "Details"
+msgstr "详细信息"
+
+#: file-details-view.ui:84 file-details-view.ui:623 file-details-view.ui:795
+msgid "Type:"
+msgstr "类型："
+
+#: file-details-view.ui:91 FormatUtil.cpp:186
+msgid "File"
+msgstr "文件"
+
+#: file-details-view.ui:103
+msgid "MIME Category:"
+msgstr "MIME 分类："
+
+#: file-details-view.ui:122
+msgid "Size:"
+msgstr "大小："
+
+#: file-details-view.ui:149
+msgid "System File"
+msgstr "系统文件"
+
+#: file-details-view.ui:161
+msgid "Package:"
+msgstr "软件包："
+
+#: file-details-view.ui:190 file-details-view.ui:611
+msgid "User:"
+msgstr "用户："
+
+#: file-details-view.ui:209 file-details-view.ui:528
+msgid "Group:"
+msgstr "群组："
+
+#: file-details-view.ui:228 file-details-view.ui:547
+msgid "Permissions:"
+msgstr "权限："
+
+#: file-details-view.ui:247 file-details-view.ui:495 file-details-view.ui:566
+#: file-details-view.ui:942 file-details-view.ui:1156
+msgid "Last Modified:"
+msgstr "最后修改："
+
+#: file-details-view.ui:266 file-details-view.ui:687 file-details-view.ui:961
+#: file-details-view.ui:1175 file-details-view.ui:1373
+msgid "Allocated:"
+msgstr "已分配空间："
+
+#: file-details-view.ui:292
+msgid "Link Target:"
+msgstr "链接目标："
+
+#: file-details-view.ui:305
+msgid "Broken Symlink! "
+msgstr "符号链接已失效！ "
+
+#: file-details-view.ui:431 file-details-view.ui:866 file-details-view.ui:1080
+#: file-details-view.ui:1361
+msgid "Total Size:"
+msgstr "总大小："
+
+#: file-details-view.ui:457 file-details-view.ui:904 file-details-view.ui:1118
+#: file-details-view.ui:1297
+msgid "Files:"
+msgstr "文件数："
+
+#: file-details-view.ui:476 file-details-view.ui:923 file-details-view.ui:1137
+msgid "Subdirs:"
+msgstr "子目录数："
+
+#: file-details-view.ui:509 FileDetailsView.cpp:340 LocateFileTypeWindow.cpp:75
+#: UnreadableDirsWindow.cpp:76 FormatUtil.cpp:180
+msgid "Directory"
+msgstr "目录"
+
+#: file-details-view.ui:586
+msgid ""
+"\n"
+"Directory"
+msgstr ""
+"\n"
+"目录"
+
+#: file-details-view.ui:599
+msgid "Own Size:"
+msgstr "本身大小："
+
+#: file-details-view.ui:636
+msgid ""
+"\n"
+"Subtree"
+msgstr ""
+"\n"
+"子树"
+
+#: file-details-view.ui:656 file-details-view.ui:885 file-details-view.ui:1099
+msgid "Items:"
+msgstr "项目数："
+
+#: file-details-view.ui:802
+msgid "Package"
+msgstr "软件包"
+
+#: file-details-view.ui:814
+msgid "Version:"
+msgstr "版本："
+
+#: file-details-view.ui:833
+msgid "Architecture:"
+msgstr "架构："
+
+#: file-details-view.ui:853 file-details-view.ui:1067
+msgid ""
+"\n"
+"Installed Files"
+msgstr ""
+"\n"
+"已安装的文件"
+
+#: file-details-view.ui:1017
+msgid "Packages Summary"
+msgstr "软件包摘要"
+
+#: file-details-view.ui:1047
+msgid "Packages:"
+msgstr "软件包数："
+
+#: file-details-view.ui:1246
+msgid "Selected Items"
+msgstr "已选中的项目"
+
+#: file-details-view.ui:1330
+msgid "Directories:"
+msgstr "目录数："
+
+#: file-details-view.ui:1342
+msgid "Files in Subtrees:"
+msgstr "子树中的文件数："
+
+#: file-size-stats-window.ui:14
+msgid "File Size Statistics"
+msgstr "文件大小统计"
+
+#: file-size-stats-window.ui:23
+msgid "File size statistics"
+msgstr "文件大小统计"
+
+#: file-size-stats-window.ui:37
+msgid "&Histogram"
+msgstr "直方图(&H)"
+
+#: file-size-stats-window.ui:48 FileSizeStatsWindow.cpp:432
+msgid "&Options >>"
+msgstr "选项(&O) >>"
+
+#: file-size-stats-window.ui:112
+msgid "A&uto"
+msgstr "自动(&U)"
+
+#: file-size-stats-window.ui:141 file-size-stats-window.ui:180
+msgid "P"
+msgstr "P"
+
+#: file-size-stats-window.ui:151
+msgid "&Start Percentile"
+msgstr "起始百分位数(&S)"
+
+#: file-size-stats-window.ui:161
+msgid "&End Percentile"
+msgstr "结束百分位数(&E)"
+
+#: file-size-stats-window.ui:202
+msgid "&Percentiles"
+msgstr "百分位数(&P)"
+
+#: file-size-stats-window.ui:227
+msgid "Interesting only"
+msgstr "仅显示重点"
+
+#: file-size-stats-window.ui:232
+msgid "Show all"
+msgstr "显示全部"
+
+#: file-size-stats-window.ui:359
+msgid "&Buckets"
+msgstr "分组(&B)"
+
+#: file-size-stats-window.ui:369
+msgid "H&elp"
+msgstr "帮助(&E)"
+
+#: file-size-stats-window.ui:805
+msgid "<h3>Statistics Basics</h3>"
+msgstr "<h3>统计基础</h3>"
+
+#: file-size-stats-window.ui:812
+msgid "Median, Quartiles and Percentiles"
+msgstr "中位数、四分位数与百分位数"
+
+#: file-size-stats-window.ui:815
+msgid ""
+"Basic statistics terms explained in a way that everybody can understand."
+msgstr "以浅显易懂的方式解释基本统计术语。"
+
+#: file-size-stats-window.ui:822
+msgid "Histograms in General"
+msgstr "认识直方图"
+
+#: file-size-stats-window.ui:825
+msgid "What is a histogram? What is it good for?"
+msgstr "什么是直方图？有什么用途？"
+
+#: file-size-stats-window.ui:848
+msgid "<h3>QDirStat File Size Statistics</h3>"
+msgstr "<h3>QDirStat 文件大小统计</h3>"
+
+#: file-size-stats-window.ui:855
+msgid "The File Size Histogram"
+msgstr "文件大小直方图"
+
+#: file-size-stats-window.ui:858
+msgid ""
+"QDirStat's \"File Size\" histogram in particular: What is it? What does it "
+"tell you?"
+msgstr "介绍 QDirStat 的“文件大小”直方图：它是什么？能告诉您哪些信息？"
+
+#: file-size-stats-window.ui:865
+msgid "The Overflow Area"
+msgstr "超出范围的区域"
+
+#: file-size-stats-window.ui:868
+msgid ""
+"Explaining the \"Cut off\" panel with the pie charts at the right side of "
+"the histogram."
+msgstr "说明直方图右侧含圆饼图的“截除部分”面板。"
+
+#: file-size-stats-window.ui:875
+msgid "Histogram Options"
+msgstr "直方图选项"
+
+#: file-size-stats-window.ui:878
+msgid ""
+"Explanation of the sliders, input fields and buttons in the panel that opens "
+"when you click the \"Options\" button below the histogram."
+msgstr "说明按下直方图下方的“选项”按钮后，所打开面板中的滑杆、输入字段与按钮。"
+
+#: file-size-stats-window.ui:901
+msgid "The Percentiles Table"
+msgstr "百分位数表格"
+
+#: file-size-stats-window.ui:904
+msgid "Explanation of the table on the \"Percentiles\" page in this dialog."
+msgstr "说明此对话框中“百分位数”页面的表格。"
+
+#: file-size-stats-window.ui:911
+msgid "The Buckets Table"
+msgstr "分组表格"
+
+#: file-size-stats-window.ui:914
+msgid "Explanation of the table on the \"Buckets\" table in this dialog."
+msgstr "说明此对话框中的“分组”表格。"
+
+#: file-size-stats-window.ui:937
+msgid "<i>All links are opened in an external browser.</i>"
+msgstr "<i>所有链接都会在外部浏览器中打开。</i>"
+
+#: file-type-stats-window.ui:14 main-window.ui:799
+msgid "File Type Statistics"
+msgstr "文件类型统计"
+
+#: file-type-stats-window.ui:23
+msgid "File type statistics"
+msgstr "文件类型统计"
+
+#: file-type-stats-window.ui:57
+msgid "File &Type"
+msgstr "文件类型(&T)"
+
+#: file-type-stats-window.ui:97
+msgid "Si&ze Statistics"
+msgstr "大小统计(&Z)"
+
+#: filesystems-window.ui:14
+msgid "Filesystems"
+msgstr "文件系统"
+
+#: filesystems-window.ui:32
+msgid "&Mounted Filesystems"
+msgstr "已挂载的文件系统(&M)"
+
+#: filesystems-window.ui:78
+msgid "Re&fresh"
+msgstr "刷新(&F)"
+
+#: filesystems-window.ui:85
+msgid "&Read"
+msgstr "读取(&R)"
+
+#: find-files-dialog.ui:14
+msgid "Find"
+msgstr "寻找"
+
+#: find-files-dialog.ui:51
+msgid "Find in the Scanned Tree"
+msgstr "在已扫描的目录树中寻找"
+
+#: find-files-dialog.ui:91
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#: find-files-dialog.ui:116
+msgid "search text or pattern"
+msgstr "搜索文字或模式"
+
+#: find-files-dialog.ui:129 open-pkg-dialog.ui:145
+msgid "Match &Mode:"
+msgstr "比对方式(&M)："
+
+#: find-files-dialog.ui:158 open-pkg-dialog.ui:165
+msgid "Auto"
+msgstr "自动"
+
+#: find-files-dialog.ui:163 open-pkg-dialog.ui:170
+msgid "Contains"
+msgstr "包含"
+
+#: find-files-dialog.ui:168 open-pkg-dialog.ui:175
+msgid "Starts with"
+msgstr "开头为"
+
+#: find-files-dialog.ui:173 open-pkg-dialog.ui:180
+msgid "Exact match"
+msgstr "完全相符"
+
+#: find-files-dialog.ui:178 open-pkg-dialog.ui:185
+msgid "Wildcard"
+msgstr "通配符"
+
+#: find-files-dialog.ui:183 open-pkg-dialog.ui:190
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#: find-files-dialog.ui:204
+msgid "Case Sensiti&ve"
+msgstr "区分大小写(&V)"
+
+#: find-files-dialog.ui:241
+msgid "Find &Files"
+msgstr "寻找文件(&F)"
+
+#: find-files-dialog.ui:251
+msgid "Find &Directories"
+msgstr "寻找目录(&D)"
+
+#: find-files-dialog.ui:261
+msgid "Find &Both, Files and Directories"
+msgstr "同时寻找文件与目录(&B)"
+
+#: find-files-dialog.ui:281
+msgid "Find Symbolic &Links"
+msgstr "寻找符号链接(&L)"
+
+#: find-files-dialog.ui:319
+msgid "In the &Whole Tree"
+msgstr "在整个目录树中(&W)"
+
+#: find-files-dialog.ui:326
+msgid "In the Current S&ubtree"
+msgstr "在当前的子树中(&U)"
+
+#: find-files-dialog.ui:378
+msgid "/home/kilroy/tmp"
+msgstr "/home/kilroy/tmp"
+
+#: general-config-page.ui:50
+msgid "Show &URL in window title"
+msgstr "在窗口标题中显示 URL(&U)"
+
+#: general-config-page.ui:57
+msgid "Use ho&ver effect in treemap"
+msgstr "激活矩形树状图的鼠标悬停效果(&V)"
+
+#: general-config-page.ui:64
+msgid "&Cross filesystem boundaries while reading"
+msgstr "读取时跨越文件系统边界(&C)"
+
+#: general-config-page.ui:71
+msgid "Use &bold font for dominant tree items"
+msgstr "以粗体显示目录树中占用空间较大的项目(&B)"
+
+#: general-config-page.ui:78
+msgid "Use &ISO date and time format (\"2024-12-28  17:38\")"
+msgstr "使用 ISO 日期与时间格式（“2024-12-28  17:38”）(&I)"
+
+#: general-config-page.ui:102
+msgid "Tree icon &theme:"
+msgstr "目录树图标主题(&T)："
+
+#: general-config-page.ui:116
+msgid "Medium"
+msgstr "中"
+
+#: general-config-page.ui:121
+msgid "Small"
+msgstr "小"
+
+#: general-config-page.ui:142
+msgid "Tree update &interval while reading:"
+msgstr "读取时的目录树更新间隔(&I)："
+
+#: general-config-page.ui:152
+msgid " millisec"
+msgstr " 毫秒"
+
+#: general-config-page.ui:181
+msgid "Timeout for status bar &messages:"
+msgstr "状态栏消息显示时间(&M)："
+
+#: general-config-page.ui:243
+msgid ""
+"Most options on this page take effect only after restarting the program."
+msgstr "此页面的大多数选项需重新启动程序后才会生效。"
+
+#: locate-file-type-window.ui:14
+msgid "Locate Files by Type"
+msgstr "依类型寻找文件"
+
+#: locate-file-type-window.ui:29
+msgid "Directories with File Type"
+msgstr "包含此文件类型的目录"
+
+#: locate-files-window.ui:14 locate-files-window.ui:28
+msgid "Locate Files"
+msgstr "寻找文件"
+
+#: main-window.ui:15
+msgid "QDirStat"
+msgstr "QDirStat"
+
+#: main-window.ui:72
+msgid "Bookmark / Un-Bookmark"
+msgstr "加入／移除书签"
+
+#: main-window.ui:86
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: main-window.ui:99
+msgid ""
+"<html><head/><body><p>/work/src/<a href=\"/work/src/qdirstat\">qdirstat</a>/"
+"<a href=\"/work/src/qdirstat/src\">src</a>/</p></body></html>"
+msgstr ""
+"<html><head/><body><p>/work/src/<a "
+"href=\"/work/src/qdirstat\">qdirstat</a>/<a "
+"href=\"/work/src/qdirstat/src\">src</a>/</p></body></html>"
+
+#: main-window.ui:184
+msgid "&File"
+msgstr "文件(&F)"
+
+#: main-window.ui:204
+msgid "&View"
+msgstr "视图(&V)"
+
+#: main-window.ui:208
+msgid "E&xpand Tree to Level"
+msgstr "展开目录树至指定层级(&X)"
+
+#: main-window.ui:219
+msgid "Tree&map"
+msgstr "矩形树状图(&M)"
+
+#: main-window.ui:244
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: main-window.ui:254
+msgid "&Go"
+msgstr "前往(&G)"
+
+#: main-window.ui:261
+msgid "To &Bookmark"
+msgstr "前往书签(&B)"
+
+#: main-window.ui:277
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: main-window.ui:281
+msgid "Problems and &Solutions"
+msgstr "问题与解决方法(&S)"
+
+#: main-window.ui:306
+msgid "&Clean Up"
+msgstr "清理(&C)"
+
+#: main-window.ui:313
+msgid "&Discover"
+msgstr "探索(&D)"
+
+#: main-window.ui:333
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: main-window.ui:363
+msgid "&Quit"
+msgstr "结束(&Q)"
+
+#: main-window.ui:366
+msgid "Exit application"
+msgstr "结束应用程序"
+
+#: main-window.ui:369
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: main-window.ui:381
+msgid "&Open Directory..."
+msgstr "打开目录(&O)…"
+
+#: main-window.ui:384
+msgid "Open a directory to scan."
+msgstr "打开要扫描的目录。"
+
+#: main-window.ui:387
+msgid "Ctrl+O"
+msgstr "Ctrl+O"
+
+#: main-window.ui:392
+msgid "New &Instance"
+msgstr "打开新运行个体(&I)"
+
+#: main-window.ui:395
+msgid "Open another QDirStat window (as a separate process)"
+msgstr "打开另一个 QDirStat 窗口（使用独立进程）"
+
+#: main-window.ui:398
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: main-window.ui:403
+msgid "&Close All Tree Levels"
+msgstr "收合所有目录层级(&C)"
+
+#: main-window.ui:406
+msgid "Close all branches of the directory tree."
+msgstr "收合目录树中的所有分支。"
+
+#: main-window.ui:411
+msgid "Level &0"
+msgstr "第 &0 层"
+
+#: main-window.ui:414
+msgid "Expand (open) the directory tree to level 0."
+msgstr "将目录树展开至第 0 层。"
+
+#: main-window.ui:419
+msgid "Level &1"
+msgstr "第 &1 层"
+
+#: main-window.ui:422
+msgid "Expand (open) the directory tree to level 1."
+msgstr "将目录树展开至第 1 层。"
+
+#: main-window.ui:430
+msgid "Level &2"
+msgstr "第 &2 层"
+
+#: main-window.ui:433
+msgid "Expand (open) the directory tree to level 2."
+msgstr "将目录树展开至第 2 层。"
+
+#: main-window.ui:441
+msgid "Level &3"
+msgstr "第 &3 层"
+
+#: main-window.ui:444
+msgid "Expand (open) the directory tree to level 3."
+msgstr "将目录树展开至第 3 层。"
+
+#: main-window.ui:452
+msgid "Level &4"
+msgstr "第 &4 层"
+
+#: main-window.ui:455
+msgid "Expand (open) the directory tree to level 4."
+msgstr "将目录树展开至第 4 层。"
+
+#: main-window.ui:463
+msgid "Level &5"
+msgstr "第 &5 层"
+
+#: main-window.ui:466
+msgid "Expand (open) the directory tree to level 5."
+msgstr "将目录树展开至第 5 层。"
+
+#: main-window.ui:474
+msgid "Level &6"
+msgstr "第 &6 层"
+
+#: main-window.ui:477
+msgid "Expand (open) the directory tree to level 6."
+msgstr "将目录树展开至第 6 层。"
+
+#: main-window.ui:485
+msgid "Level &7"
+msgstr "第 &7 层"
+
+#: main-window.ui:488
+msgid "Expand (open) the directory tree to level 7."
+msgstr "将目录树展开至第 7 层。"
+
+#: main-window.ui:496
+msgid "Level &8"
+msgstr "第 &8 层"
+
+#: main-window.ui:499
+msgid "Expand (open) the directory tree to level 8."
+msgstr "将目录树展开至第 8 层。"
+
+#: main-window.ui:507
+msgid "Level &9"
+msgstr "第 &9 层"
+
+#: main-window.ui:510
+msgid "Expand (open) the directory tree to level 9."
+msgstr "将目录树展开至第 9 层。"
+
+#: main-window.ui:522
+msgid "&Stop Reading"
+msgstr "停止读取(&S)"
+
+#: main-window.ui:525
+msgid "Stop reading directories."
+msgstr "停止读取目录。"
+
+#: main-window.ui:528
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: main-window.ui:537
+msgid "&Write To Cache File..."
+msgstr "写入缓存文件(&W)…"
+
+#: main-window.ui:540
+msgid "Write the current directory tree to a cache file."
+msgstr "将当前的目录树写入缓存文件。"
+
+#: main-window.ui:549
+msgid "&Read Cache File..."
+msgstr "读取缓存文件(&R)…"
+
+#: main-window.ui:552
+msgid "Read a directory tree from a cache file."
+msgstr "从缓存文件读取目录树。"
+
+#: main-window.ui:561
+msgid "Refresh &All"
+msgstr "全部刷新(&A)"
+
+#: main-window.ui:564
+msgid "Re-read the entire directory tree from disk."
+msgstr "从磁盘重新读取整个目录树。"
+
+#: main-window.ui:576
+msgid "&Copy Path"
+msgstr "复制路径(&C)"
+
+#: main-window.ui:579
+msgid ""
+"Copy the full path of the current item to the system clipboard for use in "
+"other applications."
+msgstr "将当前项目的完整路径复制到系统剪贴板，以便在其他应用程序中使用。"
+
+#: main-window.ui:582
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: main-window.ui:591
+msgid "Zoom &In"
+msgstr "放大(&I)"
+
+#: main-window.ui:594
+msgid "Zoom the treemap in (enlarge) one level."
+msgstr "将矩形树状图放大一个层级。"
+
+#: main-window.ui:597 output-window.ui:231
+msgid "Ctrl++"
+msgstr "Ctrl++"
+
+#: main-window.ui:606
+msgid "Zoom &Out"
+msgstr "缩小(&O)"
+
+#: main-window.ui:609
+msgid "Zoom the treemap out one level."
+msgstr "将矩形树状图缩小一个层级。"
+
+#: main-window.ui:612 output-window.ui:246
+msgid "Ctrl+-"
+msgstr "Ctrl+-"
+
+#: main-window.ui:621
+msgid "&Reset Zoom"
+msgstr "重置缩放比例(&R)"
+
+#: main-window.ui:624
+msgid "Reset the treemap zoom factor to normal."
+msgstr "将矩形树状图的缩放比例恢复为原始大小。"
+
+#: main-window.ui:627 output-window.ui:261
+msgid "Ctrl+0"
+msgstr "Ctrl+0"
+
+#: main-window.ui:632
+msgid "Re&build"
+msgstr "重新绘制(&B)"
+
+#: main-window.ui:635
+msgid "Rebuild the treemap."
+msgstr "重新绘制矩形树状图。"
+
+#: main-window.ui:646
+msgid "&Show Treemap"
+msgstr "显示矩形树状图(&S)"
+
+#: main-window.ui:649
+msgid "Enable or disable showing the treemap view."
+msgstr "显示或隐藏矩形树图视图。"
+
+#: main-window.ui:661
+msgid "&Up One Level"
+msgstr "上一层(&U)"
+
+#: main-window.ui:664
+msgid "Up One Level"
+msgstr "上一层"
+
+#: main-window.ui:667
+msgid "Alt+Up"
+msgstr "Alt+Up"
+
+#: main-window.ui:676
+msgid "To Tople&vel"
+msgstr "前往最上层(&V)"
+
+#: main-window.ui:679
+msgid "Navigate to the toplevel directory of this tree."
+msgstr "前往此目录树的最上层目录。"
+
+#: main-window.ui:682
+msgid "Alt+Home"
+msgstr "Alt+Home"
+
+#: main-window.ui:691
+msgid "A&bout QDirStat..."
+msgstr "关于 QDirStat(&B)…"
+
+#: main-window.ui:694 MainWindowHelp.cpp:47
+msgid "About QDirStat"
+msgstr "关于 QDirStat"
+
+#: main-window.ui:702
+msgid "About &Qt..."
+msgstr "关于 Qt(&Q)…"
+
+#: main-window.ui:705
+msgid "About Qt..."
+msgstr "关于 Qt…"
+
+#: main-window.ui:708
+msgid "About Qt"
+msgstr "关于 Qt"
+
+#: main-window.ui:716
+msgid "Re&fresh Selected"
+msgstr "刷新选中项目(&F)"
+
+#: main-window.ui:719
+msgid "Reread the selected branch from disk."
+msgstr "从磁盘重新读取选中的分支。"
+
+#: main-window.ui:727
+msgid "Read &Excluded Directory"
+msgstr "读取已排除的目录(&E)"
+
+#: main-window.ui:730
+msgid "Read a directory that was excluded by an exclude rule."
+msgstr "读取被排除规则略过的目录。"
+
+#: main-window.ui:739
+msgid "Continue Reading at &Mount Point"
+msgstr "从挂载点继续读取(&M)"
+
+#: main-window.ui:742
+msgid "Continue Reading at Mount Point"
+msgstr "从挂载点继续读取"
+
+#: main-window.ui:751
+msgid "C&onfigure QDirStat"
+msgstr "设置 QDirStat(&O)"
+
+#: main-window.ui:754
+msgid "Configure QDirStat"
+msgstr "设置 QDirStat"
+
+#: main-window.ui:762
+msgid "Verbose Selection"
+msgstr "详细选择记录"
+
+#: main-window.ui:765
+msgid "Switch verbose logging of selecting and unselecting items on or off."
+msgstr "打开或关闭选中与取消选中项目的详细日志记录。"
+
+#: main-window.ui:777
+msgid "Move to T&rash"
+msgstr "移至垃圾桶(&R)"
+
+#: main-window.ui:780
+msgid "Move the selected items to the trash bin."
+msgstr "将选中的项目移至垃圾桶。"
+
+#: main-window.ui:788
+msgid "Dump Selection to Log"
+msgstr "将选中项目写入日志"
+
+#: main-window.ui:796
+msgid "File &Type Statistics"
+msgstr "文件类型统计(&T)"
+
+#: main-window.ui:807
+msgid "QDirStat &Help"
+msgstr "QDirStat 帮助(&H)"
+
+#: main-window.ui:810 main-window.ui:813
+msgid "QDirStat Help"
+msgstr "QDirStat 帮助"
+
+#: main-window.ui:816
+msgid "https://github.com/shundhammer/qdirstat/blob/master/README.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/README.md"
+
+#: main-window.ui:824
+msgid "File &Size Statistics"
+msgstr "文件大小统计(&S)"
+
+#: main-window.ui:838 main-window.ui:841
+msgid "Show &Details Panel"
+msgstr "显示详细信息面板(&D)"
+
+#: main-window.ui:849
+msgid "Layout &1 (Short)"
+msgstr "布局 &1（精简）"
+
+#: main-window.ui:852
+msgid "L1"
+msgstr "L1"
+
+#: main-window.ui:866
+msgid "Layout &2 (Classic)"
+msgstr "布局 &2（经典）"
+
+#: main-window.ui:869
+msgid "L2"
+msgstr "L2"
+
+#: main-window.ui:880
+msgid "Layout &3 (Full)"
+msgstr "布局 &3（完整）"
+
+#: main-window.ui:883
+msgid "L3"
+msgstr "L3"
+
+#: main-window.ui:891
+msgid "&Donate..."
+msgstr "捐款(&D)…"
+
+#: main-window.ui:897
+msgid "Make a donation to support the QDirStat project"
+msgstr "捐款支持 QDirStat 项目"
+
+#: main-window.ui:902
+msgid "What's &New in this Release..."
+msgstr "此版本的新功能(&N)…"
+
+#: main-window.ui:905
+msgid "Show release notes in external web browser"
+msgstr "在外部网页浏览器中显示版本说明"
+
+#: main-window.ui:915
+msgid "Show Installed &Packages..."
+msgstr "显示已安装的软件包(&P)…"
+
+#: main-window.ui:918
+msgid "Show Installed Packages"
+msgstr "显示已安装的软件包"
+
+#: main-window.ui:921
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: main-window.ui:926
+msgid "The &Packages View..."
+msgstr "软件包视图(&P)…"
+
+#: main-window.ui:929
+msgid "The Packages View..."
+msgstr "软件包视图…"
+
+#: main-window.ui:932
+msgid "The Packages View"
+msgstr "软件包视图"
+
+#: main-window.ui:935
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Pkg-View.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Pkg-View.md"
+
+#: main-window.ui:940
+msgid "Show &Unpackaged Files..."
+msgstr "显示不属于软件包的文件(&U)…"
+
+#: main-window.ui:943
+msgid "Show only files that do NOT belong to an installed software package"
+msgstr "仅显示不属于任何已安装软件软件包的文件"
+
+#: main-window.ui:946
+msgid "Ctrl+U"
+msgstr "Ctrl+U"
+
+#: main-window.ui:951
+msgid "The &Unpackaged Files View..."
+msgstr "未打包文件视图(&U)…"
+
+#: main-window.ui:954
+msgid "The Unpackaged Files View..."
+msgstr "未打包文件视图…"
+
+#: main-window.ui:957
+msgid "The Unpackaged Files View"
+msgstr "未打包文件视图"
+
+#: main-window.ui:960
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Unpkg-View.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Unpkg-View.md"
+
+#: main-window.ui:965
+msgid "Show Mounted &Filesystems"
+msgstr "显示已挂载的文件系统(&F)"
+
+#: main-window.ui:968
+msgid "Ctrl+M"
+msgstr "Ctrl+M"
+
+#: main-window.ui:973
+msgid "&Largest Files"
+msgstr "最大的文件(&L)"
+
+#: main-window.ui:976
+msgid "Largest Files"
+msgstr "最大的文件"
+
+#: main-window.ui:981
+msgid "&Newest Files"
+msgstr "最新的文件(&N)"
+
+#: main-window.ui:984
+msgid "Newest Files"
+msgstr "最新的文件"
+
+#: main-window.ui:989
+msgid "&Oldest Files"
+msgstr "最旧的文件(&O)"
+
+#: main-window.ui:992
+msgid "Oldest Files"
+msgstr "最旧的文件"
+
+#: main-window.ui:997
+msgid "Files with Multiple &Hard Links"
+msgstr "具有多个硬链接的文件(&H)"
+
+#: main-window.ui:1000
+msgid "Files with Multiple Hard Links"
+msgstr "具有多个硬链接的文件"
+
+#: main-window.ui:1005
+msgid "&Broken Symbolic LInks"
+msgstr "失效的符号链接(&B)"
+
+#: main-window.ui:1008
+msgid "Broken Symbolic LInks"
+msgstr "失效的符号链接"
+
+#: main-window.ui:1013
+msgid "&Sparse Files"
+msgstr "稀疏文件(&S)"
+
+#: main-window.ui:1016
+msgid "Sparse Files"
+msgstr "稀疏文件"
+
+#: main-window.ui:1021
+msgid "&Btrfs Size Reporting..."
+msgstr "Btrfs 空间用量回报(&B)…"
+
+#: main-window.ui:1024
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Btrfs-Free-Size.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Btrfs-Free-Size.md"
+
+#: main-window.ui:1029
+msgid "Files Shadowed by a &Mount..."
+msgstr "被挂载点屏蔽的文件(&M)…"
+
+#: main-window.ui:1032
+msgid "Files Shadowed by a Mount..."
+msgstr "被挂载点屏蔽的文件…"
+
+#: main-window.ui:1035
+msgid "Files Shadowed by a Mount"
+msgstr "被挂载点屏蔽的文件"
+
+#: main-window.ui:1038
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Shadowed-by-Mount.md"
+msgstr ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Shadowed-by-"
+"Mount.md"
+
+#: main-window.ui:1043
+msgid "QDirStat for &Headless Servers..."
+msgstr "在无图形界面的服务器上使用 QDirStat(&H)…"
+
+#: main-window.ui:1046
+msgid "QDirStat for Headless Servers..."
+msgstr "在无图形界面的服务器上使用 QDirStat…"
+
+#: main-window.ui:1049
+msgid "QDirStat for Headless Servers"
+msgstr "在无图形界面的服务器上使用 QDirStat"
+
+#: main-window.ui:1052
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/QDirStat-for-"
+"Servers.md"
+msgstr ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/QDirStat-for-"
+"Servers.md"
+
+#: main-window.ui:1057
+msgid "Can't Move a Directory to &Trash..."
+msgstr "无法将目录移至垃圾桶(&T)…"
+
+#: main-window.ui:1060
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/"
+"Troubleshooting.md#cant-move-a-directory-to-trash"
+msgstr ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/Troubleshooting.md"
+"#cant-move-a-directory-to-trash"
+
+#: main-window.ui:1065
+msgid "File &Age Statistics"
+msgstr "文件年龄统计(&A)"
+
+#: main-window.ui:1073
+msgid "Files from &Year"
+msgstr "指定年份的文件(&Y)"
+
+#: main-window.ui:1082
+msgid "&Back"
+msgstr "上一页(&B)"
+
+#: main-window.ui:1085
+msgid "Go back to the previous directory"
+msgstr "返回上一个目录"
+
+#: main-window.ui:1097
+msgid "&Forward"
+msgstr "下一页(&F)"
+
+#: main-window.ui:1100
+msgid ""
+"<html><head/><body><p>Go forward again to the next directory (after going "
+"back).</p></body></html>"
+msgstr "<html><head/><body><p>返回上一个目录后，再次前往下一个目录。</p></body></html>"
+
+#: main-window.ui:1108
+msgid "The File &Age Statistics..."
+msgstr "文件年龄统计(&A)…"
+
+#: main-window.ui:1111
+msgid ""
+"https://github.com/shundhammer/qdirstat/blob/master/doc/File-Age-Stats.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/File-Age-Stats.md"
+
+#: main-window.ui:1116
+msgid "&Find..."
+msgstr "寻找(&F)…"
+
+#: main-window.ui:1119
+msgid "Find Files or Directories in the Scanned Tree"
+msgstr "在已扫描的目录树中寻找文件或目录"
+
+#: main-window.ui:1122
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: main-window.ui:1127
+msgid "Select &All"
+msgstr "全选(&A)"
+
+#: main-window.ui:1130
+msgid "Select all Bookmarks in the Tree"
+msgstr "选择目录树中所有已加入书签的项目"
+
+#: main-window.ui:1135
+msgid "The &Treemap Graphics..."
+msgstr "矩形树状图(&T)…"
+
+#: main-window.ui:1138
+msgid "The colored graphics in the main window explained"
+msgstr "说明主窗口中的彩色图形"
+
+#: main-window.ui:1141
+msgid "https://github.com/shundhammer/qdirstat/blob/master/doc/Treemap.md"
+msgstr "https://github.com/shundhammer/qdirstat/blob/master/doc/Treemap.md"
+
+#: MainWindow.cpp:550
+#, qt-format
+msgid "Finished. Elapsed time: %1"
+msgstr "已完成。耗时：%1"
+
+#: MainWindow.cpp:569
+#, qt-format
+msgid "Aborted. Elapsed time: %1"
+msgstr "已中止。耗时：%1"
+
+#: MainWindow.cpp:621 MainWindow.cpp:839 MainWindow.cpp:874 MainWindow.cpp:977
+#: CleanupConfigPage.cpp:135
+msgid "Error"
+msgstr "错误"
+
+#: MainWindow.cpp:622
+#, qt-format
+msgid "Could not open directory %1"
+msgstr "无法打开目录 %1"
+
+#: MainWindow.cpp:649
+msgid "Following symbolic link"
+msgstr "跟随符号链接"
+
+#: MainWindow.cpp:650
+#, qt-format
+msgid "%1 is a symbolic link to %2"
+msgstr "%1 是指向 %2 的符号链接"
+
+#: MainWindow.cpp:663
+msgid "Broken symbolic link"
+msgstr "符号链接已失效"
+
+#: MainWindow.cpp:664
+#, qt-format
+msgid "%1 is a broken symbolic link to %2"
+msgstr "%1 是指向 %2 的失效符号链接"
+
+#: MainWindow.cpp:694
+msgid "Select directory to scan"
+msgstr "选择要扫描的目录"
+
+#: MainWindow.cpp:741
+msgid "Reading package database..."
+msgstr "正在读取软件包数据库…"
+
+#: MainWindow.cpp:822
+msgid "Reading aborted."
+msgstr "读取已中止。"
+
+#: MainWindow.cpp:840
+#, qt-format
+msgid "Can't read cache file \"%1\""
+msgstr "无法读取缓存文件“%1”"
+
+#: MainWindow.cpp:849
+msgid "Select QDirStat cache file"
+msgstr "选择 QDirStat 缓存文件"
+
+#: MainWindow.cpp:861
+msgid "Enter name for QDirStat cache file"
+msgstr "输入 QDirStat 缓存文件的名称"
+
+#: MainWindow.cpp:869
+#, qt-format
+msgid "Directory tree written to file %1"
+msgstr "目录树已写入文件 %1"
+
+#: MainWindow.cpp:875
+#, qt-format
+msgid "ERROR writing cache file \"%1\""
+msgstr "写入缓存文件“%1”时发生错误"
+
+#: MainWindow.cpp:886
+msgid " [root]"
+msgstr " [root]"
+
+#: MainWindow.cpp:903
+#, qt-format
+msgid "Reading... %1"
+msgstr "正在读取… %1"
+
+#: MainWindow.cpp:918
+msgid "  [Permission Denied]"
+msgstr "  [权限不足]"
+
+#: MainWindow.cpp:920
+msgid "  [Read Error]"
+msgstr "  [读取错误]"
+
+#: MainWindow.cpp:942
+#, qt-format
+msgid "%1 items selected (%2 total)"
+msgstr "已选中 %1 个项目（合计 %2）"
+
+#: MainWindow.cpp:957
+#, qt-format
+msgid "Starting cleanup action %1"
+msgstr "正在启动清理动作 %1"
+
+#: MainWindow.cpp:969
+msgid "Cleanup action finished successfully."
+msgstr "清理动作已顺利完成。"
+
+#: MainWindow.cpp:971
+#, qt-format
+msgid "Cleanup action finished with %1 errors."
+msgstr "清理动作已完成，共发生 %1 个错误。"
+
+#: MainWindow.cpp:977
+msgid "Not implemented!"
+msgstr "尚未实作！"
+
+#: MainWindow.cpp:990
+#, qt-format
+msgid "Copied to system clipboard: %1"
+msgstr "已复制到系统剪贴板：%1"
+
+#: MainWindow.cpp:994
+msgid "No current item"
+msgstr "当前没有选中项目"
+
+#: MainWindow.cpp:1127
+#, qt-format
+msgid "Bookmarked %1"
+msgstr "已将 %1 加入书签"
+
+#: MainWindow.cpp:1133
+#, qt-format
+msgid "Un-bookmarked %1"
+msgstr "已移除 %1 的书签"
+
+#: MainWindow.cpp:1176
+#, qt-format
+msgid "Moved to trash: %1"
+msgstr "已移至垃圾桶：%1"
+
+#: MainWindow.cpp:1178
+#, qt-format
+msgid "Move to trash failed for %1"
+msgstr "无法将 %1 移至垃圾桶"
+
+#: MainWindow.cpp:1275 panel-message.ui:116
+msgid "Some directories could not be read."
+msgstr "无法读取部分目录。"
+
+#: MainWindow.cpp:1276 panel-message.ui:132
+msgid "You might not have sufficient permissions."
+msgstr "您的权限可能不足。"
+
+#: MainWindowHelp.cpp:27
+msgid ""
+"Qt-based directory statistics -- showing where all your disk space has gone  "
+"and trying to help you to clean it up."
+msgstr "以 Qt 开发的目录统计工具，可显示磁盘空间的使用情形，并帮助您清理。"
+
+#: MainWindowHelp.cpp:32
+msgid "Contact: "
+msgstr "联系方式： "
+
+#: MainWindowHelp.cpp:35
+msgid "License: GPL V2 (GNU General Public License Version 2)"
+msgstr "授权条款：GPL V2（GNU 通用公共授权条款第 2 版）"
+
+#: MainWindowHelp.cpp:37
+msgid ""
+"This is free Open Source software, provided to you hoping that it might be "
+"useful for you. It does not cost you anything, but on the other hand there "
+"is no warranty or promise of anything."
+msgstr "这是一套免费的开放源代码软件，我们希望它能对您有所帮助。使用本软件不需支付任何费用，但我们也不提供任何担保或承诺。"
+
+#: MainWindowHelp.cpp:41
+msgid ""
+"This software was made with the best intentions and greatest care, but still "
+"there is the off chance that something might go wrong which might damage "
+"data on your computer. Under no circumstances will the authors of this "
+"program be held responsible for anything like that. Use this program at your "
+"own risk."
+msgstr "本软件出于善意并经审慎开发，但仍有极小的可能发生问题，导致您电脑上的数据受损。在任何情况下，本程序的作者均不对此类损害负责。使用本程序所产生的风险由您自行承担。"
+
+#: MainWindowHelp.cpp:55 MainWindowHelp.cpp:71
+msgid "Donate"
+msgstr "捐款"
+
+#: MainWindowHelp.cpp:57
+msgid "QDirStat is Free Open Source Software."
+msgstr "QDirStat 是免费的开放源代码软件。"
+
+#: MainWindowHelp.cpp:59
+msgid "If you find it useful, please consider donating.\n"
+msgstr "若您觉得它实用，请考虑捐款支持。\n"
+
+#: MainWindowHelp.cpp:60
+msgid "You can donate any amount of your choice:"
+msgstr "您可以自行决定捐款金额："
+
+#: MainWindowHelp.cpp:67
+msgid "(external browser window)"
+msgstr "（外部浏览器窗口）"
+
+#: MainWindowUnpkg.cpp:64
+msgid "Reading file lists..."
+msgstr "正在读取文件列表…"
+
+#: message-panel.ui:38
+msgid "Dummy Placeholder"
+msgstr "暂用占位项目"
+
+#: mime-category-config-page.ui:43
+msgid "MIME C&ategory"
+msgstr "MIME 分类(&A)"
+
+#: mime-category-config-page.ui:72
+msgid "Edit the name of the current category."
+msgstr "编辑当前分类的名称。"
+
+#: mime-category-config-page.ui:84
+msgid "Create a new category."
+msgstr "创建新分类。"
+
+#: mime-category-config-page.ui:98
+msgid "Remove the current category."
+msgstr "移除当前的分类。"
+
+#: mime-category-config-page.ui:131
+msgid "Select a color for the current category."
+msgstr "选择当前分类的颜色。"
+
+#: mime-category-config-page.ui:134
+msgid "C&olor"
+msgstr "颜色(&O)"
+
+#: mime-category-config-page.ui:147
+msgid "Enter color RGB code directly."
+msgstr "直接输入 RGB 色码。"
+
+#: mime-category-config-page.ui:172
+msgid "Preview Treemap"
+msgstr "预览矩形树状图"
+
+#: mime-category-config-page.ui:197
+msgid "&Patterns (Case Insensitive)"
+msgstr "模式（不区分大小写）(&P)"
+
+#: mime-category-config-page.ui:213 mime-category-config-page.ui:242
+msgid ""
+"Add filename patterns here,\n"
+"each one on a separate line.\n"
+"Use * or ? as wildcards."
+msgstr ""
+"在此添加文件名模式，\n"
+"每行输入一个。\n"
+"可使用 * 或 ? 作为通配符。"
+
+#: mime-category-config-page.ui:226
+msgid "Patterns (Case &Sensitive)"
+msgstr "模式（区分大小写）(&S)"
+
+#: open-dir-dialog.ui:14
+msgid "Select Directory"
+msgstr "选择目录"
+
+#: open-dir-dialog.ui:35
+msgid "Open Directory to Read"
+msgstr "打开要读取的目录"
+
+#: open-dir-dialog.ui:80
+msgid ""
+"Places and\n"
+"&Mounted Filesystems"
+msgstr ""
+"常用位置与\n"
+"已挂载的文件系统(&M)"
+
+#: open-dir-dialog.ui:106
+msgid ""
+"\n"
+"&Path"
+msgstr ""
+"\n"
+"路径(&P)"
+
+#: open-dir-dialog.ui:130
+msgid "Up"
+msgstr "上一层"
+
+#: open-dir-dialog.ui:189
+msgid ""
+"Normal mounts only,\n"
+"no bind mounts,\n"
+"no multiple mounts,\n"
+"no network mounts\n"
+"(NFS, Samba)\n"
+"\n"
+"This is temporary\n"
+"just for this program run."
+msgstr ""
+"仅限一般挂载，\n"
+"不包含绑定挂载、\n"
+"重复挂载或\n"
+"网络挂载\n"
+"（NFS、Samba）\n"
+"\n"
+"此设置为暂时性，\n"
+"仅适用于本次运行。"
+
+#: open-dir-dialog.ui:199
+msgid "Cross &Filesystems"
+msgstr "跨越文件系统边界(&F)"
+
+#: open-pkg-dialog.ui:14
+msgid "Select Packages"
+msgstr "选择软件包"
+
+#: open-pkg-dialog.ui:44
+msgid "Open Installed Packages"
+msgstr "打开已安装的软件包"
+
+#: open-pkg-dialog.ui:67
+msgid "Show Packages Mat&ching..."
+msgstr "显示符合条件的软件包(&C)…"
+
+#: open-pkg-dialog.ui:118
+msgid "&Pkg:/"
+msgstr "&Pkg:/"
+
+#: open-pkg-dialog.ui:128
+msgid "pkgname"
+msgstr "软件包名称"
+
+#: open-pkg-dialog.ui:221
+msgid "&All Installed Packages"
+msgstr "所有已安装的软件包(&A)"
+
+#: output-window.ui:14
+msgid "Cleanup Output"
+msgstr "清理输出"
+
+#: output-window.ui:106
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta "
+"charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans Mono'; font-"
+"size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is where output of "
+"the cleanup action will appear.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"color:#ffffff;\">cd /some/where/on/the/disk</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"color:#ffffff;\">cleanup --force junkfile</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600; color:#aa0000;\">This is an error message.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is normal program "
+"output.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">12345678901234567890123456789012345678901234567890123456789012345678901234567890</"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">         10        "
+"20        30        40        50        60        70       80</p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR"
+"/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta "
+"charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans Mono'; font-"
+"size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">清理动作的输出内容会显示在此处。</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"color:#ffffff;\">cd /some/where/on/the/disk</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"color:#ffffff;\">cleanup --force junkfile</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600; color:#aa0000;\">这是错误消息。</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">这是一般的程序输出。</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-"
+"indent:0px;\">12345678901234567890123456789012345678901234567890123456789012345678901234567890</p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">         10        20"
+"        30        40        50        60        70       "
+"80</p></body></html>"
+
+#: output-window.ui:182
+msgid "&Kill Process"
+msgstr "强制终止进程(&K)"
+
+#: output-window.ui:202
+msgid "&Auto Close"
+msgstr "自动关闭(&A)"
+
+#: output-window.ui:225
+msgid "Zoom In"
+msgstr "放大"
+
+#: output-window.ui:228
+msgid "Make the font of the output window larger."
+msgstr "放大输出窗口的字体。"
+
+#: output-window.ui:240
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: output-window.ui:243
+msgid "Make the font of the output window smaller."
+msgstr "缩小输出窗口的字体。"
+
+#: output-window.ui:255
+msgid "Reset Zoom"
+msgstr "重置缩放比例"
+
+#: output-window.ui:258
+msgid "Use standard font size for the output window."
+msgstr "将输出窗口的字体恢复为标准大小。"
+
+#: output-window.ui:270
+msgid "Kill Process"
+msgstr "强制终止进程"
+
+#: output-window.ui:273
+msgid "Forcefully kill the cleanup process."
+msgstr "强制终止清理进程。"
+
+#: OutputWindow.cpp:201
+msgid "Process finished."
+msgstr "进程已结束。"
+
+#: OutputWindow.cpp:214
+msgid "Process crashed."
+msgstr "进程已异常终止。"
+
+#: OutputWindow.cpp:219
+#, qt-format
+msgid "Process crashed. Exit code: %1"
+msgstr "进程已异常终止。结束代码：%1"
+
+#: OutputWindow.cpp:251
+msgid "Error: Process failed to start."
+msgstr "错误：无法启动进程。"
+
+#: OutputWindow.cpp:258
+msgid "Error: Process timed out."
+msgstr "错误：进程运行逾时。"
+
+#: OutputWindow.cpp:262
+msgid "Error reading output from the process."
+msgstr "读取进程输出时发生错误。"
+
+#: OutputWindow.cpp:266
+msgid "Error writing data to the process."
+msgstr "写入数据至进程时发生错误。"
+
+#: OutputWindow.cpp:270
+msgid "Unknown error."
+msgstr "未知的错误。"
+
+#: OutputWindow.cpp:385
+msgid "Process killed."
+msgstr "进程已强制终止。"
+
+#: OutputWindow.cpp:386
+#, qt-format
+msgid "Killed %1 processes."
+msgstr "已强制终止 %1 个进程。"
+
+#: panel-message.ui:14
+msgid "Message"
+msgstr "消息"
+
+#: panel-message.ui:148
+msgid ""
+"<html><head/><body><p><a href=\"details\"><span style=\" text-decoration: "
+"underline; color:#1d96b9;\">Details...</span></a></p></body></html>"
+msgstr ""
+"<html><head/><body><p><a href=\"details\"><span style=\" text-decoration:"
+" underline; color:#1d96b9;\">详细信息…</span></a></p></body></html>"
+
+#: BookmarksManager.cpp:115
+msgid "No Bookmarks"
+msgstr "没有书签"
+
+#: BucketsTableModel.cpp:107
+msgid "Start"
+msgstr "起始"
+
+#: BucketsTableModel.cpp:108
+msgid "End"
+msgstr "结束"
+
+#: BucketsTableModel.cpp:109 DirTreeModel.cpp:490 FileAgeStatsWindow.cpp:81
+msgid "Files"
+msgstr "文件"
+
+#: Cleanup.cpp:242
+#, qt-format
+msgid "ERROR: Shell %1 is not executable"
+msgstr "错误：shell %1 无法运行"
+
+#: Cleanup.cpp:246
+#, qt-format
+msgid "Using fallback %1"
+msgstr "改用备用shell %1"
+
+#: Cleanup.cpp:275
+msgid "No usable shell - aborting cleanup action"
+msgstr "没有可用的shell，正在中止清理动作"
+
+#: CleanupCollection.cpp:345
+#, qt-format
+msgid "<h3>%1</h3>for <b>directory</b> %2"
+msgstr "<h3>%1</h3>对<b>目录</b> %2 运行"
+
+#: CleanupCollection.cpp:347
+#, qt-format
+msgid "<h3>%1</h3>for file %2"
+msgstr "<h3>%1</h3>对文件 %2 运行"
+
+#: CleanupCollection.cpp:379
+#, qt-format
+msgid "<i>(%1 items total)</i>"
+msgstr "<i>（共 %1 个项目）</i>"
+
+#: CleanupCollection.cpp:382
+#, qt-format
+msgid ""
+"<h3>%1</h3> for:<br>\n"
+"%2<br>"
+msgstr ""
+"<h3>%1</h3>对下列项目运行：<br>\n"
+"%2<br>"
+
+#: CleanupCollection.cpp:386 ListEditor.cpp:210 ShowUnpkgFilesDialog.cpp:112
+msgid "Please Confirm"
+msgstr "请确认"
+
+#: CleanupCollection.cpp:410
+#, qt-format
+msgid "<b>Directory <font color=blue>%1</font></b>"
+msgstr "<b>目录 <font color=blue>%1</font></b>"
+
+#: CleanupCollection.cpp:412
+#, qt-format
+msgid "<b>Directory</b> %1"
+msgstr "<b>目录</b> %1"
+
+#: CleanupConfigPage.cpp:136
+msgid ""
+"Recursive operation cannot be used with\n"
+"refresh policy \"Assume Deleted\"."
+msgstr ""
+"递归操作无法配合\n"
+"“视为已删除此项目”刷新方式使用。"
+
+#: CleanupConfigPage.cpp:253
+#, qt-format
+msgid "Really delete cleanup \"%1\"?"
+msgstr "确定要删除清理动作“%1”吗？"
+
+#: ConfigDialog.cpp:42
+msgid "Cleanup Actions"
+msgstr "清理动作"
+
+#: ConfigDialog.cpp:46
+msgid "MIME Categories"
+msgstr "MIME 分类"
+
+#: ConfigDialog.cpp:50
+msgid "Exclude Rules"
+msgstr "排除规则"
+
+#: ConfigDialog.cpp:54
+msgid "General"
+msgstr "一般"
+
+#: DirTreeModel.cpp:485 FileSizeStatsWindow.cpp:236 FileTypeStatsWindow.cpp:93
+msgid "Name"
+msgstr "名称"
+
+#: DirTreeModel.cpp:486
+msgid "Subtree Percentage"
+msgstr "子树占比"
+
+#: DirTreeModel.cpp:487 FileAgeStatsWindow.cpp:83 FileAgeStatsWindow.cpp:86
+msgid "%"
+msgstr "%"
+
+#: DirTreeModel.cpp:488 FileAgeStatsWindow.cpp:84 FilesystemsWindow.cpp:106
+#: LocateFilesWindow.cpp:99
+msgid "Size"
+msgstr "大小"
+
+#: DirTreeModel.cpp:489
+msgid "Items"
+msgstr "项目"
+
+#: DirTreeModel.cpp:491
+msgid "Subdirs"
+msgstr "子目录"
+
+#: DirTreeModel.cpp:492 LocateFilesWindow.cpp:100
+msgid "Last Modified"
+msgstr "最后修改"
+
+#: DirTreeModel.cpp:493
+msgid "Oldest File"
+msgstr "最旧的文件"
+
+#: DirTreeModel.cpp:494 UnreadableDirsWindow.cpp:77
+msgid "User"
+msgstr "用户"
+
+#: DirTreeModel.cpp:495 UnreadableDirsWindow.cpp:78
+msgid "Group"
+msgstr "群组"
+
+#: DirTreeModel.cpp:496 UnreadableDirsWindow.cpp:79
+msgid "Permissions"
+msgstr "权限"
+
+#: DirTreeModel.cpp:497 UnreadableDirsWindow.cpp:80
+msgid "Perm."
+msgstr "权限"
+
+#: DirTreeModel.cpp:675
+#, qt-format
+msgid "[%1 Read Jobs]"
+msgstr "[%1 个读取工作]"
+
+#: DirTreeModel.cpp:693
+msgid "[Excluded]"
+msgstr "[已排除]"
+
+#: DirTreeModel.cpp:880
+#, qt-format
+msgid "%1 / %2 Links (allocated: %3)"
+msgstr "%1 / %2 个链接（已分配空间：%3）"
+
+#: DirTreeModel.cpp:887 FileDetailsView.cpp:233 FileDetailsView.cpp:239
+#: FileDetailsView.cpp:258 FileDetailsView.cpp:262
+#, qt-format
+msgid "%1 / %2 Links"
+msgstr "%1 / %2 个链接"
+
+#: DirTreeModel.cpp:896
+#, qt-format
+msgid "%1 (allocated: %2)"
+msgstr "%1（已分配空间：%2）"
+
+#: DirTreeView.cpp:139
+msgid "View in"
+msgstr "查看方式"
+
+#: DirTreeView.cpp:167
+#, qt-format
+msgid " (allocated: %1)"
+msgstr " （已分配空间：%1）"
+
+#: DiscoverActions.cpp:41
+#, qt-format
+msgid "Largest Files in %1"
+msgstr "%1 中最大的文件"
+
+#: DiscoverActions.cpp:49
+#, qt-format
+msgid "Newest Files in %1"
+msgstr "%1 中最新的文件"
+
+#: DiscoverActions.cpp:57
+#, qt-format
+msgid "Oldest Files in %1"
+msgstr "%1 中最旧的文件"
+
+#: DiscoverActions.cpp:65
+#, qt-format
+msgid "Files with Multiple Hard Links in %1"
+msgstr "%1 中具有多个硬链接的文件"
+
+#: DiscoverActions.cpp:72
+msgid "Checking symlinks..."
+msgstr "正在检查符号链接…"
+
+#: DiscoverActions.cpp:74
+#, qt-format
+msgid "Broken Symbolic Links in %1"
+msgstr "%1 中失效的符号链接"
+
+#: DiscoverActions.cpp:82
+#, qt-format
+msgid "Sparse Files in %1"
+msgstr "%1 中的稀疏文件"
+
+#: DiscoverActions.cpp:89
+#, qt-format
+msgid "Files from %1 in %2"
+msgstr "%2 中于 %1 修改的文件"
+
+#: DiscoverActions.cpp:98
+#, qt-format
+msgid "Files from %1/%2 in %3"
+msgstr "%3 中于 %1/%2 修改的文件"
+
+#: DiscoverActions.cpp:162
+#, qt-format
+msgid "Search Results for \"%1\""
+msgstr "“%1”的搜索结果"
+
+#: ExcludeRulesConfigPage.cpp:218
+#, qt-format
+msgid "Really delete exclude rule \"%1\"?"
+msgstr "确定要删除排除规则“%1”吗？"
+
+#: FileAgeStatsWindow.cpp:80
+msgid "Year"
+msgstr "年份"
+
+#: FileAgeStatsWindow.cpp:82
+msgid "Files %"
+msgstr "文件数占比 %"
+
+#: FileAgeStatsWindow.cpp:85
+msgid "Size %"
+msgstr "大小占比 %"
+
+#: FileAgeStatsWindow.cpp:154
+#, qt-format
+msgid "File Age Statistics for %1"
+msgstr "%1 的文件年龄统计"
+
+#: FileDetailsView.cpp:340
+msgid "Pseudo Directory"
+msgstr "虚拟目录"
+
+#: FileDetailsView.cpp:343 FilesystemsWindow.cpp:104
+msgid "Mount Point"
+msgstr "挂载点"
+
+#: FileDetailsView.cpp:368 FileDetailsView.cpp:491 FileDetailsView.cpp:571
+msgid "[Reading]"
+msgstr "[读取中]"
+
+#: FileDetailsView.cpp:370
+msgid "[Not Read]"
+msgstr "[尚未读取]"
+
+#: FileDetailsView.cpp:371 FileDetailsView.cpp:493
+msgid "[Permission Denied]"
+msgstr "[权限不足]"
+
+#: FileDetailsView.cpp:372 FileDetailsView.cpp:494 FileDetailsView.cpp:576
+msgid "[Read Error]"
+msgstr "[读取错误]"
+
+#: FileDetailsView.cpp:495
+msgid "[Aborted]"
+msgstr "[已中止]"
+
+#: FileSizeStatsWindow.cpp:166
+#, qt-format
+msgid "File Size Statistics for %1"
+msgstr "%1 的文件大小统计"
+
+#: FileSizeStatsWindow.cpp:168
+#, qt-format
+msgid "File Size Statistics for %1 in %2"
+msgstr "%2 中 %1 的文件大小统计"
+
+#: FileSizeStatsWindow.cpp:230
+msgid "Percentile"
+msgstr "百分位数"
+
+#: FileSizeStatsWindow.cpp:231
+msgid "Decile"
+msgstr "十分位数"
+
+#: FileSizeStatsWindow.cpp:232
+msgid "Quartile"
+msgstr "四分位数"
+
+#: FileSizeStatsWindow.cpp:233
+#, qt-format
+msgid "%1-Quantile"
+msgstr "%1 分位数"
+
+#: FileSizeStatsWindow.cpp:236
+msgid "Value"
+msgstr "数值"
+
+#: FileSizeStatsWindow.cpp:240
+#, qt-format
+msgid "Sum %1(n-1)..%2(n)"
+msgstr "总和 %1(n-1)..%2(n)"
+
+#: FileSizeStatsWindow.cpp:241
+msgid "Cumulative Sum"
+msgstr "累计总和"
+
+#: FileSizeStatsWindow.cpp:284 HistogramDraw.cpp:115
+msgid "Min"
+msgstr "最小值"
+
+#: FileSizeStatsWindow.cpp:285 HistogramDraw.cpp:123
+msgid "Max"
+msgstr "最大值"
+
+#: FileSizeStatsWindow.cpp:286 HistogramDraw.cpp:314
+msgid "Median"
+msgstr "中位数"
+
+#: FileSizeStatsWindow.cpp:287
+msgid "1. Quartile"
+msgstr "第一四分位数"
+
+#: FileSizeStatsWindow.cpp:288
+msgid "3. Quartile"
+msgstr "第三四分位数"
+
+#: FileSizeStatsWindow.cpp:437
+msgid "<< &Options"
+msgstr "<< 选项(&O)"
+
+#: FileTypeStats.cpp:28 FileTypeStatsWindow.cpp:249
+msgid "Other"
+msgstr "其他"
+
+#: FileTypeStatsWindow.cpp:94 LocateFileTypeWindow.cpp:73
+msgid "Number"
+msgstr "数量"
+
+#: FileTypeStatsWindow.cpp:95 LocateFileTypeWindow.cpp:74
+msgid "Total Size"
+msgstr "总大小"
+
+#: FileTypeStatsWindow.cpp:96
+msgid "Percentage"
+msgstr "百分比"
+
+#: FileTypeStatsWindow.cpp:145
+#, qt-format
+msgid "File Type Statistics for %1"
+msgstr "%1 的文件类型统计"
+
+#: FileTypeStatsWindow.cpp:249
+#, qt-format
+msgid "Other (Top %1)"
+msgstr "其他（前 %1 项）"
+
+#: FilesystemsWindow.cpp:73
+msgid "Btrfs free and used size information are misleading!"
+msgstr "Btrfs 回报的可用与已用空间信息可能造成误解！"
+
+#: FilesystemsWindow.cpp:74
+msgid "Snapshots and copy-on-write may consume additional disk space."
+msgstr "快照与写入时复制（CoW）可能会额外占用磁盘空间。"
+
+#: FilesystemsWindow.cpp:103
+msgid "Device"
+msgstr "设备"
+
+#: FilesystemsWindow.cpp:105
+msgid "Type"
+msgstr "类型"
+
+#: FilesystemsWindow.cpp:107
+msgid "Used"
+msgstr "已用"
+
+#: FilesystemsWindow.cpp:108
+msgid "Reserved"
+msgstr "保留"
+
+#: FilesystemsWindow.cpp:109
+msgid "Free"
+msgstr "可用"
+
+#: FilesystemsWindow.cpp:110
+msgid "Free %"
+msgstr "可用 %"
+
+#: FilesystemsWindow.cpp:122
+msgid "Reserved for root"
+msgstr "保留给 root"
+
+#: FilesystemsWindow.cpp:123
+msgid "Free for unprivileged users"
+msgstr "一般用户可用"
+
+#: HeaderTweaker.cpp:118
+msgid "&Hide"
+msgstr "隐藏(&H)"
+
+#: HeaderTweaker.cpp:121
+msgid "Show &All Hidden Columns"
+msgstr "显示所有隐藏字段(&A)"
+
+#: HeaderTweaker.cpp:124
+msgid "A&uto Size"
+msgstr "自动调整栏宽(&U)"
+
+#: HeaderTweaker.cpp:130
+msgid "&Auto Size"
+msgstr "自动调整栏宽(&A)"
+
+#: HeaderTweaker.cpp:133
+msgid "&Interactive Size"
+msgstr "手动调整栏宽(&I)"
+
+#: HeaderTweaker.cpp:136
+msgid "&Reset to Defaults"
+msgstr "恢复默认值(&R)"
+
+#: HeaderTweaker.cpp:159
+#, qt-format
+msgid "Column \"%1\""
+msgstr "字段“%1”"
+
+#: HeaderTweaker.cpp:166
+msgid "&All Columns"
+msgstr "所有字段(&A)"
+
+#: HeaderTweaker.cpp:179
+msgid "Hi&dden Columns"
+msgstr "隐藏的字段(&D)"
+
+#: HeaderTweaker.cpp:186
+#, qt-format
+msgid "Show Column \"%1\""
+msgstr "显示字段“%1”"
+
+#: HistogramDraw.cpp:94
+msgid "File Size"
+msgstr "文件大小"
+
+#: HistogramDraw.cpp:158
+#, qt-format
+msgid "Q1: %1"
+msgstr "Q1：%1"
+
+#: HistogramDraw.cpp:159
+#, qt-format
+msgid "Q3: %1"
+msgstr "Q3：%1"
+
+#: HistogramDraw.cpp:160
+#, qt-format
+msgid "Median: %1"
+msgstr "中位数：%1"
+
+#: HistogramDraw.cpp:197
+#, qt-format
+msgid "Files (n): %1"
+msgstr "文件数 (n)：%1"
+
+#: HistogramDraw.cpp:304
+msgid "Q1 (1st Quartile)"
+msgstr "Q1（第一四分位数）"
+
+#: HistogramDraw.cpp:308
+msgid "Q3 (3rd Quartile)"
+msgstr "Q3（第三四分位数）"
+
+#: HistogramOverflowPanel.cpp:42
+msgid "Cut off"
+msgstr "截除部分"
+
+#: HistogramOverflowPanel.cpp:56
+#, qt-format
+msgid "Min (P0) .. P%1"
+msgstr "最小值 (P0) .. P%1"
+
+#: HistogramOverflowPanel.cpp:57 HistogramOverflowPanel.cpp:66
+#, qt-format
+msgid "%1 .. %2"
+msgstr "%1 .. %2"
+
+#: HistogramOverflowPanel.cpp:65
+#, qt-format
+msgid "P%1 .. Max (P100)"
+msgstr "P%1 .. 最大值 (P100)"
+
+#: HistogramOverflowPanel.cpp:87
+#, qt-format
+msgid "%1% of all files"
+msgstr "占所有文件的 %1%"
+
+#: HistogramOverflowPanel.cpp:89
+msgid "1 file total"
+msgstr "共 1 个文件"
+
+#: HistogramOverflowPanel.cpp:90
+#, qt-format
+msgid "%1 files total"
+msgstr "共 %1 个文件"
+
+#: HistogramOverflowPanel.cpp:125
+#, qt-format
+msgid "%1% of disk space"
+msgstr "占磁盘空间的 %1%"
+
+#: HistogramOverflowPanel.cpp:126
+#, qt-format
+msgid "%1 total"
+msgstr "合计 %1"
+
+#: LocateFileTypeWindow.cpp:106
+#, qt-format
+msgid "Directories with %1 Files below %2"
+msgstr "%2 下含有 %1 类型文件的目录"
+
+#: LocateFilesWindow.cpp:101
+msgid "Path"
+msgstr "路径"
+
+#: LocateFilesWindow.cpp:170
+#, qt-format
+msgid "Limited to %1 Results"
+msgstr "仅显示 %1 笔结果"
+
+#: LocateFilesWindow.cpp:174
+#, qt-format
+msgid "%1 Results"
+msgstr "%1 笔结果"
+
+#: MimeCategorizer.cpp:338
+msgid "Junk"
+msgstr "垃圾文件"
+
+#: MimeCategorizer.cpp:347
+msgid "Compressed Archives"
+msgstr "已压缩的封存盘"
+
+#: MimeCategorizer.cpp:379
+msgid "Uncompressed Archives"
+msgstr "未压缩的封存盘"
+
+#: MimeCategorizer.cpp:387
+msgid "Compressed Files"
+msgstr "已压缩的文件"
+
+#: MimeCategorizer.cpp:401
+msgid "Images"
+msgstr "图片"
+
+#: MimeCategorizer.cpp:422
+msgid "Uncompressed Images"
+msgstr "未压缩的图片"
+
+#: MimeCategorizer.cpp:436
+msgid "Videos"
+msgstr "视频"
+
+#: MimeCategorizer.cpp:469
+msgid "Music"
+msgstr "音乐"
+
+#: MimeCategorizer.cpp:501
+msgid "Documents"
+msgstr "文档"
+
+#: MimeCategorizer.cpp:552
+msgid "Source Files"
+msgstr "源代码文件"
+
+#: MimeCategorizer.cpp:562
+msgid "Object or Generated Files"
+msgstr "目的档或产生的文件"
+
+#: MimeCategorizer.cpp:575
+msgid "Libraries"
+msgstr "程序库"
+
+#: MimeCategoryConfigPage.cpp:156
+msgid "Category Color"
+msgstr "分类颜色"
+
+#: MimeCategoryConfigPage.cpp:253
+#, qt-format
+msgid "Really delete category \"%1\"?"
+msgstr "确定要删除分类“%1”吗？"
+
+#: PanelMessage.cpp:45
+msgid "Details..."
+msgstr "详细信息…"
+
+#: PathSelector.cpp:64
+msgid "Your home directory"
+msgstr "您的家目录"
+
+#: ShowUnpkgFilesDialog.cpp:110
+msgid "Really reset all values to default?"
+msgstr "确定要将所有值恢复为默认值吗？"
+
+#: Exception.cpp:39
+#, qt-format
+msgid "%1( \"%2\" ) failed: %3"
+msgstr "%1( \"%2\" ) 失败：%3"
+
+#: Exception.cpp:46
+#, qt-format
+msgid "%1( \"%2\" ) failed"
+msgstr "%1( \"%2\" ) 失败"
+
+#: FileAgeStatsWindow.cpp:348
+msgid "Jan."
+msgstr "1 月"
+
+#: FileAgeStatsWindow.cpp:349
+msgid "Feb."
+msgstr "2 月"
+
+#: FileAgeStatsWindow.cpp:350
+msgid "Mar."
+msgstr "3 月"
+
+#: FileAgeStatsWindow.cpp:351
+msgid "Apr."
+msgstr "4 月"
+
+#: FileAgeStatsWindow.cpp:352
+msgid "May"
+msgstr "5 月"
+
+#: FileAgeStatsWindow.cpp:353
+msgid "Jun."
+msgstr "6 月"
+
+#: FileAgeStatsWindow.cpp:354
+msgid "Jul."
+msgstr "7 月"
+
+#: FileAgeStatsWindow.cpp:355
+msgid "Aug."
+msgstr "8 月"
+
+#: FileAgeStatsWindow.cpp:356
+msgid "Sep."
+msgstr "9 月"
+
+#: FileAgeStatsWindow.cpp:357
+msgid "Oct."
+msgstr "10 月"
+
+#: FileAgeStatsWindow.cpp:358
+msgid "Nov."
+msgstr "11 月"
+
+#: FileAgeStatsWindow.cpp:359
+msgid "Dec."
+msgstr "12 月"
+
+#: FileInfo.cpp:518
+msgid "<Files>"
+msgstr "<文件>"
+
+#: FileInfo.cpp:524
+msgid "<Ignored>"
+msgstr "<已忽略>"
+
+#: FilesystemsWindow.cpp:223
+msgid "read-only"
+msgstr "唯读"
+
+#: FileTypeStatsWindow.cpp:470
+msgid "<No Extension>"
+msgstr "<无扩展名>"
+
+#: FileTypeStatsWindow.cpp:472
+msgid "<Other>"
+msgstr "<其他>"
+
+#: FormatUtil.cpp:71
+msgid "Bytes"
+msgstr "字节"
+
+#: FormatUtil.cpp:72
+msgid "kB"
+msgstr "kB"
+
+#: FormatUtil.cpp:73
+msgid "MB"
+msgstr "MB"
+
+#: FormatUtil.cpp:74
+msgid "GB"
+msgstr "GB"
+
+#: FormatUtil.cpp:75
+msgid "TB"
+msgstr "TB"
+
+#: FormatUtil.cpp:76
+msgid "PB"
+msgstr "PB"
+
+#: FormatUtil.cpp:77
+msgid "EB"
+msgstr "EB"
+
+#: FormatUtil.cpp:78
+msgid "ZB"
+msgstr "ZB"
+
+#: FormatUtil.cpp:79
+msgid "YB"
+msgstr "YB"
+
+#: FormatUtil.cpp:124
+#, qt-format
+msgid "%1 Bytes"
+msgstr "%1 字节"
+
+#: FormatUtil.cpp:181
+msgid "Character Device"
+msgstr "字符设备"
+
+#: FormatUtil.cpp:182
+msgid "Block Device"
+msgstr "区块设备"
+
+#: FormatUtil.cpp:183
+msgid "Named Pipe"
+msgstr "具名管线"
+
+#: FormatUtil.cpp:184
+msgid "Symbolic Link"
+msgstr "符号链接"
+
+#: FormatUtil.cpp:185
+msgid "Socket"
+msgstr "通信端"
+
+#: FormatUtil.cpp:272
+msgid "sec"
+msgstr "秒"
+
+#: HistogramItems.cpp:50
+#, qt-format
+msgid ""
+"Bucket #%1:\n"
+"%2 Files\n"
+"%3 .. %4"
+msgstr ""
+"第 %1 组：\n"
+"%2 个文件\n"
+"%3 .. %4"
+
+#: HistogramItems.cpp:108
+#, qt-format
+msgid "Percentile P%1"
+msgstr "百分位数 P%1"
+
+#: PathSelector.cpp:190
+#, qt-format
+msgid "Used: %1"
+msgstr "已用：%1"
+
+#: PathSelector.cpp:193
+#, qt-format
+msgid "Free for users: %1"
+msgstr "用户可用：%1"
+
+#: PathSelector.cpp:196
+#, qt-format
+msgid "Free for root: %1"
+msgstr "root 可用：%1"
+
+#: RpmPkgManager.cpp:267
+msgid "RPM is very slow."
+msgstr "RPM 的运行速度非常缓慢。"
+
+#: RpmPkgManager.cpp:268
+#, qt-format
+msgid "Open a shell window and run:<br>%1"
+msgstr "请打开shell窗口并运行：<br>%1"
+
+#: StdCleanup.cpp:48
+msgid "Open File &Manager Here"
+msgstr "在此打开文件管理员(&M)"
+
+#: StdCleanup.cpp:66
+msgid "Open &Terminal Here"
+msgstr "在此打开终端机(&T)"
+
+#: StdCleanup.cpp:84
+msgid "Check File T&ype"
+msgstr "检查文件类型(&Y)"
+
+#: StdCleanup.cpp:101
+msgid "&Compress"
+msgstr "压缩(&C)"
+
+#: StdCleanup.cpp:116
+msgid "make cl&ean"
+msgstr "运行 make clean(&E)"
+
+#: StdCleanup.cpp:131
+msgid "git cle&an"
+msgstr "运行 git clean(&A)"
+
+#: StdCleanup.cpp:148
+msgid "Delete J&unk Files"
+msgstr "删除垃圾文件(&U)"
+
+#: StdCleanup.cpp:165
+msgid "&Delete (no way to undelete!)"
+msgstr "删除（无法恢复！）(&D)"
+
+#: StdCleanup.cpp:183
+msgid "Clear Directory C&ontents"
+msgstr "清空目录内容(&O)"
+
+#: StdCleanup.cpp:201
+msgid "echoargs"
+msgstr "echoargs"
+
+#: StdCleanup.cpp:217
+msgid "Output on stdout and stderr"
+msgstr "输出至标准输出 (stdout) 与标准错误 (stderr)"
+
+#: StdCleanup.cpp:233
+msgid "Segfaulter"
+msgstr "区段错误测试（Segfaulter）"
+
+#: StdCleanup.cpp:248
+msgid "Nonexistent command"
+msgstr "不存在的命令"
+
+#: StdCleanup.cpp:263
+msgid "Sleepy echoargs"
+msgstr "延迟版 echoargs"
+
+#: show-unpkg-files-dialog.ui:14 show-unpkg-files-dialog.ui:29
+msgid "Show Unpackaged Files"
+msgstr "显示不属于软件包的文件"
+
+#: show-unpkg-files-dialog.ui:54
+msgid "Starting &Directory:"
+msgstr "起始目录(&D)："
+
+#: show-unpkg-files-dialog.ui:109
+msgid "E&xclude Directories:"
+msgstr "排除目录(&X)："
+
+#: show-unpkg-files-dialog.ui:147
+msgid "I&gnore Patterns:"
+msgstr "忽略的模式(&G)："
+
+#: unreadable-dirs-window.ui:14
+msgid "Unreadable Directories"
+msgstr "无法读取的目录"
+
+#: unreadable-dirs-window.ui:50
+msgid "Directories that could not be Read"
+msgstr "未能读取的目录"
+
+#: unreadable-dirs-window.ui:91
+msgid "Total: 0"
+msgstr "总计：0"
