@@ -1,6 +1,8 @@
 # qdirstat-lang
 
-Translations for QDirStat.
+Translations for [QDirStat](https://github.com/shundhammer/qdirstat) . <a href="##"><img src="https://github.com/user-attachments/assets/10f37349-8ece-47d7-909e-5516f98f28cf" width="13%" align="right" /></a>
+
+<img src="https://github.com/shundhammer/qdirstat/blob/master/src/icons/qdirstat.svg" height="64">
 
 ## Contributing
 
@@ -11,8 +13,7 @@ Want to add or update a translation? See [CONTRIBUTING.md](CONTRIBUTING.md) for 
 ### Portuguese (`pt_PT`)
 
 A European Portuguese translation for QDirStat is available in [`po/pt_PT.po`](po/pt_PT.po).
-
-The translation has been tested with QDirStat 2.0-git.
+- The translation has been tested with QDirStat 2.0-git.
 
 <details>
 <summary>Screenshots</summary>
@@ -35,7 +36,7 @@ The translation has been tested with QDirStat 2.0-git.
 
 A Traditional Chinese translation for QDirStat is available in [`po/zh_TW.po`](po/zh_TW.po).
 
-The translation has been tested with QDirStat 2.0.01-git on Fedora 44.
+- The translation has been tested with QDirStat 2.0.01-git on Fedora 44.
 
 <details>
 <summary>Screenshots</summary>
@@ -58,6 +59,7 @@ The translation has been tested with QDirStat 2.0.01-git on Fedora 44.
 
 A Simplified Chinese translation for QDirStat is available in [`po/zh_CN.po`](po/zh_CN.po).
 
-The translation has been tested with QDirStat 2.0 on Ubuntu 26.04 (KDE/Wayland)
+- The translation has been tested with QDirStat 2.0 on Ubuntu 26.04 (KDE/Wayland)
 
+## Stats
 ![Repository activity statistics for qdirstat-lang](https://repobeats.axiom.co/api/embed/938769bd61367cb1fd52d4dac5a8299ebac6b5db.svg "Repobeats analytics image")
