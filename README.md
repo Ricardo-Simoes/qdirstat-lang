@@ -1,6 +1,6 @@
 # qdirstat-lang
 
-Translations for [QDirStat](https://github.com/shundhammer/qdirstat) . <a href="##"><img src="https://github.com/user-attachments/assets/10f37349-8ece-47d7-909e-5516f98f28cf" width="13%" align="right" /></a>
+Translations for [QDirStat](https://github.com/shundhammer/qdirstat). <a href="##"><img src="https://github.com/user-attachments/assets/10f37349-8ece-47d7-909e-5516f98f28cf" width="13%" align="right" /></a>
 
 <img src="https://github.com/shundhammer/qdirstat/blob/master/src/icons/qdirstat.svg" height="64">
 
