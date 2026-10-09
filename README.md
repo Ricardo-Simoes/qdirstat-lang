@@ -54,4 +54,4 @@ The translation has been tested with QDirStat 2.0.01-git on Fedora 44.
 
 </details>
 
-![Alt](https://repobeats.axiom.co/api/embed/938769bd61367cb1fd52d4dac5a8299ebac6b5db.svg "Repobeats analytics image")
+![Repository activity statistics for qdirstat-lang](https://repobeats.axiom.co/api/embed/938769bd61367cb1fd52d4dac5a8299ebac6b5db.svg "Repobeats analytics image")
