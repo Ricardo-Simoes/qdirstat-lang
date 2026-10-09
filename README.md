@@ -54,4 +54,10 @@ The translation has been tested with QDirStat 2.0.01-git on Fedora 44.
 
 </details>
 
+### Simplified Chinese (`zh_CN`)
+
+A Simplified Chinese translation for QDirStat is available in [`po/zh_CN.po`](po/zh_CN.po).
+
+The translation has been tested with QDirStat 2.0 on Ubuntu 26.04 (KDE/Wayland)
+
 ![Repository activity statistics for qdirstat-lang](https://repobeats.axiom.co/api/embed/938769bd61367cb1fd52d4dac5a8299ebac6b5db.svg "Repobeats analytics image")
